@@ -1,0 +1,13 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: Threat modeling for design changes
+text: Verify the use of threat modeling for every design change or sprint planning
+  to identify threats, plan for countermeasures, facilitate appropriate risk
+  responses, and guide security testing.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "V1.1.2"
+  level: 2

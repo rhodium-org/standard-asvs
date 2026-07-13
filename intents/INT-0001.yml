@@ -1,0 +1,11 @@
+uid: INT-0001
+type: intent
+status: approved
+title: An application's security is verifiable against a graded, testable baseline
+text: The OWASP Application Security Verification Standard exists so that an
+  application's security controls can be verified against a normative, level-graded
+  set of requirements — giving developers, testers and procurers a shared baseline
+  rather than ad-hoc judgement.
+normative: false
+attrs:
+  source_ref: "ASVS 4.0.3"

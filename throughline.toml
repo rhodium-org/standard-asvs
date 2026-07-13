@@ -1,0 +1,54 @@
+[project]
+name = "OWASP ASVS (throughline source)"
+format_version = 2
+
+# A throughline *source*: a standalone graph a consuming project composes via
+# throughline-compose, importing it under a namespace (e.g. `asvs`) and referencing
+# clauses as `asvs:SR-0001`. The UIDs here are this source's own and immutable; the
+# published ASVS number (e.g. `V2.1.1`) lives in `attrs.source_ref`, never in the UID.
+#
+# Edition handling: v4.0.3 and v5.0.0 are git tags of this one repo. A consumer pins
+# `asvs@v4.0.3`. This slice covers a thin, faithful cut of v4.0.3.
+
+[grounding]
+root_types = ["intent"]
+delivery_roots = ["intent"]
+ground_link_types = ["derives_from", "implements"]
+ai_origins = ["ai", "hybrid"]
+
+# Chapters (ASVS V1..V14) are user_requirements grouping the standard; each
+# verification requirement is a system_requirement implementing its chapter.
+[types.user_requirement]
+attrs.source_ref = { required = true }
+
+[types.system_requirement]
+attrs.source_ref = { required = true }
+attrs.level = { required = true }
+
+[links]
+types = ["derives_from", "implements", "relates"]
+
+[link_rules]
+derives_from = { from = ["user_requirement"], to = ["intent"] }
+implements   = { from = ["system_requirement"], to = ["user_requirement"] }
+
+[status]
+values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
+          "verified", "suspect", "rejected", "deleted"]
+
+[transitions]
+proposed    = ["draft", "approved", "ratified", "deferred", "rejected", "deleted"]
+draft       = ["approved", "deferred", "rejected", "deleted"]
+deferred    = ["draft", "approved", "rejected", "deleted"]
+approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
+ratified    = ["implemented", "suspect", "rejected", "deleted"]
+implemented = ["verified", "suspect", "rejected", "deleted"]
+verified    = ["implemented", "suspect", "deleted"]
+suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
+rejected    = ["draft", "deleted"]
+
+# `tl docs` regenerates docs/spec.md from the graph; `tl docs --check` gates it.
+# This activates the `unpublished` rule: every live normative item must be
+# referenced by a published document or `tl check --strict` fails.
+[docs]
+paths = ["docs/*.md"]

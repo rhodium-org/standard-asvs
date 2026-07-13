@@ -1,0 +1,14 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: Passwords checked against breached sets
+text: Verify that passwords submitted during account registration, login, and
+  password change are checked against a set of breached passwords either locally
+  (such as the top 1,000 or 10,000 most common passwords which match the system's
+  password policy) or using an external API.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "V2.1.7"
+  level: 1

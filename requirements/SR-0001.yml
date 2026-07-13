@@ -1,0 +1,12 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: Secure software development lifecycle
+text: Verify the use of a secure software development lifecycle that addresses
+  security in all stages of development.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "V1.1.1"
+  level: 2

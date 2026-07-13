@@ -1,0 +1,17 @@
+standard-asvs
+Copyright 2026 Time Back Solutions Limited
+
+This product includes work developed by Time Back Solutions Limited.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for the
+full terms.
+
+This repository is a throughline *source*: a requirements graph, not a program. It
+re-expresses the OWASP Application Security Verification Standard (ASVS) as a
+grounded IDD graph so consuming projects can compose it with throughline-compose.
+
+The ASVS itself is published by the OWASP Foundation under CC BY-SA 4.0. The
+requirement text reproduced here in items' `text`/`attrs.source_ref` is derived from
+ASVS and remains the work of the OWASP Foundation and its contributors; this
+repository claims no ownership over that content and reproduces it for
+interoperability. See https://github.com/OWASP/ASVS for the authoritative source.
