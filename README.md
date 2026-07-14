@@ -37,9 +37,12 @@ UID↔clause mapping and only allocates UIDs for clauses that have none yet.
   ASVS number. The published number lives in `attrs.source_ref` (`"V2.1.1"`); the
   ASVS L1/L2/L3 grade in `attrs.level` (the lowest level at which the requirement
   applies).
-- **Editions are git tags of this one repo.** v4.0.3 is tagged `v4.0.3`; v5.0.0 will
-  be authored as a delta on the same graph and tagged `v5.0.0`. A consumer pins
-  `asvs@v4.0.3`.
+- **Editions are release branches of this one repo.** This branch (`release/v4`) is
+  the **v4.0.3** maintenance line (14 chapters, 278 requirements), tagged `v4.0.3`.
+  The newest edition, **v5.0.0** (17 chapters, 345 requirements), lives on `main`,
+  tagged `v5.0.0`. Each edition has its own UID space starting at `UR-0001`/`SR-0001`;
+  a consumer pins the ref it wants (`ref = "v4.0.3"` or `"v5.0.0"`), and since only one
+  ref is resolved, the editions never collide.
 
 ## Composing it
 
