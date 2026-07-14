@@ -1,0 +1,13 @@
+uid: SR-0043
+type: system_requirement
+status: approved
+title: The application does not use unsupported
+text: Verify the application does not use unsupported, insecure, or deprecated client-side
+  technologies such as NSAPI plugins, Flash, Shockwave, ActiveX, Silverlight, NACL,
+  or client-side Java applets.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.14.6
+  level: 2

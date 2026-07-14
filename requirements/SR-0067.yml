@@ -1,0 +1,13 @@
+uid: SR-0067
+type: system_requirement
+status: approved
+title: A system generated initial activation or recovery secret is not sent in clear
+  text to the user
+text: Verify that a system generated initial activation or recovery secret is not
+  sent in clear text to the user.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.5.1
+  level: 1

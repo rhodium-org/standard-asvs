@@ -1,0 +1,13 @@
+uid: SR-0102
+type: system_requirement
+status: approved
+title: Logout and expiration invalidate the session token
+text: Verify that logout and expiration invalidate the session token, such that the
+  back button or a downstream relying party does not resume an authenticated session,
+  including across relying parties.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: V3.3.1
+  level: 1

@@ -1,0 +1,14 @@
+uid: SR-0185
+type: system_requirement
+status: approved
+title: All cached or temporary copies of sensitive data stored on the server are protected
+  from
+text: Verify that all cached or temporary copies of sensitive data stored on the server
+  are protected from unauthorized access or purged/invalidated after the authorized
+  user accesses the sensitive data.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: V8.1.2
+  level: 2

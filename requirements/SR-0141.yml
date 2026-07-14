@@ -1,0 +1,12 @@
+uid: SR-0141
+type: system_requirement
+status: approved
+title: Context-aware
+text: Verify that context-aware, preferably automated - or at worst, manual - output
+  escaping protects against reflected, stored, and DOM based XSS.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: V5.3.3
+  level: 1

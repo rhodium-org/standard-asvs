@@ -1,0 +1,13 @@
+uid: SR-0276
+type: system_requirement
+status: approved
+title: The supplied Origin header is not used for authentication or access control
+  decisions
+text: Verify that the supplied Origin header is not used for authentication or access
+  control decisions, as the Origin header can easily be changed by an attacker.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.5.2
+  level: 1

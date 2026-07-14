@@ -1,0 +1,10 @@
+uid: UR-0014
+type: user_requirement
+status: approved
+title: V14 Configuration
+text: Verification requirements for Configuration (V14).
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: V14

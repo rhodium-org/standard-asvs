@@ -1,0 +1,14 @@
+uid: SR-0204
+type: system_requirement
+status: approved
+title: Connections to and from the server use trusted TLS certificates
+text: Verify that connections to and from the server use trusted TLS certificates.
+  Where internally generated or self-signed certificates are used, the server must
+  be configured to only trust specific internal CAs and specific self-signed certificates.
+  All others should be rejected.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: V9.2.1
+  level: 2

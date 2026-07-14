@@ -1,0 +1,10 @@
+uid: UR-0010
+type: user_requirement
+status: approved
+title: V10 Malicious Code
+text: Verification requirements for Malicious Code (V10).
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: V10

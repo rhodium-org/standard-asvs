@@ -1,0 +1,12 @@
+uid: SR-0047
+type: system_requirement
+status: approved
+title: A password strength meter is provided to help users set a stronger password
+text: Verify that a password strength meter is provided to help users set a stronger
+  password.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.1.8
+  level: 1

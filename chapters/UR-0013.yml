@@ -1,0 +1,10 @@
+uid: UR-0013
+type: user_requirement
+status: approved
+title: V13 API and Web Service
+text: Verification requirements for API and Web Service (V13).
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: V13

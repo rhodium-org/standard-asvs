@@ -1,0 +1,15 @@
+uid: SR-0153
+type: system_requirement
+status: approved
+title: The application correctly restricts XML parsers to only use the most restrictive
+  configuration
+text: Verify that the application correctly restricts XML parsers to only use the
+  most restrictive configuration possible and to ensure that unsafe features such
+  as resolving external entities are disabled to prevent XML eXternal Entity (XXE)
+  attacks.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: V5.5.2
+  level: 1

@@ -1,0 +1,13 @@
+uid: SR-0094
+type: system_requirement
+status: approved
+title: If passwords are required for service authentication
+text: Verify that if passwords are required for service authentication, the service
+  account used is not a default credential. (e.g. root/root or admin/admin are default
+  in some services during installation).
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.10.2
+  level: 2

@@ -1,0 +1,12 @@
+uid: SR-0035
+type: system_requirement
+status: approved
+title: All high-value business logic flows
+text: Verify that all high-value business logic flows, including authentication, session
+  management and access control, do not share unsynchronized state.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.11.2
+  level: 2

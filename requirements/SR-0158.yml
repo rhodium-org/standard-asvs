@@ -1,0 +1,13 @@
+uid: SR-0158
+type: system_requirement
+status: approved
+title: Regulated financial data is stored encrypted while at rest
+text: Verify that regulated financial data is stored encrypted while at rest, such
+  as financial accounts, defaults or credit history, tax records, pay history, beneficiaries,
+  or de-anonymized market or research records.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: V6.1.3
+  level: 2

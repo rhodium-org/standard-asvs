@@ -1,0 +1,13 @@
+uid: SR-0249
+type: system_requirement
+status: approved
+title: REST services explicitly check the incoming Content-Type to be the expected
+  one
+text: Verify that REST services explicitly check the incoming Content-Type to be the
+  expected one, such as application/xml or application/json.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: V13.2.5
+  level: 2

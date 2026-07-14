@@ -1,0 +1,13 @@
+uid: SR-0075
+type: system_requirement
+status: approved
+title: Lookup secrets have sufficient randomness (112 bits of entropy)
+text: Verify that lookup secrets have sufficient randomness (112 bits of entropy),
+  or if less than 112 bits of entropy, salted with a unique and random 32-bit salt
+  and hashed with an approved one-way hash.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.6.2
+  level: 2

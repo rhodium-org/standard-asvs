@@ -1,0 +1,11 @@
+uid: SR-0098
+type: system_requirement
+status: approved
+title: The application generates a new session token on user authentication
+text: Verify the application generates a new session token on user authentication.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: V3.2.1
+  level: 1

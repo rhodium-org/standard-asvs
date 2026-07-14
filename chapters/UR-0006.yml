@@ -1,0 +1,10 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: V6 Stored Cryptography
+text: Verification requirements for Stored Cryptography (V6).
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: V6

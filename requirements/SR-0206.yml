@@ -1,0 +1,13 @@
+uid: SR-0206
+type: system_requirement
+status: approved
+title: All encrypted connections to external systems that involve sensitive information
+  or functions are
+text: Verify that all encrypted connections to external systems that involve sensitive
+  information or functions are authenticated.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: V9.2.3
+  level: 2

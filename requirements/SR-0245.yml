@@ -1,0 +1,14 @@
+uid: SR-0245
+type: system_requirement
+status: approved
+title: Requests containing unexpected or missing content types are rejected with appropriate
+  headers (HTTP
+text: Verify that requests containing unexpected or missing content types are rejected
+  with appropriate headers (HTTP response status 406 Unacceptable or 415 Unsupported
+  Media Type).
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: V13.1.5
+  level: 2

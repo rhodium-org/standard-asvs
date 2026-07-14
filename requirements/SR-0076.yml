@@ -1,0 +1,12 @@
+uid: SR-0076
+type: system_requirement
+status: approved
+title: Lookup secrets are resistant to offline attacks
+text: Verify that lookup secrets are resistant to offline attacks, such as predictable
+  values.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.6.3
+  level: 2

@@ -1,0 +1,13 @@
+uid: SR-0154
+type: system_requirement
+status: approved
+title: Deserialization of untrusted data is avoided or is protected in both custom
+  code and third-party
+text: Verify that deserialization of untrusted data is avoided or is protected in
+  both custom code and third-party libraries (such as JSON, XML and YAML parsers).
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: V5.5.3
+  level: 1

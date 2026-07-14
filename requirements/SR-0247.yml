@@ -1,0 +1,12 @@
+uid: SR-0247
+type: system_requirement
+status: approved
+title: JSON schema validation is in place and verified before accepting input
+text: Verify that JSON schema validation is in place and verified before accepting
+  input.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: V13.2.2
+  level: 1

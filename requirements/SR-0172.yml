@@ -1,0 +1,12 @@
+uid: SR-0172
+type: system_requirement
+status: approved
+title: The application does not log credentials or payment details
+text: Verify that the application does not log credentials or payment details. Session
+  tokens should only be stored in logs in an irreversible, hashed form.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: V7.1.1
+  level: 1

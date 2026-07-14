@@ -1,0 +1,13 @@
+uid: SR-0123
+type: system_requirement
+status: approved
+title: Administrative interfaces use appropriate multi-factor authentication to prevent
+  unauthorized use
+text: Verify administrative interfaces use appropriate multi-factor authentication
+  to prevent unauthorized use.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: V4.3.1
+  level: 1

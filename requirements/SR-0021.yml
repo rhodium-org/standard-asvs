@@ -1,0 +1,11 @@
+uid: SR-0021
+type: system_requirement
+status: approved
+title: Input validation is enforced on a trusted service layer
+text: Verify that input validation is enforced on a trusted service layer.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.5.3
+  level: 2

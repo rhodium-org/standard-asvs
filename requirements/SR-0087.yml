@@ -1,0 +1,13 @@
+uid: SR-0087
+type: system_requirement
+status: approved
+title: If a time-based multi-factor OTP token is re-used during the validity period
+text: Verify that if a time-based multi-factor OTP token is re-used during the validity
+  period, it is logged and rejected with secure notifications being sent to the holder
+  of the device.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.8.5
+  level: 2

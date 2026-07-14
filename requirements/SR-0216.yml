@@ -1,0 +1,14 @@
+uid: SR-0216
+type: system_requirement
+status: approved
+title: If the application has a client or server auto-update feature
+text: Verify that if the application has a client or server auto-update feature, updates
+  should be obtained over secure channels and digitally signed. The update code must
+  validate the digital signature of the update before installing or executing the
+  update.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: V10.3.1
+  level: 1

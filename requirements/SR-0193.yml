@@ -1,0 +1,13 @@
+uid: SR-0193
+type: system_requirement
+status: approved
+title: Sensitive data is sent to the server in the HTTP message body or headers
+text: Verify that sensitive data is sent to the server in the HTTP message body or
+  headers, and that query string parameters from any HTTP verb do not contain sensitive
+  data.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: V8.3.1
+  level: 1

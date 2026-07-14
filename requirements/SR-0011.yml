@@ -1,0 +1,12 @@
+uid: SR-0011
+type: system_requirement
+status: approved
+title: Availability of a secure coding checklist
+text: Verify availability of a secure coding checklist, security requirements, guideline,
+  or policy to all developers and testers.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.1.7
+  level: 2

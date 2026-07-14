@@ -1,0 +1,15 @@
+uid: SR-0256
+type: system_requirement
+status: approved
+title: Compiler flags are configured to enable all available buffer overflow protections
+  and warnings
+text: Verify that compiler flags are configured to enable all available buffer overflow
+  protections and warnings, including stack randomization, data execution prevention,
+  and to break the build if an unsafe pointer, memory, format string, integer, or
+  string operations are found.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.1.2
+  level: 2

@@ -1,0 +1,11 @@
+uid: SR-0179
+type: system_requirement
+status: approved
+title: Security logs are protected from unauthorized access and modification
+text: Verify that security logs are protected from unauthorized access and modification.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: V7.3.3
+  level: 2

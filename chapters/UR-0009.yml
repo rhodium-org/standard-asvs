@@ -1,0 +1,10 @@
+uid: UR-0009
+type: user_requirement
+status: approved
+title: V9 Communication
+text: Verification requirements for Communication (V9).
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: V9

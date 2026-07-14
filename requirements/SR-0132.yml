@@ -1,0 +1,13 @@
+uid: SR-0132
+type: system_requirement
+status: approved
+title: Unstructured data is sanitized to enforce safety measures such as allowed characters
+  and length
+text: Verify that unstructured data is sanitized to enforce safety measures such as
+  allowed characters and length.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: V5.2.2
+  level: 1

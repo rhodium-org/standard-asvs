@@ -1,0 +1,13 @@
+uid: SR-0219
+type: system_requirement
+status: approved
+title: The application will only process business logic flows for the same user in
+  sequential step order
+text: Verify that the application will only process business logic flows for the same
+  user in sequential step order and without skipping steps.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: V11.1.1
+  level: 1

@@ -1,0 +1,12 @@
+uid: SR-0155
+type: system_requirement
+status: approved
+title: When parsing JSON in browsers or JavaScript-based backends
+text: Verify that when parsing JSON in browsers or JavaScript-based backends, JSON.parse
+  is used to parse the JSON document. Do not use eval() to parse JSON.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: V5.5.4
+  level: 1

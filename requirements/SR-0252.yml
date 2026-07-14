@@ -1,0 +1,13 @@
+uid: SR-0252
+type: system_requirement
+status: approved
+title: The message payload is signed using WS-Security to ensure reliable transport
+  between client and
+text: Verify that the message payload is signed using WS-Security to ensure reliable
+  transport between client and service.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: V13.3.2
+  level: 2

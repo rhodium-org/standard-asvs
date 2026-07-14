@@ -1,0 +1,14 @@
+uid: SR-0205
+type: system_requirement
+status: approved
+title: Encrypted communications such as TLS is used for all inbound and outbound connections
+text: Verify that encrypted communications such as TLS is used for all inbound and
+  outbound connections, including for management ports, monitoring, authentication,
+  API, or web service calls, database, cloud, serverless, mainframe, external, and
+  partner connections. The server must not fall back to insecure or unencrypted protocols.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: V9.2.2
+  level: 2

@@ -1,0 +1,14 @@
+uid: SR-0110
+type: system_requirement
+status: approved
+title: If the application is published under a domain name with other applications
+  that set or use session
+text: Verify that if the application is published under a domain name with other applications
+  that set or use session cookies that might disclose the session cookies, set the
+  path attribute in cookie-based session tokens using the most precise path possible.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: V3.4.5
+  level: 1

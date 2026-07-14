@@ -1,0 +1,13 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: All protection levels have an associated set of protection requirements
+text: Verify that all protection levels have an associated set of protection requirements,
+  such as encryption requirements, integrity requirements, retention, privacy and
+  other confidentiality requirements, and that these are applied in the architecture.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.8.2
+  level: 2

@@ -1,0 +1,13 @@
+uid: SR-0214
+type: system_requirement
+status: approved
+title: The application source code and third party libraries do not contain malicious
+  code
+text: Verify that the application source code and third party libraries do not contain
+  malicious code, such as salami attacks, logic bypasses, or logic bombs.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: V10.2.5
+  level: 3

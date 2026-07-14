@@ -1,0 +1,12 @@
+uid: SR-0029
+type: system_requirement
+status: approved
+title: All sensitive data is identified and classified into protection levels
+text: Verify that all sensitive data is identified and classified into protection
+  levels.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.8.1
+  level: 2

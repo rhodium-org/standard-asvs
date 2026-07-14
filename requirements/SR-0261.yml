@@ -1,0 +1,12 @@
+uid: SR-0261
+type: system_requirement
+status: approved
+title: All unneeded features
+text: Verify that all unneeded features, documentation, sample applications and configurations
+  are removed.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.2.2
+  level: 1

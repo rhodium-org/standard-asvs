@@ -1,0 +1,10 @@
+uid: UR-0011
+type: user_requirement
+status: approved
+title: V11 Business Logic
+text: Verification requirements for Business Logic (V11).
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: V11

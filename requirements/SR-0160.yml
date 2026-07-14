@@ -1,0 +1,12 @@
+uid: SR-0160
+type: system_requirement
+status: approved
+title: Industry proven or government approved cryptographic algorithms
+text: Verify that industry proven or government approved cryptographic algorithms,
+  modes, and libraries are used, instead of custom coded cryptography.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: V6.2.2
+  level: 2

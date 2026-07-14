@@ -1,0 +1,12 @@
+uid: SR-0183
+type: system_requirement
+status: approved
+title: A "last resort" error handler is defined which will catch all unhandled exceptions
+text: Verify that a "last resort" error handler is defined which will catch all unhandled
+  exceptions.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: V7.4.3
+  level: 2

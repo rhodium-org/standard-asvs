@@ -1,0 +1,13 @@
+uid: SR-0168
+type: system_requirement
+status: approved
+title: Random GUIDs are created using the GUID v4 algorithm
+text: Verify that random GUIDs are created using the GUID v4 algorithm, and a Cryptographically-secure
+  Pseudo-random Number Generator (CSPRNG). GUIDs created using other pseudo-random
+  number generators may be predictable.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: V6.3.2
+  level: 2

@@ -1,0 +1,12 @@
+uid: SR-0192
+type: system_requirement
+status: approved
+title: Authenticated data is cleared from client storage
+text: Verify that authenticated data is cleared from client storage, such as the browser
+  DOM, after the client or session is terminated.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: V8.2.3
+  level: 1

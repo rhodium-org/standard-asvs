@@ -1,0 +1,13 @@
+uid: SR-0131
+type: system_requirement
+status: approved
+title: All untrusted HTML input from WYSIWYG editors or similar is properly sanitized
+  with an HTML
+text: Verify that all untrusted HTML input from WYSIWYG editors or similar is properly
+  sanitized with an HTML sanitizer library or framework feature.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: V5.2.1
+  level: 1

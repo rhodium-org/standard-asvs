@@ -1,0 +1,13 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: The use of unique or special low-privilege operating system accounts for all
+  application components
+text: Verify the use of unique or special low-privilege operating system accounts
+  for all application components, services, and servers.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.2.1
+  level: 2

@@ -1,0 +1,12 @@
+uid: SR-0112
+type: system_requirement
+status: approved
+title: The application uses session tokens rather than static API secrets and keys
+text: Verify the application uses session tokens rather than static API secrets and
+  keys, except with legacy implementations.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: V3.5.2
+  level: 2

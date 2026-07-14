@@ -1,0 +1,13 @@
+uid: SR-0188
+type: system_requirement
+status: approved
+title: Regular backups of important data are performed and that test restoration of
+  data is performed
+text: Verify that regular backups of important data are performed and that test restoration
+  of data is performed.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: V8.1.5
+  level: 3

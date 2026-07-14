@@ -1,0 +1,12 @@
+uid: SR-0161
+type: system_requirement
+status: approved
+title: Encryption initialization vector
+text: Verify that encryption initialization vector, cipher configuration, and block
+  modes are configured securely using the latest advice.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: V6.2.3
+  level: 2

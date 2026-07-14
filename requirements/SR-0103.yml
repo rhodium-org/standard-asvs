@@ -1,0 +1,12 @@
+uid: SR-0103
+type: system_requirement
+status: approved
+title: If authenticators permit users to remain logged in
+text: If authenticators permit users to remain logged in, verify that re-authentication
+  occurs periodically both when actively used or after an idle period.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: V3.3.2
+  level: 1

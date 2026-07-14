@@ -1,0 +1,11 @@
+uid: SR-0150
+type: system_requirement
+status: approved
+title: Format strings do not take potentially hostile input
+text: Verify that format strings do not take potentially hostile input, and are constant.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: V5.4.2
+  level: 2

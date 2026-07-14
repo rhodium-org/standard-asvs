@@ -1,0 +1,13 @@
+uid: SR-0184
+type: system_requirement
+status: approved
+title: The application protects sensitive data from being cached in server components
+  such as load
+text: Verify the application protects sensitive data from being cached in server components
+  such as load balancers and application caches.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: V8.1.1
+  level: 2

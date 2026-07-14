@@ -1,0 +1,13 @@
+uid: SR-0118
+type: system_requirement
+status: approved
+title: All user and data attributes and policy information used by access controls
+  cannot be manipulated
+text: Verify that all user and data attributes and policy information used by access
+  controls cannot be manipulated by end users unless specifically authorized.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: V4.1.2
+  level: 1

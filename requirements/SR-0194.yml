@@ -1,0 +1,11 @@
+uid: SR-0194
+type: system_requirement
+status: approved
+title: Users have a method to remove or export their data on demand
+text: Verify that users have a method to remove or export their data on demand.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: V8.3.2
+  level: 1

@@ -1,0 +1,14 @@
+uid: SR-0277
+type: system_requirement
+status: approved
+title: The Cross-Origin Resource Sharing (CORS) Access-Control-Allow-Origin header
+  uses a strict allow
+text: Verify that the Cross-Origin Resource Sharing (CORS) Access-Control-Allow-Origin
+  header uses a strict allow list of trusted domains and subdomains to match against
+  and does not support the "null" origin.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.5.3
+  level: 1

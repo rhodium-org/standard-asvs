@@ -1,0 +1,13 @@
+uid: SR-0111
+type: system_requirement
+status: approved
+title: The application allows users to revoke OAuth tokens that form trust relationships
+  with linked
+text: Verify the application allows users to revoke OAuth tokens that form trust relationships
+  with linked applications.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: V3.5.1
+  level: 2

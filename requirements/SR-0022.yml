@@ -1,0 +1,12 @@
+uid: SR-0022
+type: system_requirement
+status: approved
+title: Output encoding occurs close to or by the interpreter for which it is intended
+text: Verify that output encoding occurs close to or by the interpreter for which
+  it is intended.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.5.4
+  level: 2

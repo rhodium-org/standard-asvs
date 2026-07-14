@@ -1,0 +1,11 @@
+uid: SR-0107
+type: system_requirement
+status: approved
+title: Cookie-based session tokens have the 'HttpOnly' attribute set
+text: Verify that cookie-based session tokens have the 'HttpOnly' attribute set.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: V3.4.2
+  level: 1

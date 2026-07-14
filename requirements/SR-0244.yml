@@ -1,0 +1,13 @@
+uid: SR-0244
+type: system_requirement
+status: approved
+title: Authorization decisions are made at both the URI
+text: Verify that authorization decisions are made at both the URI, enforced by programmatic
+  or declarative security at the controller or router, and at the resource level,
+  enforced by model-based permissions.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: V13.1.4
+  level: 2

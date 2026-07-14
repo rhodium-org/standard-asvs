@@ -1,0 +1,12 @@
+uid: SR-0165
+type: system_requirement
+status: approved
+title: Encrypted data is authenticated via signatures
+text: Verify that encrypted data is authenticated via signatures, authenticated cipher
+  modes, or HMAC to ensure that ciphertext is not altered by an unauthorized party.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: V6.2.7
+  level: 3

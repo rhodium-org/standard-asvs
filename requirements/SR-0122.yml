@@ -1,0 +1,14 @@
+uid: SR-0122
+type: system_requirement
+status: approved
+title: The application or framework enforces a strong anti-CSRF mechanism to protect
+  authenticated
+text: Verify that the application or framework enforces a strong anti-CSRF mechanism
+  to protect authenticated functionality, and effective anti-automation or anti-CSRF
+  protects unauthenticated functionality.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: V4.2.2
+  level: 1

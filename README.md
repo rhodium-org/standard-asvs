@@ -11,14 +11,25 @@ its clauses as `asvs:SR-0003`.
 
 ## Status
 
-A **thin v4.0.3 slice** — a faithful vertical cut proving the modelling shape, not
-yet the full standard:
+The **complete v4.0.3 edition** —
+<!-- tl:count type == 'user_requirement' -->
+14
+<!-- tl:end --> chapters and
+<!-- tl:count type == 'system_requirement' -->
+278
+<!-- tl:end --> verification requirements, generated from OWASP's official
+machine-readable export and published to [`docs/spec.md`](docs/spec.md):
 
 - `INT-0001` — the root intent (why ASVS exists), `normative: false`.
-- Chapters as `user_requirement`s that `derives_from` the intent:
-  `V1 Architecture` (UR-0001), `V2 Authentication` (UR-0002).
-- Verification requirements as `system_requirement`s that `implements` their
-  chapter: V1.1.1–2 and V2.1.1/2/3/7.
+- Chapters `V1`…`V14` as `user_requirement`s that `derives_from` the intent.
+- Every non-retired verification requirement as a `system_requirement` that
+  `implements` its chapter. (Clauses OWASP retired as `[DELETED]` in 4.0.3 carry no
+  level and are intentionally omitted.)
+
+The counts above are rendered from the live graph by the `tl:count` directive, so
+they cannot drift. Re-run [`tools/generate_from_owasp.py`](tools/generate_from_owasp.py)
+against a newer OWASP export to extend the graph; it preserves every existing
+UID↔clause mapping and only allocates UIDs for clauses that have none yet.
 
 ## Modelling conventions
 

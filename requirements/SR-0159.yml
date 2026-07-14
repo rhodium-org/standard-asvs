@@ -1,0 +1,12 @@
+uid: SR-0159
+type: system_requirement
+status: approved
+title: All cryptographic modules fail securely
+text: Verify that all cryptographic modules fail securely, and errors are handled
+  in a way that does not enable Padding Oracle attacks.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: V6.2.1
+  level: 1

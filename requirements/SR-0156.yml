@@ -1,0 +1,13 @@
+uid: SR-0156
+type: system_requirement
+status: approved
+title: Regulated private data is stored encrypted while at rest
+text: Verify that regulated private data is stored encrypted while at rest, such as
+  Personally Identifiable Information (PII), sensitive personal information, or data
+  assessed likely to be subject to EU's GDPR.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: V6.1.1
+  level: 2

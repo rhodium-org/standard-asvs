@@ -1,0 +1,13 @@
+uid: SR-0262
+type: system_requirement
+status: approved
+title: If application assets
+text: Verify that if application assets, such as JavaScript libraries, CSS or web
+  fonts, are hosted externally on a Content Delivery Network (CDN) or external provider,
+  Subresource Integrity (SRI) is used to validate the integrity of the asset.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.2.3
+  level: 1

@@ -1,0 +1,12 @@
+uid: SR-0243
+type: system_requirement
+status: approved
+title: API URLs do not expose sensitive information
+text: Verify API URLs do not expose sensitive information, such as the API key, session
+  tokens etc.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: V13.1.3
+  level: 1

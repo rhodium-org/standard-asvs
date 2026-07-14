@@ -1,0 +1,13 @@
+uid: SR-0040
+type: system_requirement
+status: approved
+title: The build pipeline warns of out-of-date or insecure components and takes appropriate
+  actions
+text: Verify that the build pipeline warns of out-of-date or insecure components and
+  takes appropriate actions.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.14.3
+  level: 2

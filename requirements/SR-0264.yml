@@ -1,0 +1,13 @@
+uid: SR-0264
+type: system_requirement
+status: approved
+title: A Software Bill of Materials (SBOM) is maintained of all third party libraries
+  in use
+text: Verify that a Software Bill of Materials (SBOM) is maintained of all third party
+  libraries in use.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.2.5
+  level: 2

@@ -1,0 +1,13 @@
+uid: SR-0133
+type: system_requirement
+status: approved
+title: The application sanitizes user input before passing to mail systems to protect
+  against SMTP or IMAP
+text: Verify that the application sanitizes user input before passing to mail systems
+  to protect against SMTP or IMAP injection.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: V5.2.3
+  level: 1

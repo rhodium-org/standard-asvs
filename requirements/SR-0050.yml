@@ -1,0 +1,12 @@
+uid: SR-0050
+type: system_requirement
+status: approved
+title: '"paste" functionality'
+text: Verify that "paste" functionality, browser password helpers, and external password
+  managers are permitted.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.1.11
+  level: 1

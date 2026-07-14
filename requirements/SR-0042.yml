@@ -1,0 +1,13 @@
+uid: SR-0042
+type: system_requirement
+status: approved
+title: Application deployments adequately sandbox
+text: Verify that application deployments adequately sandbox, containerize and/or
+  isolate at the network level to delay and deter attackers from attacking other applications,
+  especially when they are performing sensitive or dangerous actions such as deserialization.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.14.5
+  level: 2

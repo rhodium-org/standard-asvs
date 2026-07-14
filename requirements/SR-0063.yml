@@ -1,0 +1,14 @@
+uid: SR-0063
+type: system_requirement
+status: approved
+title: The salt is at least 32 bits in length and be chosen arbitrarily to minimize
+  salt value collisions
+text: Verify that the salt is at least 32 bits in length and be chosen arbitrarily
+  to minimize salt value collisions among stored hashes. For each credential, a unique
+  salt value and the resulting hash SHALL be stored.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.4.2
+  level: 2

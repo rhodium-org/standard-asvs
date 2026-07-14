@@ -1,0 +1,14 @@
+uid: SR-0146
+type: system_requirement
+status: approved
+title: The application protects against OS command injection and that operating system
+  calls use
+text: Verify that the application protects against OS command injection and that operating
+  system calls use parameterized OS queries or use contextual command line output
+  encoding.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: V5.3.8
+  level: 1

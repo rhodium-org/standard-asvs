@@ -1,0 +1,13 @@
+uid: SR-0265
+type: system_requirement
+status: approved
+title: The attack surface is reduced by sandboxing or encapsulating third party libraries
+  to expose only
+text: Verify that the attack surface is reduced by sandboxing or encapsulating third
+  party libraries to expose only the required behaviour into the application.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.2.6
+  level: 2

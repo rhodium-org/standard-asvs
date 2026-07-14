@@ -1,0 +1,13 @@
+uid: SR-0127
+type: system_requirement
+status: approved
+title: Frameworks protect against mass parameter assignment attacks
+text: Verify that frameworks protect against mass parameter assignment attacks, or
+  that the application has countermeasures to protect against unsafe parameter assignment,
+  such as marking fields private or similar.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: V5.1.2
+  level: 1

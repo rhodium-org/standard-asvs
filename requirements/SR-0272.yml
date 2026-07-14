@@ -1,0 +1,13 @@
+uid: SR-0272
+type: system_requirement
+status: approved
+title: A Strict-Transport-Security header is included on all responses and for all
+  subdomains
+text: 'Verify that a Strict-Transport-Security header is included on all responses
+  and for all subdomains, such as Strict-Transport-Security: max-age=15724800; includeSubdomains.'
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.4.5
+  level: 1

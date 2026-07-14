@@ -1,0 +1,12 @@
+uid: SR-0263
+type: system_requirement
+status: approved
+title: Third party components come from pre-defined
+text: Verify that third party components come from pre-defined, trusted and continually
+  maintained repositories.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.2.4
+  level: 2

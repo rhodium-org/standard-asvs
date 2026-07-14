@@ -1,0 +1,11 @@
+uid: SR-0208
+type: system_requirement
+status: approved
+title: Backend TLS connection failures are logged
+text: Verify that backend TLS connection failures are logged.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: V9.2.5
+  level: 3

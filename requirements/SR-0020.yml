@@ -1,0 +1,14 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: Serialization is not used when communicating with untrusted clients
+text: Verify that serialization is not used when communicating with untrusted clients.
+  If this is not possible, ensure that adequate integrity controls (and possibly encryption
+  if sensitive data is sent) are enforced to prevent deserialization attacks including
+  object injection.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.5.2
+  level: 2

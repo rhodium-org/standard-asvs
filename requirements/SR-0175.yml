@@ -1,0 +1,13 @@
+uid: SR-0175
+type: system_requirement
+status: approved
+title: Each log event includes necessary information that would allow for a detailed
+  investigation of the
+text: Verify that each log event includes necessary information that would allow for
+  a detailed investigation of the timeline when an event happens.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: V7.1.4
+  level: 2

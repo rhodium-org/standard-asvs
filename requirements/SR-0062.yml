@@ -1,0 +1,14 @@
+uid: SR-0062
+type: system_requirement
+status: approved
+title: Passwords are stored in a form that is resistant to offline attacks
+text: Verify that passwords are stored in a form that is resistant to offline attacks.
+  Passwords SHALL be salted and hashed using an approved one-way key derivation or
+  password hashing function. Key derivation and password hashing functions take a
+  password, a salt, and a cost factor as inputs when generating a password hash.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.4.1
+  level: 2

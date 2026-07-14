@@ -1,0 +1,14 @@
+uid: SR-0266
+type: system_requirement
+status: approved
+title: Web or application server and application framework debug modes are disabled
+  in production to
+text: Verify that web or application server and application framework debug modes
+  are disabled in production to eliminate debug features, developer consoles, and
+  unintended security disclosures.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.3.2
+  level: 1

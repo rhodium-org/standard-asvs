@@ -1,0 +1,12 @@
+uid: SR-0028
+type: system_requirement
+status: approved
+title: Logs are securely transmitted to a preferably remote system for analysis
+text: Verify that logs are securely transmitted to a preferably remote system for
+  analysis, detection, alerting, and escalation.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.7.2
+  level: 2

@@ -1,0 +1,12 @@
+uid: SR-0046
+type: system_requirement
+status: approved
+title: Password change functionality requires the user's current and new password
+text: Verify that password change functionality requires the user's current and new
+  password.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.1.6
+  level: 1

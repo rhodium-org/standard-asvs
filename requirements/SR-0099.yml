@@ -1,0 +1,11 @@
+uid: SR-0099
+type: system_requirement
+status: approved
+title: Session tokens possess at least 64 bits of entropy
+text: Verify that session tokens possess at least 64 bits of entropy.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: V3.2.2
+  level: 1

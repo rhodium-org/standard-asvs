@@ -1,0 +1,13 @@
+uid: SR-0224
+type: system_requirement
+status: approved
+title: The application does not suffer from "Time Of Check to Time Of Use" (TOCTOU)
+  issues or other race
+text: Verify that the application does not suffer from "Time Of Check to Time Of Use"
+  (TOCTOU) issues or other race conditions for sensitive operations.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: V11.1.6
+  level: 2

@@ -1,0 +1,13 @@
+uid: SR-0080
+type: system_requirement
+status: approved
+title: The out of band authenticator and verifier communicates over a secure independent
+  channel
+text: Verify that the out of band authenticator and verifier communicates over a secure
+  independent channel.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.7.4
+  level: 1

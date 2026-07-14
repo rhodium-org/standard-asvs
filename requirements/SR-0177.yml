@@ -1,0 +1,13 @@
+uid: SR-0177
+type: system_requirement
+status: approved
+title: All access control decisions can be logged and all failed decisions are logged
+text: Verify that all access control decisions can be logged and all failed decisions
+  are logged. This should include requests with relevant metadata needed for security
+  investigations.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: V7.2.2
+  level: 2

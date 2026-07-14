@@ -1,0 +1,11 @@
+uid: SR-0086
+type: system_requirement
+status: approved
+title: Time-based OTP can be used only once within the validity period
+text: Verify that time-based OTP can be used only once within the validity period.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.8.4
+  level: 2

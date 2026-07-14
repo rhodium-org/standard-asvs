@@ -1,0 +1,12 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: Documentation and justification of all the application's trust boundaries
+text: Verify documentation and justification of all the application's trust boundaries,
+  components, and significant data flows.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.1.4
+  level: 2

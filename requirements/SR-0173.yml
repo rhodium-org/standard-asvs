@@ -1,0 +1,13 @@
+uid: SR-0173
+type: system_requirement
+status: approved
+title: The application does not log other sensitive data as defined under local privacy
+  laws or relevant
+text: Verify that the application does not log other sensitive data as defined under
+  local privacy laws or relevant security policy.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: V7.1.2
+  level: 1

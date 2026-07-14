@@ -1,0 +1,11 @@
+uid: SR-0027
+type: system_requirement
+status: approved
+title: A common logging format and approach is used across the system
+text: Verify that a common logging format and approach is used across the system.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.7.1
+  level: 2

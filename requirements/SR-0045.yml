@@ -1,0 +1,11 @@
+uid: SR-0045
+type: system_requirement
+status: approved
+title: Users can change their password
+text: Verify users can change their password.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.1.5
+  level: 1

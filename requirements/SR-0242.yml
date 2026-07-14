@@ -1,0 +1,14 @@
+uid: SR-0242
+type: system_requirement
+status: approved
+title: All application components use the same encodings and parsers to avoid parsing
+  attacks that exploit
+text: Verify that all application components use the same encodings and parsers to
+  avoid parsing attacks that exploit different URI or file parsing behavior that could
+  be used in SSRF and RFI attacks.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: V13.1.1
+  level: 1

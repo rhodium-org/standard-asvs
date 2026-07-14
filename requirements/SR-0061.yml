@@ -1,0 +1,12 @@
+uid: SR-0061
+type: system_requirement
+status: approved
+title: Renewal instructions are sent with sufficient time to renew time bound authenticators
+text: Verify that renewal instructions are sent with sufficient time to renew time
+  bound authenticators.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.3.3
+  level: 2

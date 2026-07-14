@@ -1,0 +1,13 @@
+uid: SR-0072
+type: system_requirement
+status: approved
+title: Forgotten password
+text: Verify forgotten password, and other recovery paths use a secure recovery mechanism,
+  such as time-based OTP (TOTP) or other soft token, mobile push, or another offline
+  recovery mechanism.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.5.6
+  level: 1

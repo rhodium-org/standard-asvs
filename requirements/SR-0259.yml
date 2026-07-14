@@ -1,0 +1,13 @@
+uid: SR-0259
+type: system_requirement
+status: approved
+title: Authorized administrators can verify the integrity of all security-relevant
+  configurations to
+text: Verify that authorized administrators can verify the integrity of all security-relevant
+  configurations to detect tampering.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.1.5
+  level: 3

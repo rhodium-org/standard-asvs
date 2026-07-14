@@ -1,0 +1,13 @@
+uid: SR-0258
+type: system_requirement
+status: approved
+title: The application
+text: Verify that the application, configuration, and all dependencies can be re-deployed
+  using automated deployment scripts, built from a documented and tested runbook in
+  a reasonable time, or restored from backups in a timely fashion.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.1.4
+  level: 2

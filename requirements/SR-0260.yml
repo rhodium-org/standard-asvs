@@ -1,0 +1,12 @@
+uid: SR-0260
+type: system_requirement
+status: approved
+title: All components are up to date
+text: Verify that all components are up to date, preferably using a dependency checker
+  during build or compile time.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.2.1
+  level: 1

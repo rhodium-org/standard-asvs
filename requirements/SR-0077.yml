@@ -1,0 +1,13 @@
+uid: SR-0077
+type: system_requirement
+status: approved
+title: Clear text out of band (NIST "restricted") authenticators
+text: Verify that clear text out of band (NIST "restricted") authenticators, such
+  as SMS or PSTN, are not offered by default, and stronger alternatives such as push
+  notifications are offered first.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.7.1
+  level: 1

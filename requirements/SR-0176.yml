@@ -1,0 +1,13 @@
+uid: SR-0176
+type: system_requirement
+status: approved
+title: All authentication decisions are logged
+text: Verify that all authentication decisions are logged, without storing sensitive
+  session tokens or passwords. This should include requests with relevant metadata
+  needed for security investigations.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: V7.2.1
+  level: 2

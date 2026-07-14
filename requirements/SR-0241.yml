@@ -1,0 +1,13 @@
+uid: SR-0241
+type: system_requirement
+status: approved
+title: The web or application server is configured with an allow list of resources
+  or systems to which the
+text: Verify that the web or application server is configured with an allow list of
+  resources or systems to which the server can send requests or load data/files from.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: V12.6.1
+  level: 1

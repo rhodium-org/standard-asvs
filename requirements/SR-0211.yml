@@ -1,0 +1,14 @@
+uid: SR-0211
+type: system_requirement
+status: approved
+title: The application does not ask for unnecessary or excessive permissions to privacy
+  related features
+text: Verify that the application does not ask for unnecessary or excessive permissions
+  to privacy related features or sensors, such as contacts, cameras, microphones,
+  or location.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: V10.2.2
+  level: 2

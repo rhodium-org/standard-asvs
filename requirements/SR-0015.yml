@@ -1,0 +1,14 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: All authentication pathways and identity management APIs implement consistent
+  authentication
+text: Verify that all authentication pathways and identity management APIs implement
+  consistent authentication security control strength, such that there are no weaker
+  alternatives per the risk of the application.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: V1.2.4
+  level: 2

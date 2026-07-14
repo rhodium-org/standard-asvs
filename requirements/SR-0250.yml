@@ -1,0 +1,16 @@
+uid: SR-0250
+type: system_requirement
+status: approved
+title: The message headers and payload are trustworthy and not modified in transit
+text: Verify that the message headers and payload are trustworthy and not modified
+  in transit. Requiring strong encryption for transport (TLS only) may be sufficient
+  in many cases as it provides both confidentiality and integrity protection. Per-message
+  digital signatures can provide additional assurance on top of the transport protections
+  for high-security applications but bring with them additional complexity and risks
+  to weigh against the benefits.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: V13.2.6
+  level: 2

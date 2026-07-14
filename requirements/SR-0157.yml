@@ -1,0 +1,12 @@
+uid: SR-0157
+type: system_requirement
+status: approved
+title: Regulated health data is stored encrypted while at rest
+text: Verify that regulated health data is stored encrypted while at rest, such as
+  medical records, medical device details, or de-anonymized research records.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: V6.1.2
+  level: 2

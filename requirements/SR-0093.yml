@@ -1,0 +1,12 @@
+uid: SR-0093
+type: system_requirement
+status: approved
+title: Intra-service secrets do not rely on unchanging credentials such as passwords
+text: Verify that intra-service secrets do not rely on unchanging credentials such
+  as passwords, API keys or shared accounts with privileged access.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.10.1
+  level: 2

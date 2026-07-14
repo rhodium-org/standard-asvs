@@ -1,0 +1,13 @@
+uid: SR-0275
+type: system_requirement
+status: approved
+title: The application server only accepts the HTTP methods in use by the application/API
+text: Verify that the application server only accepts the HTTP methods in use by the
+  application/API, including pre-flight OPTIONS, and logs/alerts on any requests that
+  are not valid for the application context.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.5.1
+  level: 1

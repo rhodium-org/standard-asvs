@@ -1,0 +1,12 @@
+uid: SR-0085
+type: system_requirement
+status: approved
+title: Approved cryptographic algorithms are used in the generation
+text: Verify that approved cryptographic algorithms are used in the generation, seeding,
+  and verification of OTPs.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.8.3
+  level: 2

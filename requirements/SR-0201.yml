@@ -1,0 +1,12 @@
+uid: SR-0201
+type: system_requirement
+status: approved
+title: TLS is used for all client connectivity
+text: Verify that TLS is used for all client connectivity, and does not fall back
+  to insecure or unencrypted communications.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: V9.1.1
+  level: 1

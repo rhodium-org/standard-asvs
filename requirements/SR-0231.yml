@@ -1,0 +1,13 @@
+uid: SR-0231
+type: system_requirement
+status: approved
+title: User-submitted filename metadata is not used directly by system or framework
+  filesystems and that a
+text: Verify that user-submitted filename metadata is not used directly by system
+  or framework filesystems and that a URL API is used to protect against path traversal.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: V12.3.1
+  level: 1

@@ -1,0 +1,11 @@
+uid: SR-0101
+type: system_requirement
+status: approved
+title: Session tokens are generated using approved cryptographic algorithms
+text: Verify that session tokens are generated using approved cryptographic algorithms.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: V3.2.4
+  level: 2

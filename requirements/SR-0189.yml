@@ -1,0 +1,12 @@
+uid: SR-0189
+type: system_requirement
+status: approved
+title: Backups are stored securely to prevent data from being stolen or corrupted
+text: Verify that backups are stored securely to prevent data from being stolen or
+  corrupted.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: V8.1.6
+  level: 3

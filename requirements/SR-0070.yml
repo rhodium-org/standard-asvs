@@ -1,0 +1,12 @@
+uid: SR-0070
+type: system_requirement
+status: approved
+title: Shared or default accounts are not present (e
+text: Verify shared or default accounts are not present (e.g. "root", "admin", or
+  "sa").
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: V2.5.4
+  level: 1

@@ -1,0 +1,11 @@
+uid: SR-0271
+type: system_requirement
+status: approved
+title: 'All responses contain a X-Content-Type-Options: nosniff header'
+text: 'Verify that all responses contain a X-Content-Type-Options: nosniff header.'
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.4.4
+  level: 1
