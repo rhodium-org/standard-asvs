@@ -1,12 +1,13 @@
 uid: SR-0140
 type: system_requirement
 status: approved
-title: Output encoding preserves the user's chosen character set and locale
-text: Verify that output encoding preserves the user's chosen character set and locale,
-  such that any Unicode character point is valid and safely handled.
+title: Time-based one-time passwords (TOTPs) are checked based on a time source from
+  a trusted service and
+text: Verify that time-based one-time passwords (TOTPs) are checked based on a time
+  source from a trusted service and not from an untrusted or client provided time.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.3.2
-  level: 1
+  source_ref: V6.5.8
+  level: 3

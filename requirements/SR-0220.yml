@@ -1,14 +1,16 @@
 uid: SR-0220
 type: system_requirement
 status: approved
-title: The application will only process business logic flows with all steps being
-  processed in realistic
-text: Verify that the application will only process business logic flows with all
-  steps being processed in realistic human time, i.e. transactions are not submitted
-  too quickly.
+title: That
+text: Verify that, when using OIDC back-channel logout, the relying party mitigates
+  denial of service through forced logout and cross-JWT confusion in the logout flow.
+  The client must verify that the logout token is correctly typed with a value of
+  'logout+jwt', contains the 'event' claim with the correct member name, and does
+  not contain a 'nonce' claim. Note that it is also recommended to have a short expiration
+  (e.g., 2 minutes).
 links:
-- target: UR-0011
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V11.1.2
-  level: 1
+  source_ref: V10.5.5
+  level: 2

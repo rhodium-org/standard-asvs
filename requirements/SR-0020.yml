@@ -1,14 +1,14 @@
 uid: SR-0020
 type: system_requirement
 status: approved
-title: Serialization is not used when communicating with untrusted clients
-text: Verify that serialization is not used when communicating with untrusted clients.
-  If this is not possible, ensure that adequate integrity controls (and possibly encryption
-  if sensitive data is sent) are enforced to prevent deserialization attacks including
-  object injection.
+title: The application appropriately sanitizes untrusted input before use in Java
+  Naming and Directory
+text: Verify that the application appropriately sanitizes untrusted input before use
+  in Java Naming and Directory Interface (JNDI) queries and that JNDI is configured
+  securely to prevent JNDI injection attacks.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.5.2
+  source_ref: V1.3.8
   level: 2

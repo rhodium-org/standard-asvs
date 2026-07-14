@@ -1,13 +1,15 @@
 uid: SR-0134
 type: system_requirement
 status: approved
-title: The application avoids the use of eval() or other dynamic code execution features
-text: Verify that the application avoids the use of eval() or other dynamic code execution
-  features. Where there is no alternative, any user input being included must be sanitized
-  or sandboxed before being executed.
+title: That
+text: Verify that, when being stored in the application's backend, lookup secrets
+  with less than 112 bits of entropy (19 random alphanumeric characters or 34 random
+  digits) are hashed with an approved password storage hashing algorithm that incorporates
+  a 32-bit random salt. A standard hash function can be used if the secret has 112
+  bits of entropy or more.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.2.4
-  level: 1
+  source_ref: V6.5.2
+  level: 2

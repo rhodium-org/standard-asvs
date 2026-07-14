@@ -1,8 +1,8 @@
 uid: UR-0012
 type: user_requirement
 status: approved
-title: V12 Files and Resources
-text: Verification requirements for Files and Resources (V12).
+title: V12 Secure Communication
+text: Verification requirements for Secure Communication (V12).
 links:
 - target: INT-0001
   type: derives_from

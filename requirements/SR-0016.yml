@@ -1,13 +1,14 @@
 uid: SR-0016
 type: system_requirement
 status: approved
-title: Trusted enforcement points
-text: Verify that trusted enforcement points, such as access control gateways, servers,
-  and serverless functions, enforce access controls. Never enforce access controls
-  on the client.
+title: User-supplied Scalable Vector Graphics (SVG) scriptable content is validated
+  or sanitized to
+text: Verify that user-supplied Scalable Vector Graphics (SVG) scriptable content
+  is validated or sanitized to contain only tags and attributes (such as draw graphics)
+  that are safe for the application, e.g., do not contain scripts and foreignObject.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.4.1
+  source_ref: V1.3.4
   level: 2

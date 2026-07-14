@@ -1,0 +1,15 @@
+uid: SR-0314
+type: system_requirement
+status: approved
+title: Checks on a resource's state
+text: Verify that checks on a resource's state, such as its existence or permissions,
+  and the actions that depend on them are performed as a single atomic operation to
+  prevent time-of-check to time-of-use (TOCTOU) race conditions. For example, checking
+  if a file exists before opening it, or verifying a user’s access before granting
+  it.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: V15.4.2
+  level: 3

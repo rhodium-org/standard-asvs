@@ -1,0 +1,14 @@
+uid: SR-0325
+type: system_requirement
+status: approved
+title: The application logs the security events that are defined in the documentation
+  and also logs
+text: Verify that the application logs the security events that are defined in the
+  documentation and also logs attempts to bypass the security controls, such as input
+  validation, business logic, and anti-automation.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: V16.3.3
+  level: 2

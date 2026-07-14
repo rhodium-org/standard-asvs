@@ -1,12 +1,16 @@
 uid: SR-0189
 type: system_requirement
 status: approved
-title: Backups are stored securely to prevent data from being stolen or corrupted
-text: Verify that backups are stored securely to prevent data from being stolen or
-  corrupted.
+title: That
+text: Verify that, if a token issuer uses the same private key for issuing tokens
+  to different audiences, the issued tokens contain an audience restriction that uniquely
+  identifies the intended audiences. This will prevent a token from being reused with
+  an unintended audience. If the audience identifier is dynamically provisioned, the
+  token issuer must validate these audiences in order to make sure that they do not
+  result in audience impersonation.
 links:
-- target: UR-0008
+- target: UR-0009
   type: implements
 attrs:
-  source_ref: V8.1.6
-  level: 3
+  source_ref: V9.2.4
+  level: 2

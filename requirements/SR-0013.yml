@@ -1,13 +1,13 @@
 uid: SR-0013
 type: system_requirement
 status: approved
-title: Communications between application components
-text: Verify that communications between application components, including APIs, middleware
-  and data layers, are authenticated. Components should have the least necessary privileges
-  needed.
+title: All untrusted HTML input from WYSIWYG editors or similar is sanitized using
+  a well-known and secure
+text: Verify that all untrusted HTML input from WYSIWYG editors or similar is sanitized
+  using a well-known and secure HTML sanitization library or framework feature.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.2.2
-  level: 2
+  source_ref: V1.3.1
+  level: 1

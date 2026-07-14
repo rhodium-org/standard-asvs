@@ -1,12 +1,15 @@
 uid: SR-0151
 type: system_requirement
 status: approved
-title: Sign
-text: Verify that sign, range, and input validation techniques are used to prevent
-  integer overflows.
+title: The user's session inactivity timeout and absolute maximum session lifetime
+  are documented
+text: Verify that the user's session inactivity timeout and absolute maximum session
+  lifetime are documented, are appropriate in combination with other controls, and
+  that the documentation includes justification for any deviations from NIST SP 800-63B
+  re-authentication requirements.
 links:
-- target: UR-0005
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V5.4.3
+  source_ref: V7.1.1
   level: 2

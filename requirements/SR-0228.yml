@@ -1,13 +1,14 @@
 uid: SR-0228
 type: system_requirement
 status: approved
-title: The application checks compressed files (e
-text: Verify that the application checks compressed files (e.g. zip, gz, docx, odt)
-  against maximum allowed uncompressed size and against maximum number of files before
-  uncompressing the file.
+title: Cryptographic discovery mechanisms are employed to identify all instances of
+  cryptography in the
+text: Verify that cryptographic discovery mechanisms are employed to identify all
+  instances of cryptography in the system, including encryption, hashing, and signing
+  operations.
 links:
-- target: UR-0012
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V12.1.2
-  level: 2
+  source_ref: V11.1.3
+  level: 3

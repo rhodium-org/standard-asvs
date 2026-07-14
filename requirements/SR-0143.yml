@@ -1,13 +1,14 @@
 uid: SR-0143
 type: system_requirement
 status: approved
-title: Where parameterized or safer mechanisms are not present
-text: Verify that where parameterized or safer mechanisms are not present, context-specific
-  output encoding is used to protect against injection attacks, such as the use of
-  SQL escaping to protect against SQL injection.
+title: A code based out-of-band authentication mechanism is protected against brute
+  force attacks by using
+text: Verify that a code based out-of-band authentication mechanism is protected against
+  brute force attacks by using rate limiting. Consider also using a code with at least
+  64 bits of entropy.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.3.5
-  level: 1
+  source_ref: V6.6.3
+  level: 2

@@ -1,15 +1,16 @@
 uid: SR-0054
 type: system_requirement
 status: approved
-title: Secure notifications are sent to users after updates to authentication details
-text: Verify that secure notifications are sent to users after updates to authentication
-  details, such as credential resets, email or address changes, logging in from unknown
-  or risky locations. The use of push notifications - rather than SMS or email - is
-  preferred, but in the absence of push notifications, SMS or email is acceptable
-  as long as no sensitive information is disclosed in the notification.
+title: The Cross-Origin Resource Sharing (CORS) Access-Control-Allow-Origin header
+  field is a fixed value
+text: 'Verify that the Cross-Origin Resource Sharing (CORS) Access-Control-Allow-Origin
+  header field is a fixed value by the application, or if the Origin HTTP request
+  header field value is used, it is validated against an allowlist of trusted origins.
+  When ''Access-Control-Allow-Origin: *'' needs to be used, verify that the response
+  does not include any sensitive information.'
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.2.3
+  source_ref: V3.4.2
   level: 1

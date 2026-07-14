@@ -1,0 +1,10 @@
+uid: UR-0017
+type: user_requirement
+status: approved
+title: V17 WebRTC
+text: Verification requirements for WebRTC (V17).
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: V17

@@ -1,14 +1,18 @@
 uid: SR-0204
 type: system_requirement
 status: approved
-title: Connections to and from the server use trusted TLS certificates
-text: Verify that connections to and from the server use trusted TLS certificates.
-  Where internally generated or self-signed certificates are used, the server must
-  be configured to only trust specific internal CAs and specific self-signed certificates.
-  All others should be rejected.
+title: The authorization server mitigates refresh token replay attacks for public
+  clients
+text: Verify that the authorization server mitigates refresh token replay attacks
+  for public clients, preferably using sender-constrained refresh tokens, i.e., Demonstrating
+  Proof of Possession (DPoP) or Certificate-Bound Access Tokens using mutual TLS (mTLS).
+  For L1 and L2 applications, refresh token rotation may be used. If refresh token
+  rotation is used, the authorization server must invalidate the refresh token after
+  usage, and revoke all refresh tokens for that authorization if an already used and
+  invalidated refresh token is provided.
 links:
-- target: UR-0009
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V9.2.1
-  level: 2
+  source_ref: V10.4.5
+  level: 1

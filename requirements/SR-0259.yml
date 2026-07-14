@@ -1,13 +1,14 @@
 uid: SR-0259
 type: system_requirement
 status: approved
-title: Authorized administrators can verify the integrity of all security-relevant
-  configurations to
-text: Verify that authorized administrators can verify the integrity of all security-relevant
-  configurations to detect tampering.
+title: TLS or another appropriate transport encryption mechanism used for all connectivity
+  between internal
+text: Verify that TLS or another appropriate transport encryption mechanism used for
+  all connectivity between internal, HTTP-based services within the application, and
+  does not fall back to insecure or unencrypted communications.
 links:
-- target: UR-0014
+- target: UR-0012
   type: implements
 attrs:
-  source_ref: V14.1.5
-  level: 3
+  source_ref: V12.3.3
+  level: 2

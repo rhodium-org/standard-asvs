@@ -1,12 +1,15 @@
 uid: SR-0165
 type: system_requirement
 status: approved
-title: Encrypted data is authenticated via signatures
-text: Verify that encrypted data is authenticated via signatures, authenticated cipher
-  modes, or HMAC to ensure that ciphertext is not altered by an unauthorized party.
+title: The application requires full re-authentication before allowing modifications
+  to sensitive account
+text: Verify that the application requires full re-authentication before allowing
+  modifications to sensitive account attributes which may affect authentication such
+  as email address, phone number, MFA configuration, or other information used in
+  account recovery.
 links:
-- target: UR-0006
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V6.2.7
-  level: 3
+  source_ref: V7.5.1
+  level: 2

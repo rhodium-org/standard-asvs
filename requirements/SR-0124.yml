@@ -1,13 +1,13 @@
 uid: SR-0124
 type: system_requirement
 status: approved
-title: Directory browsing is disabled unless deliberately desired
-text: Verify that directory browsing is disabled unless deliberately desired. Additionally,
-  applications should not allow discovery or disclosure of file or directory metadata,
-  such as Thumbs.db, .DS_Store, .git or .svn folders.
+title: Email is not used as either a single-factor or multi-factor authentication
+  mechanism
+text: Verify that email is not used as either a single-factor or multi-factor authentication
+  mechanism.
 links:
-- target: UR-0004
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V4.3.2
-  level: 1
+  source_ref: V6.3.6
+  level: 3

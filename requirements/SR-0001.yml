@@ -1,12 +1,14 @@
 uid: SR-0001
 type: system_requirement
 status: approved
-title: Secure software development lifecycle
-text: Verify the use of a secure software development lifecycle that addresses
-  security in all stages of development.
+title: Input is decoded or unescaped into a canonical form only once
+text: Verify that input is decoded or unescaped into a canonical form only once, it
+  is only decoded when encoded data in that form is expected, and that this is done
+  before processing the input further, for example it is not performed after input
+  validation or sanitization.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "V1.1.1"
+  source_ref: V1.1.1
   level: 2

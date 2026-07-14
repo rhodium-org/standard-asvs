@@ -1,16 +1,13 @@
 uid: SR-0250
 type: system_requirement
 status: approved
-title: The message headers and payload are trustworthy and not modified in transit
-text: Verify that the message headers and payload are trustworthy and not modified
-  in transit. Requiring strong encryption for transport (TLS only) may be sufficient
-  in many cases as it provides both confidentiality and integrity protection. Per-message
-  digital signatures can provide additional assurance on top of the transport protections
-  for high-security applications but bring with them additional complexity and risks
-  to weigh against the benefits.
+title: Only the latest recommended versions of the TLS protocol are enabled
+text: Verify that only the latest recommended versions of the TLS protocol are enabled,
+  such as TLS 1.2 and TLS 1.3. The latest version of the TLS protocol must be the
+  preferred option.
 links:
-- target: UR-0013
+- target: UR-0012
   type: implements
 attrs:
-  source_ref: V13.2.6
-  level: 2
+  source_ref: V12.1.1
+  level: 1

@@ -1,12 +1,15 @@
 uid: SR-0247
 type: system_requirement
 status: approved
-title: JSON schema validation is in place and verified before accepting input
-text: Verify that JSON schema validation is in place and verified before accepting
-  input.
+title: Approved cryptographic algorithms are used for key exchange (such as Diffie-Hellman)
+  with a focus
+text: Verify that approved cryptographic algorithms are used for key exchange (such
+  as Diffie-Hellman) with a focus on ensuring that key exchange mechanisms use secure
+  parameters. This will prevent attacks on the key establishment process which could
+  lead to adversary-in-the-middle attacks or cryptographic breaks.
 links:
-- target: UR-0013
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V13.2.2
-  level: 1
+  source_ref: V11.6.2
+  level: 3

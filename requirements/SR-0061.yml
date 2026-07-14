@@ -1,12 +1,17 @@
 uid: SR-0061
 type: system_requirement
 status: approved
-title: Renewal instructions are sent with sufficient time to renew time bound authenticators
-text: Verify that renewal instructions are sent with sufficient time to renew time
-  bound authenticators.
+title: That
+text: Verify that, if the application does not rely on the CORS preflight mechanism
+  to prevent disallowed cross-origin requests to use sensitive functionality, these
+  requests are validated to ensure they originate from the application itself. This
+  may be done by using and validating anti-forgery tokens or requiring extra HTTP
+  header fields that are not CORS-safelisted request-header fields. This is to defend
+  against browser-based request forgery attacks, commonly known as cross-site request
+  forgery (CSRF).
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.3.3
-  level: 2
+  source_ref: V3.5.1
+  level: 1

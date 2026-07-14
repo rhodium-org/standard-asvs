@@ -1,12 +1,10 @@
 uid: UR-0001
 type: user_requirement
 status: approved
-title: "V1 Architecture, Design and Threat Modeling"
-text: Security controls are designed in, not bolted on — the application has a
-  secure development lifecycle, threat modeling, and a documented, verifiable
-  security architecture.
+title: V1 Encoding and Sanitization
+text: Verification requirements for Encoding and Sanitization (V1).
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "V1"
+  source_ref: V1

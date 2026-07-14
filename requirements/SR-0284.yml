@@ -1,0 +1,15 @@
+uid: SR-0284
+type: system_requirement
+status: approved
+title: All sensitive data protection levels have a documented set of protection requirements
+text: Verify that all sensitive data protection levels have a documented set of protection
+  requirements. This must include (but not be limited to) requirements related to
+  general encryption, integrity verification, retention, how the data is to be logged,
+  access controls around sensitive data in logs, database-level encryption, privacy
+  and privacy-enhancing technologies to be used, and other confidentiality requirements.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.1.2
+  level: 2

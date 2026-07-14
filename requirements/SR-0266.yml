@@ -1,14 +1,16 @@
 uid: SR-0266
 type: system_requirement
 status: approved
-title: Web or application server and application framework debug modes are disabled
-  in production to
-text: Verify that web or application server and application framework debug modes
-  are disabled in production to eliminate debug features, developer consoles, and
-  unintended security disclosures.
+title: Communications between backend application components that don't support the
+  application's standard
+text: Verify that communications between backend application components that don't
+  support the application's standard user session mechanism, including APIs, middleware,
+  and data layers, are authenticated. Authentication must use individual service accounts,
+  short-term tokens, or certificate-based authentication and not unchanging credentials
+  such as passwords, API keys, or shared accounts with privileged access.
 links:
-- target: UR-0014
+- target: UR-0013
   type: implements
 attrs:
-  source_ref: V14.3.2
-  level: 1
+  source_ref: V13.2.1
+  level: 2

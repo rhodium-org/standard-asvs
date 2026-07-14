@@ -1,13 +1,15 @@
 uid: SR-0123
 type: system_requirement
 status: approved
-title: Administrative interfaces use appropriate multi-factor authentication to prevent
-  unauthorized use
-text: Verify administrative interfaces use appropriate multi-factor authentication
-  to prevent unauthorized use.
+title: Users are notified of suspicious authentication attempts (successful or unsuccessful)
+text: Verify that users are notified of suspicious authentication attempts (successful
+  or unsuccessful). This may include authentication attempts from an unusual location
+  or client, partially successful authentication (only one of multiple factors), an
+  authentication attempt after a long period of inactivity or a successful authentication
+  after several unsuccessful attempts.
 links:
-- target: UR-0004
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V4.3.1
-  level: 1
+  source_ref: V6.3.5
+  level: 3

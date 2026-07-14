@@ -1,12 +1,15 @@
 uid: SR-0187
 type: system_requirement
 status: approved
-title: The application can detect and alert on abnormal numbers of requests
-text: Verify the application can detect and alert on abnormal numbers of requests,
-  such as by IP, user, total per hour or day, or whatever makes sense for the application.
+title: The service receiving a token validates the token to be the correct type and
+  is meant for the
+text: Verify that the service receiving a token validates the token to be the correct
+  type and is meant for the intended purpose before accepting the token's contents.
+  For example, only access tokens can be accepted for authorization decisions and
+  only ID Tokens can be used for proving user authentication.
 links:
-- target: UR-0008
+- target: UR-0009
   type: implements
 attrs:
-  source_ref: V8.1.4
+  source_ref: V9.2.2
   level: 2

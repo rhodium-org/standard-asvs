@@ -1,0 +1,13 @@
+uid: SR-0301
+type: system_requirement
+status: approved
+title: The application only contains components which have not breached the documented
+  update and
+text: Verify that the application only contains components which have not breached
+  the documented update and remediation time frames.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: V15.2.1
+  level: 1

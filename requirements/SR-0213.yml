@@ -1,13 +1,14 @@
 uid: SR-0213
 type: system_requirement
 status: approved
-title: The application source code and third party libraries do not contain time bombs
-  by searching for
-text: Verify that the application source code and third party libraries do not contain
-  time bombs by searching for date and time related functions.
+title: The authorization server issues only sender-constrained (Proof-of-Possession)
+  access tokens
+text: Verify that the authorization server issues only sender-constrained (Proof-of-Possession)
+  access tokens, either with certificate-bound access tokens using mutual TLS (mTLS)
+  or DPoP-bound access tokens (Demonstration of Proof of Possession).
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: V10.2.4
+  source_ref: V10.4.14
   level: 3

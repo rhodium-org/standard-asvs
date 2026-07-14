@@ -1,13 +1,14 @@
 uid: SR-0002
 type: system_requirement
 status: approved
-title: Threat modeling for design changes
-text: Verify the use of threat modeling for every design change or sprint planning
-  to identify threats, plan for countermeasures, facilitate appropriate risk
-  responses, and guide security testing.
+title: The application performs output encoding and escaping either as a final step
+  before being used by
+text: Verify that the application performs output encoding and escaping either as
+  a final step before being used by the interpreter for which it is intended or by
+  the interpreter itself.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "V1.1.2"
+  source_ref: V1.1.2
   level: 2

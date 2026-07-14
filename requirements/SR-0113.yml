@@ -1,13 +1,12 @@
 uid: SR-0113
 type: system_requirement
 status: approved
-title: Stateless session tokens use digital signatures
-text: Verify that stateless session tokens use digital signatures, encryption, and
-  other countermeasures to protect against tampering, enveloping, replay, null cipher,
-  and key substitution attacks.
+title: '"paste" functionality'
+text: Verify that "paste" functionality, browser password helpers, and external password
+  managers are permitted.
 links:
-- target: UR-0003
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V3.5.3
-  level: 2
+  source_ref: V6.2.7
+  level: 1

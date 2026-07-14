@@ -1,13 +1,15 @@
 uid: SR-0244
 type: system_requirement
 status: approved
-title: Authorization decisions are made at both the URI
-text: Verify that authorization decisions are made at both the URI, enforced by programmatic
-  or declarative security at the controller or router, and at the resource level,
-  enforced by model-based permissions.
+title: All random numbers and strings which are intended to be non-guessable must
+  be generated using a
+text: Verify that all random numbers and strings which are intended to be non-guessable
+  must be generated using a cryptographically secure pseudo-random number generator
+  (CSPRNG) and have at least 128 bits of entropy. Note that UUIDs do not respect this
+  condition.
 links:
-- target: UR-0013
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V13.1.4
+  source_ref: V11.5.1
   level: 2

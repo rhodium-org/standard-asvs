@@ -1,13 +1,12 @@
 uid: SR-0024
 type: system_requirement
 status: approved
-title: Consumers of cryptographic services protect key material and other secrets
-  by using key vaults or
-text: Verify that consumers of cryptographic services protect key material and other
-  secrets by using key vaults or API based alternatives.
+title: Regular expressions are free from elements causing exponential backtracking
+text: Verify that regular expressions are free from elements causing exponential backtracking,
+  and ensure untrusted input is sanitized to mitigate ReDoS or Runaway Regex attacks.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.6.2
-  level: 2
+  source_ref: V1.3.12
+  level: 3

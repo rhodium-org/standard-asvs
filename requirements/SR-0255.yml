@@ -1,14 +1,12 @@
 uid: SR-0255
 type: system_requirement
 status: approved
-title: The application build and deployment processes are performed in a secure and
-  repeatable way
-text: Verify that the application build and deployment processes are performed in
-  a secure and repeatable way, such as CI / CD automation, automated configuration
-  management, and automated deployment scripts.
+title: TLS is used for all connectivity between a client and external facing
+text: Verify that TLS is used for all connectivity between a client and external facing,
+  HTTP-based services, and does not fall back to insecure or unencrypted communications.
 links:
-- target: UR-0014
+- target: UR-0012
   type: implements
 attrs:
-  source_ref: V14.1.1
-  level: 2
+  source_ref: V12.2.1
+  level: 1

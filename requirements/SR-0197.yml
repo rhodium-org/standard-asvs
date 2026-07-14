@@ -1,13 +1,15 @@
 uid: SR-0197
 type: system_requirement
 status: approved
-title: Accessing sensitive data is audited (without logging the sensitive data itself)
-text: Verify accessing sensitive data is audited (without logging the sensitive data
-  itself), if the data is collected under relevant data protection directives or where
-  logging of access is required.
+title: If an access control decision requires identifying a unique user from an access
+  token (JWT or
+text: Verify that if an access control decision requires identifying a unique user
+  from an access token (JWT or related token introspection response), the resource
+  server identifies the user from claims that cannot be reassigned to other users.
+  Typically, it means using a combination of 'iss' and 'sub' claims.
 links:
-- target: UR-0008
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V8.3.5
+  source_ref: V10.3.3
   level: 2

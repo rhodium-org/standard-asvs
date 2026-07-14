@@ -1,12 +1,17 @@
 uid: SR-0141
 type: system_requirement
 status: approved
-title: Context-aware
-text: Verify that context-aware, preferably automated - or at worst, manual - output
-  escaping protects against reflected, stored, and DOM based XSS.
+title: Authentication mechanisms using the Public Switched Telephone Network (PSTN)
+  to deliver One-time
+text: Verify that authentication mechanisms using the Public Switched Telephone Network
+  (PSTN) to deliver One-time Passwords (OTPs) via phone or SMS are offered only when
+  the phone number has previously been validated, alternate stronger methods (such
+  as Time based One-time Passwords) are also offered, and the service provides information
+  on their security risks to users. For L3 applications, phone and SMS must not be
+  available as options.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.3.3
-  level: 1
+  source_ref: V6.6.1
+  level: 2

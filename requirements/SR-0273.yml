@@ -1,13 +1,11 @@
 uid: SR-0273
 type: system_requirement
 status: approved
-title: A suitable Referrer-Policy header is included to avoid exposing sensitive information
-  in the URL
-text: Verify that a suitable Referrer-Policy header is included to avoid exposing
-  sensitive information in the URL through the Referer header to untrusted parties.
+title: Access to secret assets adheres to the principle of least privilege
+text: Verify that access to secret assets adheres to the principle of least privilege.
 links:
-- target: UR-0014
+- target: UR-0013
   type: implements
 attrs:
-  source_ref: V14.4.6
-  level: 1
+  source_ref: V13.3.2
+  level: 2

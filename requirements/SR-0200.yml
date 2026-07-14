@@ -1,13 +1,13 @@
 uid: SR-0200
 type: system_requirement
 status: approved
-title: Sensitive personal information is subject to data retention classification
-text: Verify that sensitive personal information is subject to data retention classification,
-  such that old or out of date data is deleted automatically, on a schedule, or as
-  the situation requires.
+title: The authorization server validates redirect URIs based on a client-specific
+  allowlist of
+text: Verify that the authorization server validates redirect URIs based on a client-specific
+  allowlist of pre-registered URIs using exact string comparison.
 links:
-- target: UR-0008
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V8.3.8
-  level: 2
+  source_ref: V10.4.1
+  level: 1

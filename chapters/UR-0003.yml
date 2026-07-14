@@ -1,8 +1,8 @@
 uid: UR-0003
 type: user_requirement
 status: approved
-title: V3 Session Management
-text: Verification requirements for Session Management (V3).
+title: V3 Web Frontend Security
+text: Verification requirements for Web Frontend Security (V3).
 links:
 - target: INT-0001
   type: derives_from

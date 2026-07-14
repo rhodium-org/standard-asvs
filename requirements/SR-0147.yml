@@ -1,13 +1,15 @@
 uid: SR-0147
 type: system_requirement
 status: approved
-title: The application protects against Local File Inclusion (LFI) or Remote File
-  Inclusion (RFI) attacks
-text: Verify that the application protects against Local File Inclusion (LFI) or Remote
-  File Inclusion (RFI) attacks.
+title: That
+text: Verify that, if the application supports multiple identity providers (IdPs),
+  the user's identity cannot be spoofed via another supported identity provider (eg.
+  by using the same user identifier). The standard mitigation would be for the application
+  to register and identify the user using a combination of the IdP ID (serving as
+  a namespace) and the user's ID in the IdP.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.3.9
-  level: 1
+  source_ref: V6.8.1
+  level: 2

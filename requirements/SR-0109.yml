@@ -1,13 +1,12 @@
 uid: SR-0109
 type: system_requirement
 status: approved
-title: Cookie-based session tokens use the "__Host-" prefix so cookies are only sent
-  to the host that
-text: Verify that cookie-based session tokens use the "__Host-" prefix so cookies
-  are only sent to the host that initially set the cookie.
+title: Password change functionality requires the user's current and new password
+text: Verify that password change functionality requires the user's current and new
+  password.
 links:
-- target: UR-0003
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V3.4.4
+  source_ref: V6.2.3
   level: 1

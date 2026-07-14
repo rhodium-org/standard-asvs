@@ -1,12 +1,15 @@
 uid: SR-0232
 type: system_requirement
 status: approved
-title: User-submitted filename metadata is validated or ignored to prevent the disclosure
-text: Verify that user-submitted filename metadata is validated or ignored to prevent
-  the disclosure, creation, updating or removal of local files (LFI).
+title: All cryptographic primitives utilize a minimum of 128-bits of security based
+  on the algorithm
+text: Verify that all cryptographic primitives utilize a minimum of 128-bits of security
+  based on the algorithm, key size, and configuration. For example, a 256-bit ECC
+  key provides roughly 128 bits of security where RSA requires a 3072-bit key to achieve
+  128 bits of security.
 links:
-- target: UR-0012
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V12.3.2
-  level: 1
+  source_ref: V11.2.3
+  level: 2

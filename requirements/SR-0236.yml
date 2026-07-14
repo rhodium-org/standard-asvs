@@ -1,13 +1,11 @@
 uid: SR-0236
 type: system_requirement
 status: approved
-title: The application does not include and execute functionality from untrusted sources
-text: Verify that the application does not include and execute functionality from
-  untrusted sources, such as unverified content distribution networks, JavaScript
-  libraries, node npm libraries, or server-side DLLs.
+title: Only approved ciphers and modes such as AES with GCM are used
+text: Verify that only approved ciphers and modes such as AES with GCM are used.
 links:
-- target: UR-0012
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V12.3.6
-  level: 2
+  source_ref: V11.3.2
+  level: 1

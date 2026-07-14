@@ -1,13 +1,13 @@
 uid: SR-0156
 type: system_requirement
 status: approved
-title: Regulated private data is stored encrypted while at rest
-text: Verify that regulated private data is stored encrypted while at rest, such as
-  Personally Identifiable Information (PII), sensitive personal information, or data
-  assessed likely to be subject to EU's GDPR.
+title: If reference tokens are used to represent user sessions
+text: Verify that if reference tokens are used to represent user sessions, they are
+  unique and generated using a cryptographically secure pseudo-random number generator
+  (CSPRNG) and possess at least 128 bits of entropy.
 links:
-- target: UR-0006
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V6.1.1
-  level: 2
+  source_ref: V7.2.3
+  level: 1

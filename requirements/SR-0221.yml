@@ -1,13 +1,13 @@
 uid: SR-0221
 type: system_requirement
 status: approved
-title: The application has appropriate limits for specific business actions or transactions
-  which are
-text: Verify the application has appropriate limits for specific business actions
-  or transactions which are correctly enforced on a per user basis.
+title: The OpenID Provider only allows values 'code'
+text: Verify that the OpenID Provider only allows values 'code', 'ciba', 'id_token',
+  or 'id_token code' for response mode. Note that 'code' is preferred over 'id_token
+  code' (the OIDC Hybrid flow), and 'token' (any Implicit flow) must not be used.
 links:
-- target: UR-0011
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V11.1.3
-  level: 1
+  source_ref: V10.6.1
+  level: 2

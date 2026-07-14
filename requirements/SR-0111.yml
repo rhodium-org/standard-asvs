@@ -1,13 +1,13 @@
 uid: SR-0111
 type: system_requirement
 status: approved
-title: The application allows users to revoke OAuth tokens that form trust relationships
-  with linked
-text: Verify the application allows users to revoke OAuth tokens that form trust relationships
-  with linked applications.
+title: Passwords of any composition can be used
+text: Verify that passwords of any composition can be used, without rules limiting
+  the type of characters permitted. There must be no requirement for a minimum number
+  of upper or lower case characters, numbers, or special characters.
 links:
-- target: UR-0003
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V3.5.1
-  level: 2
+  source_ref: V6.2.5
+  level: 1

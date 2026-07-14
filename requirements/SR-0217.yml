@@ -1,14 +1,13 @@
 uid: SR-0217
 type: system_requirement
 status: approved
-title: The application employs integrity protections
-text: Verify that the application employs integrity protections, such as code signing
-  or subresource integrity. The application must not load or execute code from untrusted
-  sources, such as loading includes, modules, plugins, code, or libraries from untrusted
-  sources or the Internet.
+title: The client uniquely identifies the user from ID Token claims
+text: Verify that the client uniquely identifies the user from ID Token claims, usually
+  the 'sub' claim, which cannot be reassigned to other users (for the scope of an
+  identity provider).
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: V10.3.2
-  level: 1
+  source_ref: V10.5.2
+  level: 2

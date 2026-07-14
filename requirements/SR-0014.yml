@@ -1,14 +1,14 @@
 uid: SR-0014
 type: system_requirement
 status: approved
-title: The application uses a single vetted authentication mechanism that is known
-  to be secure
-text: Verify that the application uses a single vetted authentication mechanism that
-  is known to be secure, can be extended to include strong authentication, and has
-  sufficient logging and monitoring to detect account abuse or breaches.
+title: The application avoids the use of eval() or other dynamic code execution features
+  such as Spring
+text: Verify that the application avoids the use of eval() or other dynamic code execution
+  features such as Spring Expression Language (SpEL). Where there is no alternative,
+  any user input being included must be sanitized before being executed.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.2.3
-  level: 2
+  source_ref: V1.3.2
+  level: 1

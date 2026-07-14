@@ -1,0 +1,12 @@
+uid: SR-0287
+type: system_requirement
+status: approved
+title: Defined sensitive data is not sent to untrusted parties (e
+text: Verify that defined sensitive data is not sent to untrusted parties (e.g., user
+  trackers) to prevent unwanted collection of data outside of the application's control.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.2.3
+  level: 2

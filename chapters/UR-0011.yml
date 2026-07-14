@@ -1,8 +1,8 @@
 uid: UR-0011
 type: user_requirement
 status: approved
-title: V11 Business Logic
-text: Verification requirements for Business Logic (V11).
+title: V11 Cryptography
+text: Verification requirements for Cryptography (V11).
 links:
 - target: INT-0001
   type: derives_from

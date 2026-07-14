@@ -1,12 +1,13 @@
 uid: SR-0183
 type: system_requirement
 status: approved
-title: A "last resort" error handler is defined which will catch all unhandled exceptions
-text: Verify that a "last resort" error handler is defined which will catch all unhandled
-  exceptions.
+title: Self-contained tokens are validated using their digital signature or MAC to
+  protect against
+text: Verify that self-contained tokens are validated using their digital signature
+  or MAC to protect against tampering before accepting the token's contents.
 links:
-- target: UR-0007
+- target: UR-0009
   type: implements
 attrs:
-  source_ref: V7.4.3
-  level: 2
+  source_ref: V9.1.1
+  level: 1

@@ -1,13 +1,14 @@
 uid: SR-0162
 type: system_requirement
 status: approved
-title: Random number
-text: Verify that random number, encryption or hashing algorithms, key lengths, rounds,
-  ciphers or modes, can be reconfigured, upgraded, or swapped at any time, to protect
-  against cryptographic breaks.
+title: The application gives the option to terminate all other active sessions after
+  a successful change
+text: Verify that the application gives the option to terminate all other active sessions
+  after a successful change or removal of any authentication factor (including password
+  change via reset or recovery and, if present, an MFA settings update).
 links:
-- target: UR-0006
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V6.2.4
+  source_ref: V7.4.3
   level: 2

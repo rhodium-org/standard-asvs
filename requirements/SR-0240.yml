@@ -1,13 +1,13 @@
 uid: SR-0240
 type: system_requirement
 status: approved
-title: Direct requests to uploaded files will never be executed as HTML/JavaScript
-  content
-text: Verify that direct requests to uploaded files will never be executed as HTML/JavaScript
-  content.
+title: Only approved hash functions are used for general cryptographic use cases
+text: Verify that only approved hash functions are used for general cryptographic
+  use cases, including digital signatures, HMAC, KDF, and random bit generation. Disallowed
+  hash functions, such as MD5, must not be used for any cryptographic purpose.
 links:
-- target: UR-0012
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V12.5.2
+  source_ref: V11.4.1
   level: 1

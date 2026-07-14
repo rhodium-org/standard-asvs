@@ -1,14 +1,12 @@
 uid: SR-0245
 type: system_requirement
 status: approved
-title: Requests containing unexpected or missing content types are rejected with appropriate
-  headers (HTTP
-text: Verify that requests containing unexpected or missing content types are rejected
-  with appropriate headers (HTTP response status 406 Unacceptable or 415 Unsupported
-  Media Type).
+title: The random number generation mechanism in use is designed to work securely
+text: Verify that the random number generation mechanism in use is designed to work
+  securely, even under heavy demand.
 links:
-- target: UR-0013
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V13.1.5
-  level: 2
+  source_ref: V11.5.2
+  level: 3

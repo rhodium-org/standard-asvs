@@ -1,13 +1,13 @@
 uid: SR-0132
 type: system_requirement
 status: approved
-title: Unstructured data is sanitized to enforce safety measures such as allowed characters
-  and length
-text: Verify that unstructured data is sanitized to enforce safety measures such as
-  allowed characters and length.
+title: Administrative users can initiate the password reset process for the user
+text: Verify that administrative users can initiate the password reset process for
+  the user, but that this does not allow them to change or choose the user's password.
+  This prevents a situation where they know the user's password.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.2.2
-  level: 1
+  source_ref: V6.4.6
+  level: 3

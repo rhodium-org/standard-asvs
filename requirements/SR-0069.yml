@@ -1,12 +1,15 @@
 uid: SR-0069
 type: system_requirement
 status: approved
-title: Password credential recovery does not reveal the current password in any way
-text: Verify password credential recovery does not reveal the current password in
-  any way.
+title: Client-side assets
+text: Verify that client-side assets, such as JavaScript libraries, CSS, or web fonts,
+  are only hosted externally (e.g., on a Content Delivery Network) if the resource
+  is static and versioned and Subresource Integrity (SRI) is used to validate the
+  integrity of the asset. If this is not possible, there should be a documented security
+  decision to justify this for each resource.
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.5.3
-  level: 1
+  source_ref: V3.6.1
+  level: 3

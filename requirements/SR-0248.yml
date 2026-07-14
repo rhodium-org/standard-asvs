@@ -1,14 +1,13 @@
 uid: SR-0248
 type: system_requirement
 status: approved
-title: RESTful web services that utilize cookies are protected from Cross-Site Request
-  Forgery via the use
-text: 'Verify that RESTful web services that utilize cookies are protected from Cross-Site
-  Request Forgery via the use of at least one or more of the following: double submit
-  cookie pattern, CSRF nonces, or Origin request header checks.'
+title: Full memory encryption is in use that protects sensitive data while it is in
+  use
+text: Verify that full memory encryption is in use that protects sensitive data while
+  it is in use, preventing access by unauthorized users or processes.
 links:
-- target: UR-0013
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V13.2.3
-  level: 1
+  source_ref: V11.7.1
+  level: 3

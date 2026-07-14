@@ -1,15 +1,12 @@
 uid: SR-0125
 type: system_requirement
 status: approved
-title: The application has additional authorization (such as step up or adaptive authentication)
-  for lower
-text: Verify the application has additional authorization (such as step up or adaptive
-  authentication) for lower value systems, and / or segregation of duties for high
-  value applications to enforce anti-fraud controls as per the risk of application
-  and past fraud.
+title: Users are notified after updates to authentication details
+text: Verify that users are notified after updates to authentication details, such
+  as credential resets or modification of the username or email address.
 links:
-- target: UR-0004
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V4.3.3
-  level: 2
+  source_ref: V6.3.7
+  level: 3

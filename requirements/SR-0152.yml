@@ -1,13 +1,14 @@
 uid: SR-0152
 type: system_requirement
 status: approved
-title: Serialized objects use integrity checks or are encrypted to prevent hostile
-  object creation or data
-text: Verify that serialized objects use integrity checks or are encrypted to prevent
-  hostile object creation or data tampering.
+title: The documentation defines how many concurrent (parallel) sessions are allowed
+  for one account as
+text: Verify that the documentation defines how many concurrent (parallel) sessions
+  are allowed for one account as well as the intended behaviors and actions to be
+  taken when the maximum number of active sessions is reached.
 links:
-- target: UR-0005
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V5.5.1
-  level: 1
+  source_ref: V7.1.2
+  level: 2

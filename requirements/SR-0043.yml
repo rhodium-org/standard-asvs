@@ -1,13 +1,12 @@
 uid: SR-0043
 type: system_requirement
 status: approved
-title: The application does not use unsupported
-text: Verify the application does not use unsupported, insecure, or deprecated client-side
-  technologies such as NSAPI plugins, Flash, Shockwave, ActiveX, Silverlight, NACL,
-  or client-side Java applets.
+title: Business logic flows require realistic human timing
+text: Verify that business logic flows require realistic human timing, preventing
+  excessively rapid transaction submissions.
 links:
-- target: UR-0001
+- target: UR-0002
   type: implements
 attrs:
-  source_ref: V1.14.6
-  level: 2
+  source_ref: V2.4.2
+  level: 3

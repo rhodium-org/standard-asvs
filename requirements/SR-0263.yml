@@ -1,12 +1,14 @@
 uid: SR-0263
 type: system_requirement
 status: approved
-title: Third party components come from pre-defined
-text: Verify that third party components come from pre-defined, trusted and continually
-  maintained repositories.
+title: For each service the application uses
+text: Verify that for each service the application uses, the documentation defines
+  the maximum number of concurrent connections (e.g., connection pool limits) and
+  how the application behaves when that limit is reached, including any fallback or
+  recovery mechanisms, to prevent denial of service conditions.
 links:
-- target: UR-0014
+- target: UR-0013
   type: implements
 attrs:
-  source_ref: V14.2.4
-  level: 2
+  source_ref: V13.1.2
+  level: 3

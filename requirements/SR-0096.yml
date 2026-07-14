@@ -1,15 +1,14 @@
 uid: SR-0096
 type: system_requirement
 status: approved
-title: Passwords
-text: Verify passwords, integrations with databases and third-party systems, seeds
-  and internal secrets, and API keys are managed securely and not included in the
-  source code or stored within source code repositories. Such storage SHOULD resist
-  offline attacks. The use of a secure software key store (L1), hardware TPM, or an
-  HSM (L3) is recommended for password storage.
+title: The application does not allow uploading compressed files containing symlinks
+  unless this is
+text: Verify that the application does not allow uploading compressed files containing
+  symlinks unless this is specifically required (in which case it will be necessary
+  to enforce an allowlist of the files that can be symlinked to).
 links:
-- target: UR-0002
+- target: UR-0005
   type: implements
 attrs:
-  source_ref: V2.10.4
-  level: 2
+  source_ref: V5.2.5
+  level: 3

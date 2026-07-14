@@ -1,13 +1,15 @@
 uid: SR-0127
 type: system_requirement
 status: approved
-title: Frameworks protect against mass parameter assignment attacks
-text: Verify that frameworks protect against mass parameter assignment attacks, or
-  that the application has countermeasures to protect against unsafe parameter assignment,
-  such as marking fields private or similar.
+title: System generated initial passwords or activation codes are securely randomly
+  generated
+text: Verify that system generated initial passwords or activation codes are securely
+  randomly generated, follow the existing password policy, and expire after a short
+  period of time or after they are initially used. These initial secrets must not
+  be permitted to become the long term password.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.1.2
+  source_ref: V6.4.1
   level: 1

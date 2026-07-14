@@ -1,12 +1,13 @@
 uid: SR-0046
 type: system_requirement
 status: approved
-title: Password change functionality requires the user's current and new password
-text: Verify that password change functionality requires the user's current and new
-  password.
+title: Content intended to be displayed as text
+text: Verify that content intended to be displayed as text, rather than rendered as
+  HTML, is handled using safe rendering functions (such as createTextNode or textContent)
+  to prevent unintended execution of content such as HTML or JavaScript.
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.1.6
+  source_ref: V3.2.2
   level: 1

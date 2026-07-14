@@ -1,0 +1,13 @@
+uid: SR-0326
+type: system_requirement
+status: approved
+title: The application logs unexpected errors and security control failures such as
+  backend TLS failures
+text: Verify that the application logs unexpected errors and security control failures
+  such as backend TLS failures.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: V16.3.4
+  level: 2

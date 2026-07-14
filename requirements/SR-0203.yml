@@ -1,13 +1,14 @@
 uid: SR-0203
 type: system_requirement
 status: approved
-title: Only the latest recommended versions of the TLS protocol are enabled
-text: Verify that only the latest recommended versions of the TLS protocol are enabled,
-  such as TLS 1.2 and TLS 1.3. The latest version of the TLS protocol should be the
-  preferred option.
+title: For a given client
+text: Verify that for a given client, the authorization server only allows the usage
+  of grants that this client needs to use. Note that the grants 'token' (Implicit
+  flow) and 'password' (Resource Owner Password Credentials flow) must no longer be
+  used.
 links:
-- target: UR-0009
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V9.1.3
+  source_ref: V10.4.4
   level: 1

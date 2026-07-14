@@ -1,13 +1,13 @@
 uid: SR-0102
 type: system_requirement
 status: approved
-title: Logout and expiration invalidate the session token
-text: Verify that logout and expiration invalidate the session token, such that the
-  back button or a downstream relying party does not resume an authenticated session,
-  including across relying parties.
+title: File names served (e
+text: Verify that file names served (e.g., in HTTP response header fields or email
+  attachments) are encoded or sanitized (e.g., following RFC 6266) to preserve document
+  structure and prevent injection attacks.
 links:
-- target: UR-0003
+- target: UR-0005
   type: implements
 attrs:
-  source_ref: V3.3.1
-  level: 1
+  source_ref: V5.4.2
+  level: 2

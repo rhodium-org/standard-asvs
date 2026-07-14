@@ -1,14 +1,15 @@
 uid: SR-0195
 type: system_requirement
 status: approved
-title: Users are provided clear language regarding collection and use of supplied
-  personal information and
-text: Verify that users are provided clear language regarding collection and use of
-  supplied personal information and that users have provided opt-in consent for the
-  use of that data before it is used in any way.
+title: The resource server only accepts access tokens that are intended for use with
+  that service
+text: Verify that the resource server only accepts access tokens that are intended
+  for use with that service (audience). The audience may be included in a structured
+  access token (such as the 'aud' claim in JWT), or it can be checked using the token
+  introspection endpoint.
 links:
-- target: UR-0008
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V8.3.3
-  level: 1
+  source_ref: V10.3.1
+  level: 2

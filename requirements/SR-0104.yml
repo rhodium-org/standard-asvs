@@ -1,15 +1,14 @@
 uid: SR-0104
 type: system_requirement
 status: approved
-title: The application gives the option to terminate all other active sessions after
-  a successful password
-text: Verify that the application gives the option to terminate all other active sessions
-  after a successful password change (including change via password reset/recovery),
-  and that this is effective across the application, federated login (if present),
-  and any relying parties.
+title: Application documentation defines how controls such as rate limiting
+text: Verify that application documentation defines how controls such as rate limiting,
+  anti-automation, and adaptive response, are used to defend against attacks such
+  as credential stuffing and password brute force. The documentation must make clear
+  how these controls are configured and prevent malicious account lockout.
 links:
-- target: UR-0003
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V3.3.3
-  level: 2
+  source_ref: V6.1.1
+  level: 1

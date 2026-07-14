@@ -1,13 +1,14 @@
 uid: SR-0136
 type: system_requirement
 status: approved
-title: The application protects against SSRF attacks
-text: Verify that the application protects against SSRF attacks, by validating or
-  sanitizing untrusted data or HTTP file metadata, such as filenames and URL input
-  fields, and uses allow lists of protocols, domains, paths and ports.
+title: Lookup secrets and out-of-band authentication codes have a minimum of 20 bits
+  of entropy (typically
+text: Verify that lookup secrets and out-of-band authentication codes have a minimum
+  of 20 bits of entropy (typically 4 random alphanumeric characters or 6 random digits
+  is sufficient).
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.2.6
-  level: 1
+  source_ref: V6.5.4
+  level: 2

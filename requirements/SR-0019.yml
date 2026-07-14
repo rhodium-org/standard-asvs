@@ -1,14 +1,15 @@
 uid: SR-0019
 type: system_requirement
 status: approved
-title: Input and output requirements clearly define how to handle and process data
-  based on type
-text: Verify that input and output requirements clearly define how to handle and process
-  data based on type, content, and applicable laws, regulations, and other policy
-  compliance.
+title: The application protects against template injection attacks by not allowing
+  templates to be built
+text: Verify that the application protects against template injection attacks by not
+  allowing templates to be built based on untrusted input. Where there is no alternative,
+  any untrusted input being included dynamically during template creation must be
+  sanitized or strictly validated.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.5.1
+  source_ref: V1.3.7
   level: 2

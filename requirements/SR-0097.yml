@@ -1,11 +1,13 @@
 uid: SR-0097
 type: system_requirement
 status: approved
-title: The application never reveals session tokens in URL parameters
-text: Verify the application never reveals session tokens in URL parameters.
+title: The application rejects uploaded images with a pixel size larger than the maximum
+  allowed
+text: Verify that the application rejects uploaded images with a pixel size larger
+  than the maximum allowed, to prevent pixel flood attacks.
 links:
-- target: UR-0003
+- target: UR-0005
   type: implements
 attrs:
-  source_ref: V3.1.1
-  level: 1
+  source_ref: V5.2.6
+  level: 3

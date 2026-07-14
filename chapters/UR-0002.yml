@@ -1,12 +1,10 @@
 uid: UR-0002
 type: user_requirement
 status: approved
-title: "V2 Authentication"
-text: The application verifies the identity of users securely — password strength,
-  storage, recovery and general authenticator controls are all held to a graded
-  baseline.
+title: V2 Validation and Business Logic
+text: Verification requirements for Validation and Business Logic (V2).
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "V2"
+  source_ref: V2

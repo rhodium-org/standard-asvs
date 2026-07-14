@@ -1,0 +1,13 @@
+uid: SR-0332
+type: system_requirement
+status: approved
+title: The application fails gracefully and securely
+text: Verify that the application fails gracefully and securely, including when an
+  exception occurs, preventing fail-open conditions such as processing a transaction
+  despite errors resulting from validation logic.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: V16.5.3
+  level: 2

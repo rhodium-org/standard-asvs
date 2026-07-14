@@ -1,14 +1,13 @@
 uid: SR-0038
 type: system_requirement
 status: approved
-title: The segregation of components of differing trust levels through well-defined
-  security controls
-text: Verify the segregation of components of differing trust levels through well-defined
-  security controls, firewall rules, API gateways, reverse proxies, cloud-based security
-  groups, or similar mechanisms.
+title: Business logic limits are implemented per the application's documentation to
+  avoid business logic
+text: Verify that business logic limits are implemented per the application's documentation
+  to avoid business logic flaws being exploited.
 links:
-- target: UR-0001
+- target: UR-0002
   type: implements
 attrs:
-  source_ref: V1.14.1
+  source_ref: V2.3.2
   level: 2

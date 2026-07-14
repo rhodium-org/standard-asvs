@@ -1,13 +1,15 @@
 uid: SR-0224
 type: system_requirement
 status: approved
-title: The application does not suffer from "Time Of Check to Time Of Use" (TOCTOU)
-  issues or other race
-text: Verify that the application does not suffer from "Time Of Check to Time Of Use"
-  (TOCTOU) issues or other race conditions for sensitive operations.
+title: When the authorization server prompts for user consent
+text: Verify that when the authorization server prompts for user consent, it presents
+  sufficient and clear information about what is being consented to. When applicable,
+  this should include the nature of the requested authorizations (typically based
+  on scope, resource server, Rich Authorization Requests (RAR) authorization details),
+  the identity of the authorized application, and the lifetime of these authorizations.
 links:
-- target: UR-0011
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V11.1.6
+  source_ref: V10.7.2
   level: 2

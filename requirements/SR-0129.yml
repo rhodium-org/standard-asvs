@@ -1,15 +1,12 @@
 uid: SR-0129
 type: system_requirement
 status: approved
-title: Structured data is strongly typed and validated against a defined schema including
-  allowed
-text: Verify that structured data is strongly typed and validated against a defined
-  schema including allowed characters, length and pattern (e.g. credit card numbers,
-  e-mail addresses, telephone numbers, or validating that two related fields are reasonable,
-  such as checking that suburb and zip/postcode match).
+title: A secure process for resetting a forgotten password is implemented
+text: Verify that a secure process for resetting a forgotten password is implemented,
+  that does not bypass any enabled multi-factor authentication mechanisms.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.1.4
-  level: 1
+  source_ref: V6.4.3
+  level: 2

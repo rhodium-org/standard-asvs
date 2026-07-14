@@ -1,13 +1,13 @@
 uid: SR-0251
 type: system_requirement
 status: approved
-title: XSD schema validation takes place to ensure a properly formed XML document
-text: Verify that XSD schema validation takes place to ensure a properly formed XML
-  document, followed by validation of each input field before any processing of that
-  data takes place.
+title: Only recommended cipher suites are enabled
+text: Verify that only recommended cipher suites are enabled, with the strongest cipher
+  suites set as preferred. L3 applications must only support cipher suites which provide
+  forward secrecy.
 links:
-- target: UR-0013
+- target: UR-0012
   type: implements
 attrs:
-  source_ref: V13.3.1
-  level: 1
+  source_ref: V12.1.2
+  level: 2

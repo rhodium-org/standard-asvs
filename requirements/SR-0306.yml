@@ -1,0 +1,13 @@
+uid: SR-0306
+type: system_requirement
+status: approved
+title: The application only returns the required subset of fields from a data object
+text: Verify that the application only returns the required subset of fields from
+  a data object. For example, it should not return an entire data object, as some
+  individual fields should not be accessible to users.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: V15.3.1
+  level: 1

@@ -1,12 +1,16 @@
 uid: SR-0076
 type: system_requirement
 status: approved
-title: Lookup secrets are resistant to offline attacks
-text: Verify that lookup secrets are resistant to offline attacks, such as predictable
-  values.
+title: Only user-facing endpoints (intended for manual web-browser access) automatically
+  redirect from
+text: Verify that only user-facing endpoints (intended for manual web-browser access)
+  automatically redirect from HTTP to HTTPS, while other services or endpoints do
+  not implement transparent redirects. This is to avoid a situation where a client
+  is erroneously sending unencrypted HTTP requests, but since the requests are being
+  automatically redirected to HTTPS, the leakage of sensitive data goes undiscovered.
 links:
-- target: UR-0002
+- target: UR-0004
   type: implements
 attrs:
-  source_ref: V2.6.3
+  source_ref: V4.1.2
   level: 2

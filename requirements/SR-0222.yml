@@ -1,14 +1,13 @@
 uid: SR-0222
 type: system_requirement
 status: approved
-title: The application has anti-automation controls to protect against excessive calls
-  such as mass data
-text: Verify that the application has anti-automation controls to protect against
-  excessive calls such as mass data exfiltration, business logic requests, file uploads
-  or denial of service attacks.
+title: The OpenID Provider mitigates denial of service through forced logout
+text: Verify that the OpenID Provider mitigates denial of service through forced logout.
+  By obtaining explicit confirmation from the end-user or, if present, validating
+  parameters in the logout request (initiated by the relying party), such as the 'id_token_hint'.
 links:
-- target: UR-0011
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V11.1.4
-  level: 1
+  source_ref: V10.6.2
+  level: 2

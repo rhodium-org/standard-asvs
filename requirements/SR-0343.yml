@@ -1,0 +1,14 @@
+uid: SR-0343
+type: system_requirement
+status: approved
+title: The Datagram Transport Layer Security (DTLS) certificate is checked against
+  the Session Description
+text: Verify that the Datagram Transport Layer Security (DTLS) certificate is checked
+  against the Session Description Protocol (SDP) fingerprint attribute, terminating
+  the media stream if the check fails, to ensure the authenticity of the media stream.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: V17.2.8
+  level: 3

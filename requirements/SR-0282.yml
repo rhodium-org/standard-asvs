@@ -1,0 +1,14 @@
+uid: SR-0282
+type: system_requirement
+status: approved
+title: The web tier is configured to only serve files with specific file extensions
+  to prevent
+text: Verify that the web tier is configured to only serve files with specific file
+  extensions to prevent unintentional information, configuration, and source code
+  leakage.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: V13.4.7
+  level: 3

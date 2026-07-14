@@ -1,0 +1,14 @@
+uid: SR-0319
+type: system_requirement
+status: approved
+title: Time sources for all logging components are synchronized
+text: Verify that time sources for all logging components are synchronized, and that
+  timestamps in security event metadata use UTC or include an explicit time zone offset.
+  UTC is recommended to ensure consistency across distributed systems and to prevent
+  confusion during daylight saving time transitions.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: V16.2.2
+  level: 2

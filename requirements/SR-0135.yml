@@ -1,13 +1,13 @@
 uid: SR-0135
 type: system_requirement
 status: approved
-title: The application protects against template injection attacks by ensuring that
-  any user input being
-text: Verify that the application protects against template injection attacks by ensuring
-  that any user input being included is sanitized or sandboxed.
+title: Lookup secrets
+text: Verify that lookup secrets, out-of-band authentication code, and time-based
+  one-time password seeds, are generated using a Cryptographically Secure Pseudorandom
+  Number Generator (CSPRNG) to avoid predictable values.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.2.5
-  level: 1
+  source_ref: V6.5.3
+  level: 2

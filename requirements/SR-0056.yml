@@ -1,14 +1,17 @@
 uid: SR-0056
 type: system_requirement
 status: approved
-title: Where a Credential Service Provider (CSP) and the application verifying authentication
-  are separated
-text: Verify that where a Credential Service Provider (CSP) and the application verifying
-  authentication are separated, mutually authenticated TLS is in place between the
-  two endpoints.
+title: 'All HTTP responses contain an ''X-Content-Type-Options: nosniff'' header field'
+text: 'Verify that all HTTP responses contain an ''X-Content-Type-Options: nosniff''
+  header field. This instructs browsers not to use content sniffing and MIME type
+  guessing for the given response, and to require the response''s Content-Type header
+  field value to match the destination resource. For example, the response to a request
+  for a style is only accepted if the response''s Content-Type is ''text/css''. This
+  also enables the use of the Cross-Origin Read Blocking (CORB) functionality by the
+  browser.'
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.2.5
-  level: 3
+  source_ref: V3.4.4
+  level: 2

@@ -1,13 +1,14 @@
 uid: SR-0196
 type: system_requirement
 status: approved
-title: All sensitive data created and processed by the application has been identified
-text: Verify that all sensitive data created and processed by the application has
-  been identified, and ensure that a policy is in place on how to deal with sensitive
-  data.
+title: The resource server enforces authorization decisions based on claims from the
+  access token that
+text: Verify that the resource server enforces authorization decisions based on claims
+  from the access token that define delegated authorization. If claims such as 'sub',
+  'scope', and 'authorization_details' are present, they must be part of the decision.
 links:
-- target: UR-0008
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V8.3.4
-  level: 1
+  source_ref: V10.3.2
+  level: 2

@@ -1,0 +1,14 @@
+uid: SR-0331
+type: system_requirement
+status: approved
+title: The application continues to operate securely when external resource access
+  fails
+text: Verify that the application continues to operate securely when external resource
+  access fails, for example, by using patterns such as circuit breakers or graceful
+  degradation.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: V16.5.2
+  level: 2

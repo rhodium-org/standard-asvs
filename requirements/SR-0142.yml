@@ -1,13 +1,13 @@
 uid: SR-0142
 type: system_requirement
 status: approved
-title: Data selection or database queries (e
-text: Verify that data selection or database queries (e.g. SQL, HQL, ORM, NoSQL) use
-  parameterized queries, ORMs, entity frameworks, or are otherwise protected from
-  database injection attacks.
+title: Out-of-band authentication requests
+text: Verify that out-of-band authentication requests, codes, or tokens are bound
+  to the original authentication request for which they were generated and are not
+  usable for a previous or subsequent one.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.3.4
-  level: 1
+  source_ref: V6.6.2
+  level: 2

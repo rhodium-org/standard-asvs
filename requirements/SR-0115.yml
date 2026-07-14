@@ -1,14 +1,11 @@
 uid: SR-0115
 type: system_requirement
 status: approved
-title: Credential Service Providers (CSPs) inform Relying Parties (RPs) of the last
-  authentication event
-text: Verify that Credential Service Providers (CSPs) inform Relying Parties (RPs)
-  of the last authentication event, to allow RPs to determine if they need to re-authenticate
-  the user.
+title: Passwords of at least 64 characters are permitted
+text: Verify that passwords of at least 64 characters are permitted.
 links:
-- target: UR-0003
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V3.6.2
-  level: 3
+  source_ref: V6.2.9
+  level: 2

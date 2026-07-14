@@ -1,17 +1,16 @@
 uid: SR-0218
 type: system_requirement
 status: approved
-title: The application has protection from subdomain takeovers if the application
-  relies upon DNS entries
-text: Verify that the application has protection from subdomain takeovers if the application
-  relies upon DNS entries or DNS subdomains, such as expired domain names, out of
-  date DNS pointers or CNAMEs, expired projects at public source code repos, or transient
-  cloud APIs, serverless functions, or storage buckets (*autogen-bucket-id*.cloud.example.com)
-  or similar. Protections can include ensuring that DNS names used by applications
-  are regularly checked for expiry or change.
+title: The client rejects attempts by a malicious authorization server to impersonate
+  another
+text: Verify that the client rejects attempts by a malicious authorization server
+  to impersonate another authorization server through authorization server metadata.
+  The client must reject authorization server metadata if the issuer URL in the authorization
+  server metadata does not exactly match the pre-configured issuer URL expected by
+  the client.
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: V10.3.3
-  level: 1
+  source_ref: V10.5.3
+  level: 2

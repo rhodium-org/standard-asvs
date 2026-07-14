@@ -1,13 +1,16 @@
 uid: SR-0068
 type: system_requirement
 status: approved
-title: Password hints or knowledge-based authentication (so-called "secret questions")
-  are not present
-text: Verify password hints or knowledge-based authentication (so-called "secret questions")
-  are not present.
+title: Authenticated resources (such as images
+text: Verify that authenticated resources (such as images, videos, scripts, and other
+  documents) can be loaded or embedded on behalf of the user only when intended. This
+  can be accomplished by strict validation of the Sec-Fetch-* HTTP request header
+  fields to ensure that the request did not originate from an inappropriate cross-origin
+  call, or by setting a restrictive Cross-Origin-Resource-Policy HTTP response header
+  field to instruct the browser to block returned content.
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.5.2
-  level: 1
+  source_ref: V3.5.8
+  level: 3

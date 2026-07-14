@@ -1,15 +1,11 @@
 uid: SR-0256
 type: system_requirement
 status: approved
-title: Compiler flags are configured to enable all available buffer overflow protections
-  and warnings
-text: Verify that compiler flags are configured to enable all available buffer overflow
-  protections and warnings, including stack randomization, data execution prevention,
-  and to break the build if an unsafe pointer, memory, format string, integer, or
-  string operations are found.
+title: External facing services use publicly trusted TLS certificates
+text: Verify that external facing services use publicly trusted TLS certificates.
 links:
-- target: UR-0014
+- target: UR-0012
   type: implements
 attrs:
-  source_ref: V14.1.2
-  level: 2
+  source_ref: V12.2.2
+  level: 1

@@ -1,12 +1,16 @@
 uid: SR-0160
 type: system_requirement
 status: approved
-title: Industry proven or government approved cryptographic algorithms
-text: Verify that industry proven or government approved cryptographic algorithms,
-  modes, and libraries are used, instead of custom coded cryptography.
+title: When session termination is triggered (such as logout or expiration)
+text: Verify that when session termination is triggered (such as logout or expiration),
+  the application disallows any further use of the session. For reference tokens or
+  stateful sessions, this means invalidating the session data at the application backend.
+  Applications using self-contained tokens will need a solution such as maintaining
+  a list of terminated tokens, disallowing tokens produced before a per-user date
+  and time or rotating a per-user signing key.
 links:
-- target: UR-0006
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V6.2.2
-  level: 2
+  source_ref: V7.4.1
+  level: 1

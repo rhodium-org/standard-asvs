@@ -1,12 +1,12 @@
 uid: SR-0157
 type: system_requirement
 status: approved
-title: Regulated health data is stored encrypted while at rest
-text: Verify that regulated health data is stored encrypted while at rest, such as
-  medical records, medical device details, or de-anonymized research records.
+title: The application generates a new session token on user authentication
+text: Verify that the application generates a new session token on user authentication,
+  including re-authentication, and terminates the current session token.
 links:
-- target: UR-0006
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V6.1.2
-  level: 2
+  source_ref: V7.2.4
+  level: 1

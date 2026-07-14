@@ -1,12 +1,14 @@
 uid: SR-0073
 type: system_requirement
 status: approved
-title: If OTP or multi-factor authentication factors are lost
-text: Verify that if OTP or multi-factor authentication factors are lost, that evidence
-  of identity proofing is performed at the same level as during enrollment.
+title: The application's top-level domain (e
+text: Verify that the application's top-level domain (e.g., site.tld) is added to
+  the public preload list for HTTP Strict Transport Security (HSTS). This ensures
+  that the use of TLS for the application is built directly into the main browsers,
+  rather than relying only on the Strict-Transport-Security response header field.
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.5.7
-  level: 2
+  source_ref: V3.7.4
+  level: 3

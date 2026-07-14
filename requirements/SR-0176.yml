@@ -1,13 +1,14 @@
 uid: SR-0176
 type: system_requirement
 status: approved
-title: All authentication decisions are logged
-text: Verify that all authentication decisions are logged, without storing sensitive
-  session tokens or passwords. This should include requests with relevant metadata
-  needed for security investigations.
+title: The application ensures that field-level access is restricted to consumers
+  with explicit
+text: Verify that the application ensures that field-level access is restricted to
+  consumers with explicit permissions to specific fields to mitigate broken object
+  property level authorization (BOPLA).
 links:
-- target: UR-0007
+- target: UR-0008
   type: implements
 attrs:
-  source_ref: V7.2.1
+  source_ref: V8.2.3
   level: 2

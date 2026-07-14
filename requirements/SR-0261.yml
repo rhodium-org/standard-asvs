@@ -1,12 +1,17 @@
 uid: SR-0261
 type: system_requirement
 status: approved
-title: All unneeded features
-text: Verify that all unneeded features, documentation, sample applications and configurations
-  are removed.
+title: Services communicating internally within a system (intra-service communications)
+  use strong
+text: Verify that services communicating internally within a system (intra-service
+  communications) use strong authentication to ensure that each endpoint is verified.
+  Strong authentication methods, such as TLS client authentication, must be employed
+  to ensure identity, using public-key infrastructure and mechanisms that are resistant
+  to replay attacks. For microservice architectures, consider using a service mesh
+  to simplify certificate management and enhance security.
 links:
-- target: UR-0014
+- target: UR-0012
   type: implements
 attrs:
-  source_ref: V14.2.2
-  level: 1
+  source_ref: V12.3.5
+  level: 3

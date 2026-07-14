@@ -1,13 +1,14 @@
 uid: SR-0219
 type: system_requirement
 status: approved
-title: The application will only process business logic flows for the same user in
-  sequential step order
-text: Verify that the application will only process business logic flows for the same
-  user in sequential step order and without skipping steps.
+title: The client validates that the ID Token is intended to be used for that client
+  (audience) by
+text: Verify that the client validates that the ID Token is intended to be used for
+  that client (audience) by checking that the 'aud' claim from the token is equal
+  to the 'client_id' value for the client.
 links:
-- target: UR-0011
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V11.1.1
-  level: 1
+  source_ref: V10.5.4
+  level: 2

@@ -1,13 +1,13 @@
 uid: SR-0276
 type: system_requirement
 status: approved
-title: The supplied Origin header is not used for authentication or access control
-  decisions
-text: Verify that the supplied Origin header is not used for authentication or access
-  control decisions, as the Origin header can easily be changed by an attacker.
+title: The application is deployed either without any source control metadata
+text: Verify that the application is deployed either without any source control metadata,
+  including the .git or .svn folders, or in a way that these folders are inaccessible
+  both externally and to the application itself.
 links:
-- target: UR-0014
+- target: UR-0013
   type: implements
 attrs:
-  source_ref: V14.5.2
+  source_ref: V13.4.1
   level: 1

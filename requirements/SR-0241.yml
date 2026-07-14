@@ -1,13 +1,15 @@
 uid: SR-0241
 type: system_requirement
 status: approved
-title: The web or application server is configured with an allow list of resources
-  or systems to which the
-text: Verify that the web or application server is configured with an allow list of
-  resources or systems to which the server can send requests or load data/files from.
+title: Passwords are stored using an approved
+text: Verify that passwords are stored using an approved, computationally intensive,
+  key derivation function (also known as a "password hashing function"), with parameter
+  settings configured based on current guidance. The settings should balance security
+  and performance to make brute-force attacks sufficiently challenging for the required
+  level of security.
 links:
-- target: UR-0012
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V12.6.1
-  level: 1
+  source_ref: V11.4.2
+  level: 2

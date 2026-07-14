@@ -1,12 +1,16 @@
 uid: SR-0060
 type: system_requirement
 status: approved
-title: Enrollment and use of user-provided authentication devices are supported
-text: Verify that enrollment and use of user-provided authentication devices are supported,
-  such as a U2F or FIDO tokens.
+title: All HTTP responses that initiate a document rendering (such as responses with
+  Content-Type
+text: Verify that all HTTP responses that initiate a document rendering (such as responses
+  with Content-Type text/html), include the Cross‑Origin‑Opener‑Policy header field
+  with the same-origin directive or the same-origin-allow-popups directive as required.
+  This prevents attacks that abuse shared access to Window objects, such as tabnabbing
+  and frame counting.
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.3.2
-  level: 2
+  source_ref: V3.4.8
+  level: 3

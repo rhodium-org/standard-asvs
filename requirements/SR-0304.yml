@@ -1,0 +1,14 @@
+uid: SR-0304
+type: system_requirement
+status: approved
+title: Third-party components and all of their transitive dependencies are included
+  from the expected
+text: Verify that third-party components and all of their transitive dependencies
+  are included from the expected repository, whether internally owned or an external
+  source, and that there is no risk of a dependency confusion attack.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: V15.2.4
+  level: 3

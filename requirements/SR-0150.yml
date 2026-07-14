@@ -1,11 +1,18 @@
 uid: SR-0150
 type: system_requirement
 status: approved
-title: Format strings do not take potentially hostile input
-text: Verify that format strings do not take potentially hostile input, and are constant.
+title: That
+text: Verify that, if an application uses a separate Identity Provider (IdP) and expects
+  specific authentication strength, methods, or recentness for specific functions,
+  the application verifies this using the information returned by the IdP. For example,
+  if OIDC is used, this might be achieved by validating ID Token claims such as 'acr',
+  'amr', and 'auth_time' (if present). If the IdP does not provide this information,
+  the application must have a documented fallback approach that assumes that the minimum
+  strength authentication mechanism was used (for example, single-factor authentication
+  using username and password).
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.4.2
+  source_ref: V6.8.4
   level: 2

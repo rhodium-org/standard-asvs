@@ -1,14 +1,14 @@
 uid: SR-0167
 type: system_requirement
 status: approved
-title: All random numbers
-text: Verify that all random numbers, random file names, random GUIDs, and random
-  strings are generated using the cryptographic module's approved cryptographically
-  secure random number generator when these random values are intended to be not guessable
-  by an attacker.
+title: The application requires further authentication with at least one factor or
+  secondary verification
+text: Verify that the application requires further authentication with at least one
+  factor or secondary verification before performing highly sensitive transactions
+  or operations.
 links:
-- target: UR-0006
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V6.3.1
-  level: 2
+  source_ref: V7.5.3
+  level: 3

@@ -1,13 +1,15 @@
 uid: SR-0215
 type: system_requirement
 status: approved
-title: The application source code and third party libraries do not contain Easter
-  eggs or any other
-text: Verify that the application source code and third party libraries do not contain
-  Easter eggs or any other potentially unwanted functionality.
+title: The client is confidential and the authorization server requires the use of
+  strong client
+text: Verify that the client is confidential and the authorization server requires
+  the use of strong client authentication methods (based on public-key cryptography
+  and resistant to replay attacks), such as mutual TLS ('tls_client_auth', 'self_signed_tls_client_auth')
+  or private key JWT ('private_key_jwt').
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: V10.2.6
+  source_ref: V10.4.16
   level: 3

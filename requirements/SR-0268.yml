@@ -1,13 +1,12 @@
 uid: SR-0268
 type: system_requirement
 status: approved
-title: Every HTTP response contains a Content-Type header
-text: Verify that every HTTP response contains a Content-Type header. Also specify
-  a safe character set (e.g., UTF-8, ISO-8859-1) if the content types are text/*,
-  /+xml and application/xml. Content must match with the provided Content-Type header.
+title: If a credential has to be used for service authentication
+text: Verify that if a credential has to be used for service authentication, the credential
+  being used by the consumer is not a default credential (e.g., root/root or admin/admin).
 links:
-- target: UR-0014
+- target: UR-0013
   type: implements
 attrs:
-  source_ref: V14.4.1
-  level: 1
+  source_ref: V13.2.3
+  level: 2

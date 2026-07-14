@@ -1,0 +1,14 @@
+uid: SR-0302
+type: system_requirement
+status: approved
+title: The application has implemented defenses against loss of availability due to
+  functionality which is
+text: Verify that the application has implemented defenses against loss of availability
+  due to functionality which is time-consuming or resource-demanding, based on the
+  documented security decisions and strategies for this.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: V15.2.2
+  level: 2

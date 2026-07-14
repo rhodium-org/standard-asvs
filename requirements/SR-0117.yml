@@ -1,12 +1,13 @@
 uid: SR-0117
 type: system_requirement
 status: approved
-title: The application enforces access control rules on a trusted service layer
-text: Verify that the application enforces access control rules on a trusted service
-  layer, especially if client-side access control is present and could be bypassed.
+title: The documented list of context specific words is used to prevent easy to guess
+  passwords being
+text: Verify that the documented list of context specific words is used to prevent
+  easy to guess passwords being created.
 links:
-- target: UR-0004
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V4.1.1
-  level: 1
+  source_ref: V6.2.11
+  level: 2

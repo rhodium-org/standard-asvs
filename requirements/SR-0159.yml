@@ -1,12 +1,13 @@
 uid: SR-0159
 type: system_requirement
 status: approved
-title: All cryptographic modules fail securely
-text: Verify that all cryptographic modules fail securely, and errors are handled
-  in a way that does not enable Padding Oracle attacks.
+title: There is an absolute maximum session lifetime such that re-authentication is
+  enforced according to
+text: Verify that there is an absolute maximum session lifetime such that re-authentication
+  is enforced according to risk analysis and documented security decisions.
 links:
-- target: UR-0006
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V6.2.1
-  level: 1
+  source_ref: V7.3.2
+  level: 2

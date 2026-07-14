@@ -1,13 +1,13 @@
 uid: SR-0267
 type: system_requirement
 status: approved
-title: The HTTP headers or any part of the HTTP response do not expose detailed version
-  information of
-text: Verify that the HTTP headers or any part of the HTTP response do not expose
-  detailed version information of system components.
+title: Communications between backend application components
+text: Verify that communications between backend application components, including
+  local or operating system services, APIs, middleware, and data layers, are performed
+  with accounts assigned the least necessary privileges.
 links:
-- target: UR-0014
+- target: UR-0013
   type: implements
 attrs:
-  source_ref: V14.3.3
-  level: 1
+  source_ref: V13.2.2
+  level: 2

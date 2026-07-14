@@ -1,16 +1,13 @@
 uid: SR-0037
 type: system_requirement
 status: approved
-title: User-uploaded files - if required to be displayed or downloaded from the application
-  - are served
-text: Verify that user-uploaded files - if required to be displayed or downloaded
-  from the application - are served by either octet stream downloads, or from an unrelated
-  domain, such as a cloud file storage bucket. Implement a suitable Content Security
-  Policy (CSP) to reduce the risk from XSS vectors or other attacks from the uploaded
-  file.
+title: The application will only process business logic flows for the same user in
+  the expected sequential
+text: Verify that the application will only process business logic flows for the same
+  user in the expected sequential step order and without skipping steps.
 links:
-- target: UR-0001
+- target: UR-0002
   type: implements
 attrs:
-  source_ref: V1.12.2
-  level: 2
+  source_ref: V2.3.1
+  level: 1

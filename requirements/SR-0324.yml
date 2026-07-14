@@ -1,0 +1,13 @@
+uid: SR-0324
+type: system_requirement
+status: approved
+title: Failed authorization attempts are logged
+text: Verify that failed authorization attempts are logged. For L3, this must include
+  logging all authorization decisions, including logging when sensitive data is accessed
+  (without logging the sensitive data itself).
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: V16.3.2
+  level: 2

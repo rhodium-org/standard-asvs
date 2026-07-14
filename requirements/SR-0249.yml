@@ -1,13 +1,13 @@
 uid: SR-0249
 type: system_requirement
 status: approved
-title: REST services explicitly check the incoming Content-Type to be the expected
-  one
-text: Verify that REST services explicitly check the incoming Content-Type to be the
-  expected one, such as application/xml or application/json.
+title: Data minimization ensures the minimal amount of data is exposed during processing
+text: Verify that data minimization ensures the minimal amount of data is exposed
+  during processing, and ensure that data is encrypted immediately after use or as
+  soon as feasible.
 links:
-- target: UR-0013
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V13.2.5
-  level: 2
+  source_ref: V11.7.2
+  level: 3

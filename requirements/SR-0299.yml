@@ -1,0 +1,13 @@
+uid: SR-0299
+type: system_requirement
+status: approved
+title: Application documentation highlights third-party libraries which are considered
+  to be "risky
+text: Verify that application documentation highlights third-party libraries which
+  are considered to be "risky components".
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: V15.1.4
+  level: 3

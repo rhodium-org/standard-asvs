@@ -1,13 +1,16 @@
 uid: SR-0177
 type: system_requirement
 status: approved
-title: All access control decisions can be logged and all failed decisions are logged
-text: Verify that all access control decisions can be logged and all failed decisions
-  are logged. This should include requests with relevant metadata needed for security
-  investigations.
+title: Adaptive security controls based on a consumer's environmental and contextual
+  attributes (such as
+text: Verify that adaptive security controls based on a consumer's environmental and
+  contextual attributes (such as time of day, location, IP address, or device) are
+  implemented for authentication and authorization decisions, as defined in the application's
+  documentation. These controls must be applied when the consumer tries to start a
+  new session and also during an existing session.
 links:
-- target: UR-0007
+- target: UR-0008
   type: implements
 attrs:
-  source_ref: V7.2.2
-  level: 2
+  source_ref: V8.2.4
+  level: 3

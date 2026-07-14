@@ -1,0 +1,13 @@
+uid: SR-0329
+type: system_requirement
+status: approved
+title: Logs are securely transmitted to a logically separate system for analysis
+text: Verify that logs are securely transmitted to a logically separate system for
+  analysis, detection, alerting, and escalation. The aim is to ensure that if the
+  application is breached, the logs are not compromised.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: V16.4.3
+  level: 2

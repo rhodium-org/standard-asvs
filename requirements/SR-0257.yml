@@ -1,13 +1,15 @@
 uid: SR-0257
 type: system_requirement
 status: approved
-title: Server configuration is hardened as per the recommendations of the application
-  server and
-text: Verify that server configuration is hardened as per the recommendations of the
-  application server and frameworks in use.
+title: An encrypted protocol such as TLS is used for all inbound and outbound connections
+  to and from the
+text: Verify that an encrypted protocol such as TLS is used for all inbound and outbound
+  connections to and from the application, including monitoring systems, management
+  tools, remote access and SSH, middleware, databases, mainframes, partner systems,
+  or external APIs. The server must not fall back to insecure or unencrypted protocols.
 links:
-- target: UR-0014
+- target: UR-0012
   type: implements
 attrs:
-  source_ref: V14.1.3
+  source_ref: V12.3.1
   level: 2

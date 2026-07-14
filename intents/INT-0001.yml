@@ -8,4 +8,4 @@ text: The OWASP Application Security Verification Standard exists so that an
   rather than ad-hoc judgement.
 normative: false
 attrs:
-  source_ref: "ASVS 4.0.3"
+  source_ref: "ASVS 5.0.0"

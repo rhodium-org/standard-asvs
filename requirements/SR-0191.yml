@@ -1,12 +1,18 @@
 uid: SR-0191
 type: system_requirement
 status: approved
-title: Data stored in browser storage (such as localStorage
-text: Verify that data stored in browser storage (such as localStorage, sessionStorage,
-  IndexedDB, or cookies) does not contain sensitive data.
+title: The client only accepts values from the authorization server (such as the authorization
+  code or ID
+text: Verify that the client only accepts values from the authorization server (such
+  as the authorization code or ID Token) if these values result from an authorization
+  flow that was initiated by the same user agent session and transaction. This requires
+  that client-generated secrets, such as the proof key for code exchange (PKCE) 'code_verifier',
+  'state' or OIDC 'nonce', are not guessable, are specific to the transaction, and
+  are securely bound to both the client and the user agent session in which the transaction
+  was started.
 links:
-- target: UR-0008
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V8.2.2
-  level: 1
+  source_ref: V10.1.2
+  level: 2

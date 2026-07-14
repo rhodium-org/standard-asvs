@@ -1,0 +1,13 @@
+uid: SR-0286
+type: system_requirement
+status: approved
+title: The application prevents sensitive data from being cached in server components
+text: Verify that the application prevents sensitive data from being cached in server
+  components, such as load balancers and application caches, or ensures that the data
+  is securely purged after use.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.2.2
+  level: 2

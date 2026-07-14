@@ -1,14 +1,14 @@
 uid: SR-0110
 type: system_requirement
 status: approved
-title: If the application is published under a domain name with other applications
-  that set or use session
-text: Verify that if the application is published under a domain name with other applications
-  that set or use session cookies that might disclose the session cookies, set the
-  path attribute in cookie-based session tokens using the most precise path possible.
+title: Passwords submitted during account registration or password change are checked
+  against an available
+text: Verify that passwords submitted during account registration or password change
+  are checked against an available set of, at least, the top 3000 passwords which
+  match the application's password policy, e.g. minimum length.
 links:
-- target: UR-0003
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V3.4.5
+  source_ref: V6.2.4
   level: 1

@@ -1,8 +1,8 @@
 uid: UR-0004
 type: user_requirement
 status: approved
-title: V4 Access Control
-text: Verification requirements for Access Control (V4).
+title: V4 API and Web Service
+text: Verification requirements for API and Web Service (V4).
 links:
 - target: INT-0001
   type: derives_from

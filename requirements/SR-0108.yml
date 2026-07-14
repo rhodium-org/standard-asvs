@@ -1,13 +1,11 @@
 uid: SR-0108
 type: system_requirement
 status: approved
-title: Cookie-based session tokens utilize the 'SameSite' attribute to limit exposure
-  to cross-site
-text: Verify that cookie-based session tokens utilize the 'SameSite' attribute to
-  limit exposure to cross-site request forgery attacks.
+title: Users can change their password
+text: Verify that users can change their password.
 links:
-- target: UR-0003
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V3.4.3
+  source_ref: V6.2.2
   level: 1

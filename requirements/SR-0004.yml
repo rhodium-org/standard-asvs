@@ -1,12 +1,14 @@
 uid: SR-0004
 type: system_requirement
 status: approved
-title: Long passwords permitted
-text: Verify that passwords of at least 64 characters are permitted, and that
-  passwords of more than 128 characters are denied.
+title: When dynamically building URLs
+text: 'Verify that when dynamically building URLs, untrusted data is encoded according
+  to its context (e.g., URL encoding or base64url encoding for query or path parameters).
+  Ensure that only safe URL protocols are permitted (e.g., disallow javascript: or
+  data:).'
 links:
-- target: UR-0002
+- target: UR-0001
   type: implements
 attrs:
-  source_ref: "V2.1.2"
+  source_ref: V1.2.2
   level: 1

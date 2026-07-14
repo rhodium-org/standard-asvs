@@ -1,12 +1,14 @@
 uid: SR-0028
 type: system_requirement
 status: approved
-title: Logs are securely transmitted to a preferably remote system for analysis
-text: Verify that logs are securely transmitted to a preferably remote system for
-  analysis, detection, alerting, and escalation.
+title: The application configures XML parsers to use a restrictive configuration and
+  that unsafe features
+text: Verify that the application configures XML parsers to use a restrictive configuration
+  and that unsafe features such as resolving external entities are disabled to prevent
+  XML eXternal Entity (XXE) attacks.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.7.2
-  level: 2
+  source_ref: V1.5.1
+  level: 1

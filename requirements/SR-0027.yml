@@ -1,11 +1,13 @@
 uid: SR-0027
 type: system_requirement
 status: approved
-title: A common logging format and approach is used across the system
-text: Verify that a common logging format and approach is used across the system.
+title: Dynamically allocated memory and resources are released
+text: Verify that dynamically allocated memory and resources are released, and that
+  references or pointers to freed memory are removed or set to null to prevent dangling
+  pointers and use-after-free vulnerabilities.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.7.1
+  source_ref: V1.4.3
   level: 2

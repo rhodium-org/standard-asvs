@@ -1,13 +1,14 @@
 uid: SR-0227
 type: system_requirement
 status: approved
-title: The application will not accept large files that could fill up storage or cause
-  a denial of service
-text: Verify that the application will not accept large files that could fill up storage
-  or cause a denial of service.
+title: A cryptographic inventory is performed
+text: Verify that a cryptographic inventory is performed, maintained, regularly updated,
+  and includes all cryptographic keys, algorithms, and certificates used by the application.
+  It must also document where keys can and cannot be used in the system, and the types
+  of data that can and cannot be protected using the keys.
 links:
-- target: UR-0012
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V12.1.1
-  level: 1
+  source_ref: V11.1.2
+  level: 2

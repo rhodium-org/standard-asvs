@@ -1,13 +1,15 @@
 uid: SR-0182
 type: system_requirement
 status: approved
-title: Exception handling (or a functional equivalent) is used across the codebase
-  to account for expected
-text: Verify that exception handling (or a functional equivalent) is used across the
-  codebase to account for expected and unexpected error conditions.
+title: Access to administrative interfaces incorporates multiple layers of security
+text: Verify that access to administrative interfaces incorporates multiple layers
+  of security, including continuous consumer identity verification, device security
+  posture assessment, and contextual risk analysis, ensuring that network location
+  or trusted endpoints are not the sole factors for authorization even though they
+  may reduce the likelihood of unauthorized access.
 links:
-- target: UR-0007
+- target: UR-0008
   type: implements
 attrs:
-  source_ref: V7.4.2
-  level: 2
+  source_ref: V8.4.2
+  level: 3

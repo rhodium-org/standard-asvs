@@ -1,11 +1,13 @@
 uid: SR-0101
 type: system_requirement
 status: approved
-title: Session tokens are generated using approved cryptographic algorithms
-text: Verify that session tokens are generated using approved cryptographic algorithms.
+title: The application validates or ignores user-submitted filenames
+text: Verify that the application validates or ignores user-submitted filenames, including
+  in a JSON, JSONP, or URL parameter and specifies a filename in the Content-Disposition
+  header field in the response.
 links:
-- target: UR-0003
+- target: UR-0005
   type: implements
 attrs:
-  source_ref: V3.2.4
+  source_ref: V5.4.1
   level: 2

@@ -1,0 +1,12 @@
+uid: SR-0307
+type: system_requirement
+status: approved
+title: Where the application backend makes calls to external URLs
+text: Verify that where the application backend makes calls to external URLs, it is
+  configured to not follow redirects unless it is intended functionality.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: V15.3.2
+  level: 2

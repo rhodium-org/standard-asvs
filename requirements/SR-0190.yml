@@ -1,13 +1,13 @@
 uid: SR-0190
 type: system_requirement
 status: approved
-title: The application sets sufficient anti-caching headers so that sensitive data
-  is not cached in modern
-text: Verify the application sets sufficient anti-caching headers so that sensitive
-  data is not cached in modern browsers.
+title: Tokens are only sent to components that strictly need them
+text: Verify that tokens are only sent to components that strictly need them. For
+  example, when using a backend-for-frontend pattern for browser-based JavaScript
+  applications, access and refresh tokens shall only be accessible for the backend.
 links:
-- target: UR-0008
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V8.2.1
-  level: 1
+  source_ref: V10.1.1
+  level: 2

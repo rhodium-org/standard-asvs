@@ -1,13 +1,12 @@
 uid: SR-0025
 type: system_requirement
 status: approved
-title: All keys and passwords are replaceable and are part of a well-defined process
-  to re-encrypt
-text: Verify that all keys and passwords are replaceable and are part of a well-defined
-  process to re-encrypt sensitive data.
+title: The application uses memory-safe string
+text: Verify that the application uses memory-safe string, safer memory copy and pointer
+  arithmetic to detect or prevent stack, buffer, or heap overflows.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.6.3
+  source_ref: V1.4.1
   level: 2

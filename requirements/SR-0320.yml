@@ -1,0 +1,13 @@
+uid: SR-0320
+type: system_requirement
+status: approved
+title: The application only stores or broadcasts logs to the files and services that
+  are documented in the
+text: Verify that the application only stores or broadcasts logs to the files and
+  services that are documented in the log inventory.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: V16.2.3
+  level: 2

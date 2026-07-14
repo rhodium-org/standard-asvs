@@ -1,12 +1,15 @@
 uid: SR-0031
 type: system_requirement
 status: approved
-title: The application encrypts communications between components
-text: Verify the application encrypts communications between components, particularly
-  when these components are in different containers, systems, sites, or cloud providers.
+title: The application's documentation defines input validation rules for how to check
+  the validity of
+text: Verify that the application's documentation defines input validation rules for
+  how to check the validity of data items against an expected structure. This could
+  be common data formats such as credit card numbers, email addresses, telephone numbers,
+  or it could be an internal data format.
 links:
-- target: UR-0001
+- target: UR-0002
   type: implements
 attrs:
-  source_ref: V1.9.1
-  level: 2
+  source_ref: V2.1.1
+  level: 1

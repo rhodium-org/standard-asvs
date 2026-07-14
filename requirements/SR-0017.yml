@@ -1,14 +1,14 @@
 uid: SR-0017
 type: system_requirement
 status: approved
-title: The application uses a single and well-vetted access control mechanism for
-  accessing protected data
-text: Verify the application uses a single and well-vetted access control mechanism
-  for accessing protected data and resources. All requests must pass through this
-  single mechanism to avoid copy and paste or insecure alternative paths.
+title: The application sanitizes or disables user-supplied scriptable or expression
+  template language
+text: Verify that the application sanitizes or disables user-supplied scriptable or
+  expression template language content, such as Markdown, CSS or XSL stylesheets,
+  BBCode, or similar.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.4.4
+  source_ref: V1.3.5
   level: 2

@@ -1,0 +1,15 @@
+uid: SR-0337
+type: system_requirement
+status: approved
+title: The media server is configured to use and support approved Datagram Transport
+  Layer Security (DTLS)
+text: Verify that the media server is configured to use and support approved Datagram
+  Transport Layer Security (DTLS) cipher suites and a secure protection profile for
+  the DTLS Extension for establishing keys for the Secure Real-time Transport Protocol
+  (DTLS-SRTP).
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: V17.2.2
+  level: 2

@@ -1,12 +1,15 @@
 uid: SR-0199
 type: system_requirement
 status: approved
-title: Sensitive or private information that is required to be encrypted
-text: Verify that sensitive or private information that is required to be encrypted,
-  is encrypted using approved algorithms that provide both confidentiality and integrity.
+title: The resource server prevents the use of stolen access tokens or replay of access
+  tokens (from
+text: Verify that the resource server prevents the use of stolen access tokens or
+  replay of access tokens (from unauthorized parties) by requiring sender-constrained
+  access tokens, either Mutual TLS for OAuth 2 or OAuth 2 Demonstration of Proof of
+  Possession (DPoP).
 links:
-- target: UR-0008
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V8.3.7
-  level: 2
+  source_ref: V10.3.5
+  level: 3

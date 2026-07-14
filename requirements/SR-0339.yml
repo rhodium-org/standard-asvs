@@ -1,0 +1,13 @@
+uid: SR-0339
+type: system_requirement
+status: approved
+title: The media server is able to continue processing incoming media traffic when
+  encountering malformed
+text: Verify that the media server is able to continue processing incoming media traffic
+  when encountering malformed Secure Real-time Transport Protocol (SRTP) packets.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: V17.2.4
+  level: 2

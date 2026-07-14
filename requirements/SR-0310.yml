@@ -1,0 +1,15 @@
+uid: SR-0310
+type: system_requirement
+status: approved
+title: The application explicitly ensures that variables are of the correct type and
+  performs strict
+text: Verify that the application explicitly ensures that variables are of the correct
+  type and performs strict equality and comparator operations. This is to avoid type
+  juggling or type confusion vulnerabilities caused by the application code making
+  an assumption about a variable type.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: V15.3.5
+  level: 2

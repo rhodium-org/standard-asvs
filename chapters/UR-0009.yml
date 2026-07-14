@@ -1,8 +1,8 @@
 uid: UR-0009
 type: user_requirement
 status: approved
-title: V9 Communication
-text: Verification requirements for Communication (V9).
+title: V9 Self-contained Tokens
+text: Verification requirements for Self-contained Tokens (V9).
 links:
 - target: INT-0001
   type: derives_from

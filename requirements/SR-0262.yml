@@ -1,13 +1,14 @@
 uid: SR-0262
 type: system_requirement
 status: approved
-title: If application assets
-text: Verify that if application assets, such as JavaScript libraries, CSS or web
-  fonts, are hosted externally on a Content Delivery Network (CDN) or external provider,
-  Subresource Integrity (SRI) is used to validate the integrity of the asset.
+title: All communication needs for the application are documented
+text: Verify that all communication needs for the application are documented. This
+  must include external services which the application relies upon and cases where
+  an end user might be able to provide an external location to which the application
+  will then connect.
 links:
-- target: UR-0014
+- target: UR-0013
   type: implements
 attrs:
-  source_ref: V14.2.3
-  level: 1
+  source_ref: V13.1.1
+  level: 2

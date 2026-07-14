@@ -1,8 +1,8 @@
 uid: UR-0010
 type: user_requirement
 status: approved
-title: V10 Malicious Code
-text: Verification requirements for Malicious Code (V10).
+title: V10 OAuth and OIDC
+text: Verification requirements for OAuth and OIDC (V10).
 links:
 - target: INT-0001
   type: derives_from

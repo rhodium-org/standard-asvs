@@ -1,12 +1,13 @@
 uid: SR-0145
 type: system_requirement
 status: approved
-title: The application protects against LDAP injection vulnerabilities
-text: Verify that the application protects against LDAP injection vulnerabilities,
-  or that specific security controls to prevent LDAP injection have been implemented.
+title: The certificates used to verify cryptographic authentication assertions are
+  stored in a way
+text: Verify that the certificates used to verify cryptographic authentication assertions
+  are stored in a way protects them from modification.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.3.7
-  level: 1
+  source_ref: V6.7.1
+  level: 3

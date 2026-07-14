@@ -1,14 +1,14 @@
 uid: SR-0032
 type: system_requirement
 status: approved
-title: Application components verify the authenticity of each side in a communication
-  link to prevent
-text: Verify that application components verify the authenticity of each side in a
-  communication link to prevent person-in-the-middle attacks. For example, application
-  components should validate TLS certificates and chains.
+title: The application's documentation defines how to validate the logical and contextual
+  consistency of
+text: Verify that the application's documentation defines how to validate the logical
+  and contextual consistency of combined data items, such as checking that suburb
+  and ZIP code match.
 links:
-- target: UR-0001
+- target: UR-0002
   type: implements
 attrs:
-  source_ref: V1.9.2
+  source_ref: V2.1.2
   level: 2

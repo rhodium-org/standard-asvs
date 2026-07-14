@@ -1,13 +1,13 @@
 uid: SR-0118
 type: system_requirement
 status: approved
-title: All user and data attributes and policy information used by access controls
-  cannot be manipulated
-text: Verify that all user and data attributes and policy information used by access
-  controls cannot be manipulated by end users unless specifically authorized.
+title: Passwords submitted during account registration or password changes are checked
+  against a set of
+text: Verify that passwords submitted during account registration or password changes
+  are checked against a set of breached passwords.
 links:
-- target: UR-0004
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V4.1.2
-  level: 1
+  source_ref: V6.2.12
+  level: 2

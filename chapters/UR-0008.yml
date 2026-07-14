@@ -1,8 +1,8 @@
 uid: UR-0008
 type: user_requirement
 status: approved
-title: V8 Data Protection
-text: Verification requirements for Data Protection (V8).
+title: V8 Authorization
+text: Verification requirements for Authorization (V8).
 links:
 - target: INT-0001
   type: derives_from

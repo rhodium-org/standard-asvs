@@ -1,0 +1,12 @@
+uid: SR-0321
+type: system_requirement
+status: approved
+title: Logs can be read and correlated by the log processor that is in use
+text: Verify that logs can be read and correlated by the log processor that is in
+  use, preferably by using a common logging format.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: V16.2.4
+  level: 2

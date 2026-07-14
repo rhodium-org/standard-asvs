@@ -1,11 +1,13 @@
 uid: SR-0086
 type: system_requirement
 status: approved
-title: Time-based OTP can be used only once within the validity period
-text: Verify that time-based OTP can be used only once within the validity period.
+title: GraphQL introspection queries are disabled in the production environment unless
+  the GraphQL API is
+text: Verify that GraphQL introspection queries are disabled in the production environment
+  unless the GraphQL API is meant to be used by other parties.
 links:
-- target: UR-0002
+- target: UR-0004
   type: implements
 attrs:
-  source_ref: V2.8.4
+  source_ref: V4.3.2
   level: 2

@@ -1,12 +1,14 @@
 uid: SR-0029
 type: system_requirement
 status: approved
-title: All sensitive data is identified and classified into protection levels
-text: Verify that all sensitive data is identified and classified into protection
-  levels.
+title: Deserialization of untrusted data enforces safe input handling
+text: Verify that deserialization of untrusted data enforces safe input handling,
+  such as using an allowlist of object types or restricting client-defined object
+  types, to prevent deserialization attacks. Deserialization mechanisms that are explicitly
+  defined as insecure must not be used with untrusted input.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.8.1
+  source_ref: V1.5.2
   level: 2

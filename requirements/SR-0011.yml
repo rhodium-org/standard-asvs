@@ -1,12 +1,13 @@
 uid: SR-0011
 type: system_requirement
 status: approved
-title: Availability of a secure coding checklist
-text: Verify availability of a secure coding checklist, security requirements, guideline,
-  or policy to all developers and testers.
+title: The application escapes special characters in regular expressions (typically
+  using a backslash) to
+text: Verify that the application escapes special characters in regular expressions
+  (typically using a backslash) to prevent them from being misinterpreted as metacharacters.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.1.7
+  source_ref: V1.2.9
   level: 2

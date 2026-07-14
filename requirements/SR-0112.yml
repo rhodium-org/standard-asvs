@@ -1,12 +1,13 @@
 uid: SR-0112
 type: system_requirement
 status: approved
-title: The application uses session tokens rather than static API secrets and keys
-text: Verify the application uses session tokens rather than static API secrets and
-  keys, except with legacy implementations.
+title: Password input fields use type=password to mask the entry
+text: Verify that password input fields use type=password to mask the entry. Applications
+  may allow the user to temporarily view the entire masked password, or the last typed
+  character of the password.
 links:
-- target: UR-0003
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V3.5.2
-  level: 2
+  source_ref: V6.2.6
+  level: 1

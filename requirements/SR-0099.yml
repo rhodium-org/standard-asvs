@@ -1,11 +1,15 @@
 uid: SR-0099
 type: system_requirement
 status: approved
-title: Session tokens possess at least 64 bits of entropy
-text: Verify that session tokens possess at least 64 bits of entropy.
+title: When the application creates file paths for file operations
+text: Verify that when the application creates file paths for file operations, instead
+  of user-submitted filenames, it uses internally generated or trusted data, or if
+  user-submitted filenames or file metadata must be used, strict validation and sanitization
+  must be applied. This is to protect against path traversal, local or remote file
+  inclusion (LFI, RFI), and server-side request forgery (SSRF) attacks.
 links:
-- target: UR-0003
+- target: UR-0005
   type: implements
 attrs:
-  source_ref: V3.2.2
+  source_ref: V5.3.2
   level: 1

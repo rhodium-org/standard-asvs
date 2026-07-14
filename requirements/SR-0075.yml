@@ -1,13 +1,15 @@
 uid: SR-0075
 type: system_requirement
 status: approved
-title: Lookup secrets have sufficient randomness (112 bits of entropy)
-text: Verify that lookup secrets have sufficient randomness (112 bits of entropy),
-  or if less than 112 bits of entropy, salted with a unique and random 32-bit salt
-  and hashed with an approved one-way hash.
+title: Every HTTP response with a message body contains a Content-Type header field
+  that matches the
+text: Verify that every HTTP response with a message body contains a Content-Type
+  header field that matches the actual content of the response, including the charset
+  parameter to specify safe character encoding (e.g., UTF-8, ISO-8859-1) according
+  to IANA Media Types, such as "text/", "/+xml" and "/xml".
 links:
-- target: UR-0002
+- target: UR-0004
   type: implements
 attrs:
-  source_ref: V2.6.2
-  level: 2
+  source_ref: V4.1.1
+  level: 1

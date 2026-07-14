@@ -1,13 +1,13 @@
 uid: SR-0089
 type: system_requirement
 status: approved
-title: Biometric authenticators are limited to use only as secondary factors in conjunction
-  with either
-text: Verify that biometric authenticators are limited to use only as secondary factors
-  in conjunction with either something you have and something you know.
+title: That
+text: Verify that, if the application's standard session management cannot be used,
+  dedicated tokens are being used for this, which comply with the relevant Session
+  Management security requirements.
 links:
-- target: UR-0002
+- target: UR-0004
   type: implements
 attrs:
-  source_ref: V2.8.7
+  source_ref: V4.4.3
   level: 2

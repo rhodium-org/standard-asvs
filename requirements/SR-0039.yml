@@ -1,12 +1,14 @@
 uid: SR-0039
 type: system_requirement
 status: approved
-title: Binary signatures
-text: Verify that binary signatures, trusted connections, and verified endpoints are
-  used to deploy binaries to remote devices.
+title: Transactions are being used at the business logic level such that either a
+  business logic operation
+text: Verify that transactions are being used at the business logic level such that
+  either a business logic operation succeeds in its entirety or it is rolled back
+  to the previous correct state.
 links:
-- target: UR-0001
+- target: UR-0002
   type: implements
 attrs:
-  source_ref: V1.14.2
+  source_ref: V2.3.3
   level: 2

@@ -1,12 +1,15 @@
 uid: SR-0091
 type: system_requirement
 status: approved
-title: The challenge nonce is at least 64 bits in length
-text: Verify that the challenge nonce is at least 64 bits in length, and statistically
-  unique or unique over the lifetime of the cryptographic device.
+title: The documentation defines the permitted file types
+text: Verify that the documentation defines the permitted file types, expected file
+  extensions, and maximum size (including unpacked size) for each upload feature.
+  Additionally, ensure that the documentation specifies how files are made safe for
+  end-users to download and process, such as how the application behaves when a malicious
+  file is detected.
 links:
-- target: UR-0002
+- target: UR-0005
   type: implements
 attrs:
-  source_ref: V2.9.2
+  source_ref: V5.1.1
   level: 2

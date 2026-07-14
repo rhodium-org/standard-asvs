@@ -1,15 +1,14 @@
 uid: SR-0274
 type: system_requirement
 status: approved
-title: The content of a web application cannot be embedded in a third-party site by
-  default and that
-text: 'Verify that the content of a web application cannot be embedded in a third-party
-  site by default and that embedding of the exact resources is only allowed where
-  necessary by using suitable Content-Security-Policy: frame-ancestors and X-Frame-Options
-  response headers.'
+title: All cryptographic operations are performed using an isolated security module
+  (such as a vault or
+text: Verify that all cryptographic operations are performed using an isolated security
+  module (such as a vault or hardware security module) to securely manage and protect
+  key material from exposure outside of the security module.
 links:
-- target: UR-0014
+- target: UR-0013
   type: implements
 attrs:
-  source_ref: V14.4.7
-  level: 1
+  source_ref: V13.3.3
+  level: 3

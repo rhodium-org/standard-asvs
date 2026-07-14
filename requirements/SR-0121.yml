@@ -1,15 +1,19 @@
 uid: SR-0121
 type: system_requirement
 status: approved
-title: Sensitive data and APIs are protected against Insecure Direct Object Reference
-  (IDOR) attacks
-text: Verify that sensitive data and APIs are protected against Insecure Direct Object
-  Reference (IDOR) attacks targeting creation, reading, updating and deletion of records,
-  such as creating or updating someone else's record, viewing everyone's records,
-  or deleting all records.
+title: Either a multi-factor authentication mechanism or a combination of single-factor
+  authentication
+text: Verify that either a multi-factor authentication mechanism or a combination
+  of single-factor authentication mechanisms, must be used in order to access the
+  application. For L3, one of the factors must be a hardware-based authentication
+  mechanism which provides compromise and impersonation resistance against phishing
+  attacks while verifying the intent to authenticate by requiring a user-initiated
+  action (such as a button press on a FIDO hardware key or a mobile phone). Relaxing
+  any of the considerations in this requirement requires a fully documented rationale
+  and a comprehensive set of mitigating controls.
 links:
-- target: UR-0004
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V4.2.1
-  level: 1
+  source_ref: V6.3.3
+  level: 2

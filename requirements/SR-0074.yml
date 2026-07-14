@@ -1,11 +1,14 @@
 uid: SR-0074
 type: system_requirement
 status: approved
-title: Lookup secrets can be used only once
-text: Verify that lookup secrets can be used only once.
+title: The application behaves as documented (such as warning the user or blocking
+  access) if the browser
+text: Verify that the application behaves as documented (such as warning the user
+  or blocking access) if the browser used to access the application does not support
+  the expected security features.
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.6.1
-  level: 2
+  source_ref: V3.7.5
+  level: 3

@@ -1,13 +1,13 @@
 uid: SR-0230
 type: system_requirement
 status: approved
-title: Files obtained from untrusted sources are validated to be of expected type
-  based on the file's
-text: Verify that files obtained from untrusted sources are validated to be of expected
-  type based on the file's content.
+title: Industry-validated implementations (including libraries and hardware-accelerated
+  implementations)
+text: Verify that industry-validated implementations (including libraries and hardware-accelerated
+  implementations) are used for cryptographic operations.
 links:
-- target: UR-0012
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V12.2.1
+  source_ref: V11.2.1
   level: 2

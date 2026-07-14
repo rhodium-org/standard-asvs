@@ -1,0 +1,13 @@
+uid: SR-0297
+type: system_requirement
+status: approved
+title: An inventory catalog
+text: Verify that an inventory catalog, such as software bill of materials (SBOM),
+  is maintained of all third-party libraries in use, including verifying that components
+  come from pre-defined, trusted, and continually maintained repositories.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: V15.1.2
+  level: 2

@@ -1,14 +1,15 @@
 uid: SR-0041
 type: system_requirement
 status: approved
-title: The build pipeline contains a build step to automatically build and verify
-  the secure deployment of
-text: Verify that the build pipeline contains a build step to automatically build
-  and verify the secure deployment of the application, particularly if the application
-  infrastructure is software defined, such as cloud environment build scripts.
+title: High-value business logic flows require multi-user approval to prevent unauthorized
+  or accidental
+text: Verify that high-value business logic flows require multi-user approval to prevent
+  unauthorized or accidental actions. This could include but is not limited to large
+  monetary transfers, contract approvals, access to classified information, or safety
+  overrides in manufacturing.
 links:
-- target: UR-0001
+- target: UR-0002
   type: implements
 attrs:
-  source_ref: V1.14.4
-  level: 2
+  source_ref: V2.3.5
+  level: 3

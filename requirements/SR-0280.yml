@@ -1,0 +1,13 @@
+uid: SR-0280
+type: system_requirement
+status: approved
+title: Documentation (such as for internal APIs) and monitoring endpoints are not
+  exposed unless
+text: Verify that documentation (such as for internal APIs) and monitoring endpoints
+  are not exposed unless explicitly intended.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: V13.4.5
+  level: 2

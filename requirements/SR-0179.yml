@@ -1,11 +1,16 @@
 uid: SR-0179
 type: system_requirement
 status: approved
-title: Security logs are protected from unauthorized access and modification
-text: Verify that security logs are protected from unauthorized access and modification.
+title: Changes to values on which authorization decisions are made are applied immediately
+text: Verify that changes to values on which authorization decisions are made are
+  applied immediately. Where changes cannot be applied immediately, (such as when
+  relying on data in self-contained tokens), there must be mitigating controls to
+  alert when a consumer performs an action when they are no longer authorized to do
+  so and revert the change. Note that this alternative would not mitigate information
+  leakage.
 links:
-- target: UR-0007
+- target: UR-0008
   type: implements
 attrs:
-  source_ref: V7.3.3
-  level: 2
+  source_ref: V8.3.2
+  level: 3

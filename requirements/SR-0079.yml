@@ -1,12 +1,14 @@
 uid: SR-0079
 type: system_requirement
 status: approved
-title: The out of band verifier authentication requests
-text: Verify that the out of band verifier authentication requests, codes, or tokens
-  are only usable once, and only for the original authentication request.
+title: Per-message digital signatures are used to provide additional assurance on
+  top of transport
+text: Verify that per-message digital signatures are used to provide additional assurance
+  on top of transport protections for requests or transactions which are highly sensitive
+  or which traverse a number of systems.
 links:
-- target: UR-0002
+- target: UR-0004
   type: implements
 attrs:
-  source_ref: V2.7.3
-  level: 1
+  source_ref: V4.1.5
+  level: 3

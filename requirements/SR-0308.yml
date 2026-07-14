@@ -1,0 +1,14 @@
+uid: SR-0308
+type: system_requirement
+status: approved
+title: The application has countermeasures to protect against mass assignment attacks
+  by limiting allowed
+text: Verify that the application has countermeasures to protect against mass assignment
+  attacks by limiting allowed fields per controller and action, e.g., it is not possible
+  to insert or update a field value when it was not intended to be part of that action.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: V15.3.3
+  level: 2

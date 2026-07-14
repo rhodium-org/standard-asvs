@@ -1,12 +1,14 @@
 uid: SR-0237
 type: system_requirement
 status: approved
-title: Files obtained from untrusted sources are stored outside the web root
-text: Verify that files obtained from untrusted sources are stored outside the web
-  root, with limited permissions.
+title: Encrypted data is protected against unauthorized modification preferably by
+  using an approved
+text: Verify that encrypted data is protected against unauthorized modification preferably
+  by using an approved authenticated encryption method or by combining an approved
+  encryption method with an approved MAC algorithm.
 links:
-- target: UR-0012
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V12.4.1
-  level: 1
+  source_ref: V11.3.3
+  level: 2

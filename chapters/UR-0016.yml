@@ -1,0 +1,10 @@
+uid: UR-0016
+type: user_requirement
+status: approved
+title: V16 Security Logging and Error Handling
+text: Verification requirements for Security Logging and Error Handling (V16).
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: V16

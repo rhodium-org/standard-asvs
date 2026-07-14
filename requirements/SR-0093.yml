@@ -1,12 +1,18 @@
 uid: SR-0093
 type: system_requirement
 status: approved
-title: Intra-service secrets do not rely on unchanging credentials such as passwords
-text: Verify that intra-service secrets do not rely on unchanging credentials such
-  as passwords, API keys or shared accounts with privileged access.
+title: When the application accepts a file
+text: Verify that when the application accepts a file, either on its own or within
+  an archive such as a zip file, it checks if the file extension matches an expected
+  file extension and validates that the contents correspond to the type represented
+  by the extension. This includes, but is not limited to, checking the initial 'magic
+  bytes', performing image re-writing, and using specialized libraries for file content
+  validation. For L1, this can focus just on files which are used to make specific
+  business or security decisions. For L2 and up, this must apply to all files being
+  accepted.
 links:
-- target: UR-0002
+- target: UR-0005
   type: implements
 attrs:
-  source_ref: V2.10.1
-  level: 2
+  source_ref: V5.2.2
+  level: 1

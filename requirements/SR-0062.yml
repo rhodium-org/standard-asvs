@@ -1,14 +1,15 @@
 uid: SR-0062
 type: system_requirement
 status: approved
-title: Passwords are stored in a form that is resistant to offline attacks
-text: Verify that passwords are stored in a form that is resistant to offline attacks.
-  Passwords SHALL be salted and hashed using an approved one-way key derivation or
-  password hashing function. Key derivation and password hashing functions take a
-  password, a salt, and a cost factor as inputs when generating a password hash.
+title: That
+text: Verify that, if the application relies on the CORS preflight mechanism to prevent
+  disallowed cross-origin use of sensitive functionality, it is not possible to call
+  the functionality with a request which does not trigger a CORS-preflight request.
+  This may require checking the values of the 'Origin' and 'Content-Type' request
+  header fields or using an extra header field that is not a CORS-safelisted header-field.
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.4.1
-  level: 2
+  source_ref: V3.5.2
+  level: 1

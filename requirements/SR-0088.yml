@@ -1,14 +1,12 @@
 uid: SR-0088
 type: system_requirement
 status: approved
-title: Physical single-factor OTP generator can be revoked in case of theft or other
-  loss
-text: Verify physical single-factor OTP generator can be revoked in case of theft
-  or other loss. Ensure that revocation is immediately effective across logged in
-  sessions, regardless of location.
+title: That
+text: Verify that, during the initial HTTP WebSocket handshake, the Origin header
+  field is checked against a list of origins allowed for the application.
 links:
-- target: UR-0002
+- target: UR-0004
   type: implements
 attrs:
-  source_ref: V2.8.6
+  source_ref: V4.4.2
   level: 2

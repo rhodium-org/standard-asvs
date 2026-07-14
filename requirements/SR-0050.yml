@@ -1,12 +1,13 @@
 uid: SR-0050
 type: system_requirement
 status: approved
-title: '"paste" functionality'
-text: Verify that "paste" functionality, browser password helpers, and external password
-  managers are permitted.
+title: Cookies have the '__Host-' prefix for the cookie name unless they are explicitly
+  designed to be
+text: Verify that cookies have the '__Host-' prefix for the cookie name unless they
+  are explicitly designed to be shared with other hosts.
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.1.11
-  level: 1
+  source_ref: V3.3.3
+  level: 2

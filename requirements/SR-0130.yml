@@ -1,13 +1,12 @@
 uid: SR-0130
 type: system_requirement
 status: approved
-title: URL redirects and forwards only allow destinations which appear on an allow
-  list
-text: Verify that URL redirects and forwards only allow destinations which appear
-  on an allow list, or show a warning when redirecting to potentially untrusted content.
+title: If a multi-factor authentication factor is lost
+text: Verify that if a multi-factor authentication factor is lost, evidence of identity
+  proofing is performed at the same level as during enrollment.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.1.5
-  level: 1
+  source_ref: V6.4.4
+  level: 2

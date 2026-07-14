@@ -1,12 +1,14 @@
 uid: SR-0155
 type: system_requirement
 status: approved
-title: When parsing JSON in browsers or JavaScript-based backends
-text: Verify that when parsing JSON in browsers or JavaScript-based backends, JSON.parse
-  is used to parse the JSON document. Do not use eval() to parse JSON.
+title: The application uses either self-contained or reference tokens that are dynamically
+  generated for
+text: Verify that the application uses either self-contained or reference tokens that
+  are dynamically generated for session management, i.e. not using static API secrets
+  and keys.
 links:
-- target: UR-0005
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V5.5.4
+  source_ref: V7.2.2
   level: 1

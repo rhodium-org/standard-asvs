@@ -1,13 +1,14 @@
 uid: SR-0095
 type: system_requirement
 status: approved
-title: Passwords are stored with sufficient protection to prevent offline recovery
-  attacks
-text: Verify that passwords are stored with sufficient protection to prevent offline
-  recovery attacks, including local system access.
+title: A file size quota and maximum number of files per user are enforced to ensure
+  that a single user
+text: Verify that a file size quota and maximum number of files per user are enforced
+  to ensure that a single user cannot fill up the storage with too many files, or
+  excessively large files.
 links:
-- target: UR-0002
+- target: UR-0005
   type: implements
 attrs:
-  source_ref: V2.10.3
-  level: 2
+  source_ref: V5.2.4
+  level: 3

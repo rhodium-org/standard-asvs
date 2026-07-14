@@ -1,14 +1,14 @@
 uid: SR-0211
 type: system_requirement
 status: approved
-title: The application does not ask for unnecessary or excessive permissions to privacy
-  related features
-text: Verify that the application does not ask for unnecessary or excessive permissions
-  to privacy related features or sensors, such as contacts, cameras, microphones,
-  or location.
+title: For a given client
+text: Verify that for a given client, the authorization server only allows the 'response_mode'
+  value that this client needs to use. For example, by having the authorization server
+  validate this value against the expected values or by using pushed authorization
+  request (PAR) or JWT-secured Authorization Request (JAR).
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: V10.2.2
-  level: 2
+  source_ref: V10.4.12
+  level: 3

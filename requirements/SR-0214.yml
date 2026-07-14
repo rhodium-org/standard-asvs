@@ -1,13 +1,15 @@
 uid: SR-0214
 type: system_requirement
 status: approved
-title: The application source code and third party libraries do not contain malicious
-  code
-text: Verify that the application source code and third party libraries do not contain
-  malicious code, such as salami attacks, logic bypasses, or logic bombs.
+title: That
+text: Verify that, for a server-side client (which is not executed on the end-user
+  device), the authorization server ensures that the 'authorization_details' parameter
+  value is from the client backend and that the user has not tampered with it. For
+  example, by requiring the usage of pushed authorization request (PAR) or JWT-secured
+  Authorization Request (JAR).
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: V10.2.5
+  source_ref: V10.4.15
   level: 3

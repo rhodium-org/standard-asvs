@@ -1,8 +1,8 @@
 uid: UR-0005
 type: user_requirement
 status: approved
-title: V5 Validation, Sanitization and Encoding
-text: Verification requirements for Validation, Sanitization and Encoding (V5).
+title: V5 File Handling
+text: Verification requirements for File Handling (V5).
 links:
 - target: INT-0001
   type: derives_from

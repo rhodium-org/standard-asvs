@@ -1,13 +1,13 @@
 uid: SR-0009
 type: system_requirement
 status: approved
-title: Definition and security analysis of the application's high-level architecture
-  and all connected
-text: Verify definition and security analysis of the application's high-level architecture
-  and all connected remote services.
+title: The application is protected against XPath injection attacks by using query
+  parameterization or
+text: Verify that the application is protected against XPath injection attacks by
+  using query parameterization or precompiled queries.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.1.5
+  source_ref: V1.2.7
   level: 2

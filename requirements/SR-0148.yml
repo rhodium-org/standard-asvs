@@ -1,12 +1,14 @@
 uid: SR-0148
 type: system_requirement
 status: approved
-title: The application protects against XPath injection or XML injection attacks
-text: Verify that the application protects against XPath injection or XML injection
-  attacks.
+title: The presence and integrity of digital signatures on authentication assertions
+  (for example on JWTs
+text: Verify that the presence and integrity of digital signatures on authentication
+  assertions (for example on JWTs or SAML assertions) are always validated, rejecting
+  any assertions that are unsigned or have invalid signatures.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.3.10
-  level: 1
+  source_ref: V6.8.2
+  level: 2

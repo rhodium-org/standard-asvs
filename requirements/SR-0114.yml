@@ -1,14 +1,12 @@
 uid: SR-0114
 type: system_requirement
 status: approved
-title: Relying Parties (RPs) specify the maximum authentication time to Credential
-  Service Providers
-text: Verify that Relying Parties (RPs) specify the maximum authentication time to
-  Credential Service Providers (CSPs) and that CSPs re-authenticate the user if they
-  haven't used a session within that period.
+title: The application verifies the user's password exactly as received from the user
+text: Verify that the application verifies the user's password exactly as received
+  from the user, without any modifications such as truncation or case transformation.
 links:
-- target: UR-0003
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V3.6.1
-  level: 3
+  source_ref: V6.2.8
+  level: 1

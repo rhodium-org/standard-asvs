@@ -1,12 +1,13 @@
 uid: SR-0092
 type: system_requirement
 status: approved
-title: Approved cryptographic algorithms are used in the generation
-text: Verify that approved cryptographic algorithms are used in the generation, seeding,
-  and verification.
+title: The application will only accept files of a size which it can process without
+  causing a loss of
+text: Verify that the application will only accept files of a size which it can process
+  without causing a loss of performance or a denial of service attack.
 links:
-- target: UR-0002
+- target: UR-0005
   type: implements
 attrs:
-  source_ref: V2.9.3
-  level: 2
+  source_ref: V5.2.1
+  level: 1

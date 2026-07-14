@@ -1,13 +1,14 @@
 uid: SR-0175
 type: system_requirement
 status: approved
-title: Each log event includes necessary information that would allow for a detailed
-  investigation of the
-text: Verify that each log event includes necessary information that would allow for
-  a detailed investigation of the timeline when an event happens.
+title: The application ensures that data-specific access is restricted to consumers
+  with explicit
+text: Verify that the application ensures that data-specific access is restricted
+  to consumers with explicit permissions to specific data items to mitigate insecure
+  direct object reference (IDOR) and broken object level authorization (BOLA).
 links:
-- target: UR-0007
+- target: UR-0008
   type: implements
 attrs:
-  source_ref: V7.1.4
-  level: 2
+  source_ref: V8.2.2
+  level: 1

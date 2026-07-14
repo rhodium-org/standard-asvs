@@ -1,12 +1,13 @@
 uid: SR-0166
 type: system_requirement
 status: approved
-title: All cryptographic operations are constant-time
-text: Verify that all cryptographic operations are constant-time, with no 'short-circuit'
-  operations in comparisons, calculations, or returns, to avoid leaking information.
+title: Users are able to view and (having authenticated again with at least one factor)
+  terminate any or
+text: Verify that users are able to view and (having authenticated again with at least
+  one factor) terminate any or all currently active sessions.
 links:
-- target: UR-0006
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V6.2.8
-  level: 3
+  source_ref: V7.5.2
+  level: 2

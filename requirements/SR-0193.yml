@@ -1,13 +1,14 @@
 uid: SR-0193
 type: system_requirement
 status: approved
-title: Sensitive data is sent to the server in the HTTP message body or headers
-text: Verify that sensitive data is sent to the server in the HTTP message body or
-  headers, and that query string parameters from any HTTP verb do not contain sensitive
-  data.
+title: That
+text: Verify that, if the OAuth client can interact with more than one authorization
+  server, it has a defense against mix-up attacks. For example, it could require that
+  the authorization server return the 'iss' parameter value and validate it in the
+  authorization response and the token response.
 links:
-- target: UR-0008
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V8.3.1
-  level: 1
+  source_ref: V10.2.2
+  level: 2

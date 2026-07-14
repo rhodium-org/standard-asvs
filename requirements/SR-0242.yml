@@ -1,14 +1,15 @@
 uid: SR-0242
 type: system_requirement
 status: approved
-title: All application components use the same encodings and parsers to avoid parsing
-  attacks that exploit
-text: Verify that all application components use the same encodings and parsers to
-  avoid parsing attacks that exploit different URI or file parsing behavior that could
-  be used in SSRF and RFI attacks.
+title: Hash functions used in digital signatures
+text: Verify that hash functions used in digital signatures, as part of data authentication
+  or data integrity are collision resistant and have appropriate bit-lengths. If collision
+  resistance is required, the output length must be at least 256 bits. If only resistance
+  to second pre-image attacks is required, the output length must be at least 128
+  bits.
 links:
-- target: UR-0013
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V13.1.1
-  level: 1
+  source_ref: V11.4.3
+  level: 2

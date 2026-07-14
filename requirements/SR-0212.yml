@@ -1,15 +1,13 @@
 uid: SR-0212
 type: system_requirement
 status: approved
-title: The application source code and third party libraries do not contain back doors
-text: Verify that the application source code and third party libraries do not contain
-  back doors, such as hard-coded or additional undocumented accounts or keys, code
-  obfuscation, undocumented binary blobs, rootkits, or anti-debugging, insecure debugging
-  features, or otherwise out of date, insecure, or hidden functionality that could
-  be used maliciously if discovered.
+title: Grant type 'code' is always used together with pushed authorization requests
+  (PAR)
+text: Verify that grant type 'code' is always used together with pushed authorization
+  requests (PAR).
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: V10.2.3
+  source_ref: V10.4.13
   level: 3

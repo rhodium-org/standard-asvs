@@ -1,13 +1,14 @@
 uid: SR-0137
 type: system_requirement
 status: approved
-title: The application sanitizes
-text: Verify that the application sanitizes, disables, or sandboxes user-supplied
-  Scalable Vector Graphics (SVG) scriptable content, especially as they relate to
-  XSS resulting from inline scripts, and foreignObject.
+title: Out-of-band authentication requests
+text: Verify that out-of-band authentication requests, codes, or tokens, as well as
+  time-based one-time passwords (TOTPs) have a defined lifetime. Out of band requests
+  must have a maximum lifetime of 10 minutes and for TOTP a maximum lifetime of 30
+  seconds.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.2.7
-  level: 1
+  source_ref: V6.5.5
+  level: 2

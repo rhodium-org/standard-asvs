@@ -1,12 +1,16 @@
 uid: SR-0044
 type: system_requirement
 status: approved
-title: Any printable Unicode character
-text: Verify that any printable Unicode character, including language neutral characters
-  such as spaces and Emojis are permitted in passwords.
+title: Application documentation states the expected security features that browsers
+  using the application
+text: Verify that application documentation states the expected security features
+  that browsers using the application must support (such as HTTPS, HTTP Strict Transport
+  Security (HSTS), Content Security Policy (CSP), and other relevant HTTP security
+  mechanisms). It must also define how the application must behave when some of these
+  features are not available (such as warning the user or blocking access).
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.1.4
-  level: 1
+  source_ref: V3.1.1
+  level: 3

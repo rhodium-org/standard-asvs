@@ -1,12 +1,16 @@
 uid: SR-0057
 type: system_requirement
 status: approved
-title: Replay resistance through the mandated use of One-time Passwords (OTP) devices
-text: Verify replay resistance through the mandated use of One-time Passwords (OTP)
-  devices, cryptographic authenticators, or lookup codes.
+title: The application sets a referrer policy to prevent leakage of technically sensitive
+  data to
+text: Verify that the application sets a referrer policy to prevent leakage of technically
+  sensitive data to third-party services via the 'Referer' HTTP request header field.
+  This can be done using the Referrer-Policy HTTP response header field or via HTML
+  element attributes. Sensitive data could include path and query data in the URL,
+  and for internal non-public applications also the hostname.
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.2.6
-  level: 3
+  source_ref: V3.4.5
+  level: 2

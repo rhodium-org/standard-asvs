@@ -1,13 +1,16 @@
 uid: SR-0084
 type: system_requirement
 status: approved
-title: Symmetric keys used to verify submitted OTPs are highly protected
-text: Verify that symmetric keys used to verify submitted OTPs are highly protected,
-  such as by using a hardware security module or secure operating system based key
-  storage.
+title: That
+text: Verify that, if the application (backend or frontend) builds and sends requests,
+  it uses validation, sanitization, or other mechanisms to avoid creating URIs (such
+  as for API calls) or HTTP request header fields (such as Authorization or Cookie),
+  which are too long to be accepted by the receiving component. This could cause a
+  denial of service, such as when sending an overly long request (e.g., a long cookie
+  header field), which results in the server always responding with an error status.
 links:
-- target: UR-0002
+- target: UR-0004
   type: implements
 attrs:
-  source_ref: V2.8.2
-  level: 2
+  source_ref: V4.2.5
+  level: 3

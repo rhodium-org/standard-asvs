@@ -1,12 +1,12 @@
 uid: SR-0202
 type: system_requirement
 status: approved
-title: Using up to date TLS testing tools that only strong cipher suites are enabled
-text: Verify using up to date TLS testing tools that only strong cipher suites are
-  enabled, with the strongest cipher suites set as preferred.
+title: The authorization code is short-lived
+text: Verify that the authorization code is short-lived. The maximum lifetime can
+  be up to 10 minutes for L1 and L2 applications and up to 1 minute for L3 applications.
 links:
-- target: UR-0009
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V9.1.2
+  source_ref: V10.4.3
   level: 1

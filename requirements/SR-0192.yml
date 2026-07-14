@@ -1,12 +1,15 @@
 uid: SR-0192
 type: system_requirement
 status: approved
-title: Authenticated data is cleared from client storage
-text: Verify that authenticated data is cleared from client storage, such as the browser
-  DOM, after the client or session is terminated.
+title: That
+text: Verify that, if the code flow is used, the OAuth client has protection against
+  browser-based request forgery attacks, commonly known as cross-site request forgery
+  (CSRF), which trigger token requests, either by using proof key for code exchange
+  (PKCE) functionality or checking the 'state' parameter that was sent in the authorization
+  request.
 links:
-- target: UR-0008
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V8.2.3
-  level: 1
+  source_ref: V10.2.1
+  level: 2

@@ -1,13 +1,15 @@
 uid: SR-0171
 type: system_requirement
 status: approved
-title: Key material is not exposed to the application but instead uses an isolated
-  security module like a
-text: Verify that key material is not exposed to the application but instead uses
-  an isolated security module like a vault for cryptographic operations.
+title: Authorization documentation defines rules for field-level access restrictions
+  (both read and write)
+text: Verify that authorization documentation defines rules for field-level access
+  restrictions (both read and write) based on consumer permissions and resource attributes.
+  Note that these rules might depend on other attribute values of the relevant data
+  object, such as state or status.
 links:
-- target: UR-0006
+- target: UR-0008
   type: implements
 attrs:
-  source_ref: V6.4.2
+  source_ref: V8.1.2
   level: 2

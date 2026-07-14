@@ -1,0 +1,17 @@
+uid: SR-0305
+type: system_requirement
+status: approved
+title: The application implements additional protections around parts of the application
+  which are
+text: Verify that the application implements additional protections around parts of
+  the application which are documented as containing "dangerous functionality" or
+  using third-party libraries considered to be "risky components". This could include
+  techniques such as sandboxing, encapsulation, containerization or network level
+  isolation to delay and deter attackers who compromise one part of an application
+  from pivoting elsewhere in the application.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: V15.2.5
+  level: 3

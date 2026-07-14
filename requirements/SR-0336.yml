@@ -1,0 +1,14 @@
+uid: SR-0336
+type: system_requirement
+status: approved
+title: The key for the Datagram Transport Layer Security (DTLS) certificate is managed
+  and protected based
+text: Verify that the key for the Datagram Transport Layer Security (DTLS) certificate
+  is managed and protected based on the documented policy for management of cryptographic
+  keys.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: V17.2.1
+  level: 2

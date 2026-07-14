@@ -1,12 +1,13 @@
 uid: SR-0065
 type: system_requirement
 status: approved
-title: If bcrypt is used
-text: Verify that if bcrypt is used, the work factor SHOULD be as large as verification
-  server performance will allow, with a minimum of 10.
+title: Messages received by the postMessage interface are discarded if the origin
+  of the message is not
+text: Verify that messages received by the postMessage interface are discarded if
+  the origin of the message is not trusted, or if the syntax of the message is invalid.
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.4.4
+  source_ref: V3.5.5
   level: 2

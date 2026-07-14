@@ -1,14 +1,13 @@
 uid: SR-0139
 type: system_requirement
 status: approved
-title: Output encoding is relevant for the interpreter and context required
-text: Verify that output encoding is relevant for the interpreter and context required.
-  For example, use encoders specifically for HTML values, HTML attributes, JavaScript,
-  URL parameters, HTTP headers, SMTP, and others as the context requires, especially
-  from untrusted inputs (e.g. names with Unicode or apostrophes, such as ねこ or O'Hara).
+title: Biometric authentication mechanisms are only used as secondary factors together
+  with either
+text: Verify that biometric authentication mechanisms are only used as secondary factors
+  together with either something you have or something you know.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.3.1
-  level: 1
+  source_ref: V6.5.7
+  level: 3

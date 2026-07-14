@@ -1,12 +1,14 @@
 uid: SR-0047
 type: system_requirement
 status: approved
-title: A password strength meter is provided to help users set a stronger password
-text: Verify that a password strength meter is provided to help users set a stronger
-  password.
+title: The application avoids DOM clobbering when using client-side JavaScript by
+  employing explicit
+text: Verify that the application avoids DOM clobbering when using client-side JavaScript
+  by employing explicit variable declarations, performing strict type checking, avoiding
+  storing global variables on the document object, and implementing namespace isolation.
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.1.8
-  level: 1
+  source_ref: V3.2.3
+  level: 3

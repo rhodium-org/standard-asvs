@@ -1,11 +1,13 @@
 uid: SR-0106
 type: system_requirement
 status: approved
-title: Cookie-based session tokens have the 'Secure' attribute set
-text: Verify that cookie-based session tokens have the 'Secure' attribute set.
+title: That
+text: Verify that, if the application includes multiple authentication pathways, these
+  are all documented together with the security controls and authentication strength
+  which must be consistently enforced across them.
 links:
-- target: UR-0003
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V3.4.1
-  level: 1
+  source_ref: V6.1.3
+  level: 2

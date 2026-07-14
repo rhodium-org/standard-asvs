@@ -1,13 +1,16 @@
 uid: SR-0012
 type: system_requirement
 status: approved
-title: The use of unique or special low-privilege operating system accounts for all
-  application components
-text: Verify the use of unique or special low-privilege operating system accounts
-  for all application components, services, and servers.
+title: The application is protected against CSV and Formula Injection
+text: Verify that the application is protected against CSV and Formula Injection.
+  The application must follow the escaping rules defined in RFC 4180 sections 2.6
+  and 2.7 when exporting CSV content. Additionally, when exporting to CSV or other
+  spreadsheet formats (such as XLS, XLSX, or ODF), special characters (including '=',
+  '+', '-', '@', '\t' (tab), and '\0' (null character)) must be escaped with a single
+  quote if they appear as the first character in a field value.
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: V1.2.1
-  level: 2
+  source_ref: V1.2.10
+  level: 3

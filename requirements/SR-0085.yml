@@ -1,12 +1,13 @@
 uid: SR-0085
 type: system_requirement
 status: approved
-title: Approved cryptographic algorithms are used in the generation
-text: Verify that approved cryptographic algorithms are used in the generation, seeding,
-  and verification of OTPs.
+title: A query allowlist
+text: Verify that a query allowlist, depth limiting, amount limiting, or query cost
+  analysis is used to prevent GraphQL or data layer expression Denial of Service (DoS)
+  as a result of expensive, nested queries.
 links:
-- target: UR-0002
+- target: UR-0004
   type: implements
 attrs:
-  source_ref: V2.8.3
+  source_ref: V4.3.1
   level: 2

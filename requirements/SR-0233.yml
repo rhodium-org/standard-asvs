@@ -1,14 +1,12 @@
 uid: SR-0233
 type: system_requirement
 status: approved
-title: User-submitted filename metadata is validated or ignored to prevent the disclosure
-  or execution of
-text: Verify that user-submitted filename metadata is validated or ignored to prevent
-  the disclosure or execution of remote files via Remote File Inclusion (RFI) or Server-side
-  Request Forgery (SSRF) attacks.
+title: All cryptographic operations are constant-time
+text: Verify that all cryptographic operations are constant-time, with no 'short-circuit'
+  operations in comparisons, calculations, or returns, to avoid leaking information.
 links:
-- target: UR-0012
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V12.3.3
-  level: 1
+  source_ref: V11.2.4
+  level: 3

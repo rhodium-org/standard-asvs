@@ -1,13 +1,13 @@
 uid: SR-0116
 type: system_requirement
 status: approved
-title: The application ensures a full
-text: Verify the application ensures a full, valid login session or requires re-authentication
-  or secondary verification before allowing any sensitive transactions or account
-  modifications.
+title: A user's password stays valid until it is discovered to be compromised or the
+  user rotates it
+text: Verify that a user's password stays valid until it is discovered to be compromised
+  or the user rotates it. The application must not require periodic credential rotation.
 links:
-- target: UR-0003
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V3.7.1
-  level: 1
+  source_ref: V6.2.10
+  level: 2

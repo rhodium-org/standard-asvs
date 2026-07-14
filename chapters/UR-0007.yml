@@ -1,8 +1,8 @@
 uid: UR-0007
 type: user_requirement
 status: approved
-title: V7 Error Handling and Logging
-text: Verification requirements for Error Handling and Logging (V7).
+title: V7 Session Management
+text: Verification requirements for Session Management (V7).
 links:
 - target: INT-0001
   type: derives_from

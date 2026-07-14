@@ -1,13 +1,17 @@
 uid: SR-0231
 type: system_requirement
 status: approved
-title: User-submitted filename metadata is not used directly by system or framework
-  filesystems and that a
-text: Verify that user-submitted filename metadata is not used directly by system
-  or framework filesystems and that a URL API is used to protect against path traversal.
+title: The application is designed with crypto agility such that random number
+text: Verify that the application is designed with crypto agility such that random
+  number, authenticated encryption, MAC, or hashing algorithms, key lengths, rounds,
+  ciphers and modes can be reconfigured, upgraded, or swapped at any time, to protect
+  against cryptographic breaks. Similarly, it must also be possible to replace keys
+  and passwords and re-encrypt data. This will allow for seamless upgrades to post-quantum
+  cryptography (PQC), once high-assurance implementations of approved PQC schemes
+  or standards are widely available.
 links:
-- target: UR-0012
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V12.3.1
-  level: 1
+  source_ref: V11.2.2
+  level: 2

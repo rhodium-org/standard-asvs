@@ -1,12 +1,14 @@
 uid: SR-0181
 type: system_requirement
 status: approved
-title: A generic message is shown when an unexpected or security sensitive error occurs
-text: Verify that a generic message is shown when an unexpected or security sensitive
-  error occurs, potentially with a unique ID which support personnel can use to investigate.
+title: Multi-tenant applications use cross-tenant controls to ensure consumer operations
+  will never affect
+text: Verify that multi-tenant applications use cross-tenant controls to ensure consumer
+  operations will never affect tenants with which they do not have permissions to
+  interact.
 links:
-- target: UR-0007
+- target: UR-0008
   type: implements
 attrs:
-  source_ref: V7.4.1
-  level: 1
+  source_ref: V8.4.1
+  level: 2

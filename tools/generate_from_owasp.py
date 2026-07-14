@@ -29,11 +29,21 @@ import yaml
 REPO = Path(__file__).resolve().parent.parent
 CHAPTERS_DIR = REPO / "chapters"          # user_requirement, prefix UR
 REQS_DIR = REPO / "requirements"          # system_requirement, prefix SR
+SPEC = REPO / "docs" / "spec.md"
 INTENT = "INT-0001"
+EDITION = "5.0.0"
 
 
 def _levels(r: dict) -> int | None:
-    """Lowest ASVS level (1/2/3) at which the clause applies, or None if retired."""
+    """Lowest ASVS level (1/2/3) at which the clause applies, or None if retired.
+
+    Two export shapes are supported: v4.0.3's three per-level marker columns
+    (``level1``/``level2``/``level3``) and v5.0.0's single ``L`` field carrying the
+    level number directly. A clause with neither is a retired tombstone.
+    """
+    lv = str(r.get("L", "")).strip()
+    if lv in ("1", "2", "3"):
+        return int(lv)
     for i, key in enumerate(("level1", "level2", "level3"), start=1):
         if r.get(key, "").strip():
             return i
@@ -84,6 +94,50 @@ def _dump(path: Path, item: dict) -> None:
     )
 
 
+SPEC_HEADER = """\
+# OWASP ASVS {edition} — throughline source
+
+This document is **generated from the graph** by `tl docs`; `tl docs --check` gates
+it in CI. The prose headings are hand-owned — everything between `tl:*` markers is
+injected from the YAML items, so the published spec can never drift from the graph.
+
+This source is a faithful, complete cut of **OWASP ASVS v{edition}**: every chapter is
+a `user_requirement`, and every verification requirement is a `system_requirement`
+that `implements` its chapter. The published ASVS number lives in `attrs.source_ref`
+(e.g. `V1.1.1`); the ASVS level in `attrs.level`. The throughline UIDs are this
+source's own and immutable — a consumer cites a clause as `asvs:SR-0001`, never by its
+ASVS number.
+
+It carries
+<!-- tl:count type == 'user_requirement' -->
+<!-- tl:end --> chapters and
+<!-- tl:count type == 'system_requirement' -->
+<!-- tl:end --> verification requirements.
+
+## Purpose
+
+<!-- tl:item INT-0001 -->
+<!-- tl:end -->
+"""
+
+
+def generate_spec(ch_ref2uid: dict[str, str], chapter_name: dict[str, str],
+                  seen_ch: list[str]) -> None:
+    """Write docs/spec.md: a hand-owned header plus, per chapter in document order, a
+    tl:item block for its UR and a tl:table of its requirements. `tl docs` injects the
+    live content into the markers."""
+    parts = [SPEC_HEADER.format(edition=EDITION)]
+    for cid in seen_ch:
+        parts.append(f"## {cid} {chapter_name[cid]}\n")
+        parts.append(f"<!-- tl:item {ch_ref2uid[cid]} -->\n<!-- tl:end -->\n")
+        flt = (
+            "type == 'system_requirement' and "
+            f"attrs.get('source_ref').startswith('{cid}.')"
+        )
+        parts.append(f"<!-- tl:table {flt} -->\n<!-- tl:end -->\n")
+    SPEC.write_text("\n".join(parts) + "\n", encoding="utf-8")
+
+
 def main(src: str) -> int:
     reqs = yaml.safe_load(Path(src).read_text(encoding="utf-8"))["requirements"]
 
@@ -94,11 +148,13 @@ def main(src: str) -> int:
 
     # Chapters, in document order.
     seen_ch: list[str] = []
+    chapter_name: dict[str, str] = {}
     for r in reqs:
         cid = r["chapter_id"]
         if cid in seen_ch:
             continue
         seen_ch.append(cid)
+        chapter_name[cid] = r["chapter_name"]
         if cid in ch_ref2uid:
             continue  # keep the existing (possibly hand-curated) chapter item
         uid = f"UR-{next_ur:04d}"
@@ -138,8 +194,11 @@ def main(src: str) -> int:
         })
         written += 1
 
+    generate_spec(ch_ref2uid, chapter_name, seen_ch)
+
     print(f"chapters: {len(seen_ch)} total, {len(ch_ref2uid)} mapped")
     print(f"requirements: {written} new items written, {len(sr_ref2uid)} total mapped")
+    print(f"spec: {SPEC} regenerated for {len(seen_ch)} chapters")
     return 0
 
 

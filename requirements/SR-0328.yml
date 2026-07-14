@@ -1,0 +1,11 @@
+uid: SR-0328
+type: system_requirement
+status: approved
+title: Logs are protected from unauthorized access and cannot be modified
+text: Verify that logs are protected from unauthorized access and cannot be modified.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: V16.4.2
+  level: 2

@@ -1,12 +1,14 @@
 uid: SR-0209
 type: system_requirement
 status: approved
-title: A code analysis tool is in use that can detect potentially malicious code
-text: Verify that a code analysis tool is in use that can detect potentially malicious
-  code, such as time functions, unsafe file operations and network connections.
+title: Confidential client is authenticated for client-to-authorized server backchannel
+  requests such as
+text: Verify that confidential client is authenticated for client-to-authorized server
+  backchannel requests such as token requests, pushed authorization requests (PAR),
+  and token revocation requests.
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: V10.1.1
-  level: 3
+  source_ref: V10.4.10
+  level: 2

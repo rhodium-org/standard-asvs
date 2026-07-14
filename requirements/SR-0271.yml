@@ -1,11 +1,14 @@
 uid: SR-0271
 type: system_requirement
 status: approved
-title: 'All responses contain a X-Content-Type-Options: nosniff header'
-text: 'Verify that all responses contain a X-Content-Type-Options: nosniff header.'
+title: Where the application connects to separate services
+text: Verify that where the application connects to separate services, it follows
+  the documented configuration for each connection, such as maximum parallel connections,
+  behavior when maximum allowed connections is reached, connection timeouts, and retry
+  strategies.
 links:
-- target: UR-0014
+- target: UR-0013
   type: implements
 attrs:
-  source_ref: V14.4.4
-  level: 1
+  source_ref: V13.2.6
+  level: 3

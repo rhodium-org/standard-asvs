@@ -1,14 +1,14 @@
 uid: SR-0006
 type: system_requirement
 status: approved
-title: Passwords checked against breached sets
-text: Verify that passwords submitted during account registration, login, and
-  password change are checked against a set of breached passwords either locally
-  (such as the top 1,000 or 10,000 most common passwords which match the system's
-  password policy) or using an external API.
+title: Data selection or database queries (e
+text: Verify that data selection or database queries (e.g., SQL, HQL, NoSQL, Cypher)
+  use parameterized queries, ORMs, entity frameworks, or are otherwise protected from
+  SQL Injection and other database injection attacks. This is also relevant when writing
+  stored procedures.
 links:
-- target: UR-0002
+- target: UR-0001
   type: implements
 attrs:
-  source_ref: "V2.1.7"
+  source_ref: V1.2.4
   level: 1

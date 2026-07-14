@@ -1,0 +1,17 @@
+uid: SR-0283
+type: system_requirement
+status: approved
+title: All sensitive data created and processed by the application has been identified
+  and classified into
+text: Verify that all sensitive data created and processed by the application has
+  been identified and classified into protection levels. This includes data that is
+  only encoded and therefore easily decoded, such as Base64 strings or the plaintext
+  payload inside a JWT. Protection levels need to take into account any data protection
+  and privacy regulations and standards which the application is required to comply
+  with.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: V14.1.1
+  level: 2

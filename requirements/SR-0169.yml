@@ -1,13 +1,12 @@
 uid: SR-0169
 type: system_requirement
 status: approved
-title: Random numbers are created with proper entropy even when the application is
-  under heavy load
-text: Verify that random numbers are created with proper entropy even when the application
-  is under heavy load, or that the application degrades gracefully in such circumstances.
+title: Creation of a session requires either the user's consent or an explicit action
+text: Verify that creation of a session requires either the user's consent or an explicit
+  action, preventing the creation of new application sessions without user interaction.
 links:
-- target: UR-0006
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V6.3.3
-  level: 3
+  source_ref: V7.6.2
+  level: 2

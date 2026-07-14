@@ -1,14 +1,14 @@
 uid: SR-0270
 type: system_requirement
 status: approved
-title: A Content Security Policy (CSP) response header is in place that helps mitigate
-  impact for XSS
-text: Verify that a Content Security Policy (CSP) response header is in place that
-  helps mitigate impact for XSS attacks like HTML, DOM, JSON, and JavaScript injection
-  vulnerabilities.
+title: The web or application server is configured with an allowlist of resources
+  or systems to which the
+text: Verify that the web or application server is configured with an allowlist of
+  resources or systems to which the server can send requests or load data or files
+  from.
 links:
-- target: UR-0014
+- target: UR-0013
   type: implements
 attrs:
-  source_ref: V14.4.3
-  level: 1
+  source_ref: V13.2.5
+  level: 2

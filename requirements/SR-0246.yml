@@ -1,13 +1,15 @@
 uid: SR-0246
 type: system_requirement
 status: approved
-title: Enabled RESTful HTTP methods are a valid choice for the user or action
-text: Verify that enabled RESTful HTTP methods are a valid choice for the user or
-  action, such as preventing normal users using DELETE or PUT on protected API or
-  resources.
+title: Only approved cryptographic algorithms and modes of operation are used for
+  key generation and
+text: Verify that only approved cryptographic algorithms and modes of operation are
+  used for key generation and seeding, and digital signature generation and verification.
+  Key generation algorithms must not generate insecure keys vulnerable to known attacks,
+  for example, RSA keys which are vulnerable to Fermat factorization.
 links:
-- target: UR-0013
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V13.2.1
-  level: 1
+  source_ref: V11.6.1
+  level: 2

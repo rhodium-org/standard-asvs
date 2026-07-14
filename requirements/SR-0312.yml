@@ -1,0 +1,13 @@
+uid: SR-0312
+type: system_requirement
+status: approved
+title: The application has defenses against HTTP parameter pollution attacks
+text: Verify that the application has defenses against HTTP parameter pollution attacks,
+  particularly if the application framework makes no distinction about the source
+  of request parameters (query string, body parameters, cookies, or header fields).
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: V15.3.7
+  level: 2

@@ -1,8 +1,8 @@
 uid: UR-0013
 type: user_requirement
 status: approved
-title: V13 API and Web Service
-text: Verification requirements for API and Web Service (V13).
+title: V13 Configuration
+text: Verification requirements for Configuration (V13).
 links:
 - target: INT-0001
   type: derives_from

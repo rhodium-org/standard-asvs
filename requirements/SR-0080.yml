@@ -1,13 +1,17 @@
 uid: SR-0080
 type: system_requirement
 status: approved
-title: The out of band authenticator and verifier communicates over a secure independent
-  channel
-text: Verify that the out of band authenticator and verifier communicates over a secure
-  independent channel.
+title: All application components (including load balancers
+text: Verify that all application components (including load balancers, firewalls,
+  and application servers) determine boundaries of incoming HTTP messages using the
+  appropriate mechanism for the HTTP version to prevent HTTP request smuggling. In
+  HTTP/1.x, if a Transfer-Encoding header field is present, the Content-Length header
+  must be ignored per RFC 2616. When using HTTP/2 or HTTP/3, if a Content-Length header
+  field is present, the receiver must ensure that it is consistent with the length
+  of the DATA frames.
 links:
-- target: UR-0002
+- target: UR-0004
   type: implements
 attrs:
-  source_ref: V2.7.4
-  level: 1
+  source_ref: V4.2.1
+  level: 2

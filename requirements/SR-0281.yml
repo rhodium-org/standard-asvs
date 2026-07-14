@@ -1,0 +1,12 @@
+uid: SR-0281
+type: system_requirement
+status: approved
+title: The application does not expose detailed version information of backend components
+text: Verify that the application does not expose detailed version information of
+  backend components.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: V13.4.6
+  level: 3

@@ -1,14 +1,14 @@
 uid: SR-0198
 type: system_requirement
 status: approved
-title: Sensitive information contained in memory is overwritten as soon as it is no
-  longer required to
-text: Verify that sensitive information contained in memory is overwritten as soon
-  as it is no longer required to mitigate memory dumping attacks, using zeroes or
-  random data.
+title: That
+text: Verify that, if the resource server requires specific authentication strength,
+  methods, or recentness, it verifies that the presented access token satisfies these
+  constraints. For example, if present, using the OIDC 'acr', 'amr' and 'auth_time'
+  claims respectively.
 links:
-- target: UR-0008
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V8.3.6
+  source_ref: V10.3.4
   level: 2

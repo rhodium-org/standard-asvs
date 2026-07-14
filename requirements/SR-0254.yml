@@ -1,13 +1,14 @@
 uid: SR-0254
 type: system_requirement
 status: approved
-title: GraphQL or other data layer authorization logic should be implemented at the
-  business logic layer
-text: Verify that GraphQL or other data layer authorization logic should be implemented
-  at the business logic layer instead of the GraphQL layer.
+title: Encrypted Client Hello (ECH) is enabled in the application's TLS settings to
+  prevent exposure of
+text: Verify that Encrypted Client Hello (ECH) is enabled in the application's TLS
+  settings to prevent exposure of sensitive metadata, such as the Server Name Indication
+  (SNI), during TLS handshake processes.
 links:
-- target: UR-0013
+- target: UR-0012
   type: implements
 attrs:
-  source_ref: V13.4.2
-  level: 2
+  source_ref: V12.1.5
+  level: 3

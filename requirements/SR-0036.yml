@@ -1,13 +1,13 @@
 uid: SR-0036
 type: system_requirement
 status: approved
-title: All high-value business logic flows
-text: Verify that all high-value business logic flows, including authentication, session
-  management and access control are thread safe and resistant to time-of-check and
-  time-of-use race conditions.
+title: The application ensures that combinations of related data items are reasonable
+  according to the
+text: Verify that the application ensures that combinations of related data items
+  are reasonable according to the pre-defined rules.
 links:
-- target: UR-0001
+- target: UR-0002
   type: implements
 attrs:
-  source_ref: V1.11.3
-  level: 3
+  source_ref: V2.2.3
+  level: 2

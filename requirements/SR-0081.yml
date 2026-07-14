@@ -1,13 +1,13 @@
 uid: SR-0081
 type: system_requirement
 status: approved
-title: The out of band verifier retains only a hashed version of the authentication
-  code
-text: Verify that the out of band verifier retains only a hashed version of the authentication
-  code.
+title: When generating HTTP messages
+text: Verify that when generating HTTP messages, the Content-Length header field does
+  not conflict with the length of the content as determined by the framing of the
+  HTTP protocol, in order to prevent request smuggling attacks.
 links:
-- target: UR-0002
+- target: UR-0004
   type: implements
 attrs:
-  source_ref: V2.7.5
-  level: 2
+  source_ref: V4.2.2
+  level: 3

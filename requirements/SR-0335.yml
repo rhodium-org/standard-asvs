@@ -1,0 +1,14 @@
+uid: SR-0335
+type: system_requirement
+status: approved
+title: The Traversal Using Relays around NAT (TURN) service is not susceptible to
+  resource exhaustion when
+text: Verify that the Traversal Using Relays around NAT (TURN) service is not susceptible
+  to resource exhaustion when legitimate users attempt to open a large number of ports
+  on the TURN server.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: V17.1.2
+  level: 3

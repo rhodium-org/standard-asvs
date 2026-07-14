@@ -1,12 +1,12 @@
 uid: SR-0235
 type: system_requirement
 status: approved
-title: Untrusted file metadata is not used directly with system API or libraries
-text: Verify that untrusted file metadata is not used directly with system API or
-  libraries, to protect against OS command injection.
+title: Insecure block modes (e
+text: Verify that insecure block modes (e.g., ECB) and weak padding schemes (e.g.,
+  PKCS#1 v1.5) are not used.
 links:
-- target: UR-0012
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V12.3.5
+  source_ref: V11.3.1
   level: 1

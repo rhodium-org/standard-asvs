@@ -1,13 +1,13 @@
 uid: SR-0072
 type: system_requirement
 status: approved
-title: Forgotten password
-text: Verify forgotten password, and other recovery paths use a secure recovery mechanism,
-  such as time-based OTP (TOTP) or other soft token, mobile push, or another offline
-  recovery mechanism.
+title: The application shows a notification when the user is being redirected to a
+  URL outside of the
+text: Verify that the application shows a notification when the user is being redirected
+  to a URL outside of the application's control, with an option to cancel the navigation.
 links:
-- target: UR-0002
+- target: UR-0003
   type: implements
 attrs:
-  source_ref: V2.5.6
-  level: 1
+  source_ref: V3.7.3
+  level: 3

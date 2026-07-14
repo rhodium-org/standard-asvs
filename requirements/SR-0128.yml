@@ -1,13 +1,13 @@
 uid: SR-0128
 type: system_requirement
 status: approved
-title: All input (HTML form fields
-text: Verify that all input (HTML form fields, REST requests, URL parameters, HTTP
-  headers, cookies, batch files, RSS feeds, etc) is validated using positive validation
-  (allow lists).
+title: Password hints or knowledge-based authentication (so-called "secret questions")
+  are not present
+text: Verify that password hints or knowledge-based authentication (so-called "secret
+  questions") are not present.
 links:
-- target: UR-0005
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V5.1.3
+  source_ref: V6.4.2
   level: 1

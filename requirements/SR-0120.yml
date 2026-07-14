@@ -1,11 +1,12 @@
 uid: SR-0120
 type: system_requirement
 status: approved
-title: Access controls fail securely including when an exception occurs
-text: Verify that access controls fail securely including when an exception occurs.
+title: Default user accounts (e
+text: Verify that default user accounts (e.g., "root", "admin", or "sa") are not present
+  in the application or are disabled.
 links:
-- target: UR-0004
+- target: UR-0006
   type: implements
 attrs:
-  source_ref: V4.1.5
+  source_ref: V6.3.2
   level: 1

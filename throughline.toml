@@ -7,8 +7,14 @@ format_version = 2
 # clauses as `asvs:SR-0001`. The UIDs here are this source's own and immutable; the
 # published ASVS number (e.g. `V2.1.1`) lives in `attrs.source_ref`, never in the UID.
 #
-# Edition handling: v4.0.3 and v5.0.0 are git tags of this one repo. A consumer pins
-# `asvs@v4.0.3`. This slice covers a thin, faithful cut of v4.0.3.
+# Edition handling: ASVS v4 -> v5 is a full renumber/restructure, not an increment, so
+# each edition is its own release branch of this one repo, tagged for point releases:
+#   * this branch (main) is the newest edition, v5.0.0  (17 chapters, 345 requirements)
+#   * `release/v4` is the v4.0.3 maintenance line (14 chapters, 278 requirements)
+# A consumer composes the edition it wants by pinning that ref, e.g.
+#   url = "https://github.com/rhodium-org/standard-asvs", ref = "v5.0.0"  (or "v4.0.3").
+# Each edition has its own UID space starting at UR-0001/SR-0001; because a consumer
+# only ever resolves one ref, the two editions never collide.
 
 [grounding]
 root_types = ["intent"]

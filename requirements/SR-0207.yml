@@ -1,12 +1,12 @@
 uid: SR-0207
 type: system_requirement
 status: approved
-title: Proper certification revocation
-text: Verify that proper certification revocation, such as Online Certificate Status
-  Protocol (OCSP) Stapling, is enabled and configured.
+title: Refresh tokens have an absolute expiration
+text: Verify that refresh tokens have an absolute expiration, including if sliding
+  refresh token expiration is applied.
 links:
-- target: UR-0009
+- target: UR-0010
   type: implements
 attrs:
-  source_ref: V9.2.4
+  source_ref: V10.4.8
   level: 2

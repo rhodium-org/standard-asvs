@@ -1,13 +1,13 @@
 uid: SR-0238
 type: system_requirement
 status: approved
-title: Files obtained from untrusted sources are scanned by antivirus scanners to
-  prevent upload and
-text: Verify that files obtained from untrusted sources are scanned by antivirus scanners
-  to prevent upload and serving of known malicious content.
+title: Nonces
+text: Verify that nonces, initialization vectors, and other single-use numbers are
+  not used for more than one encryption key and data-element pair. The method of generation
+  must be appropriate for the algorithm being used.
 links:
-- target: UR-0012
+- target: UR-0011
   type: implements
 attrs:
-  source_ref: V12.4.2
-  level: 1
+  source_ref: V11.3.4
+  level: 3

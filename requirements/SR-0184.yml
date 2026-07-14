@@ -1,13 +1,16 @@
 uid: SR-0184
 type: system_requirement
 status: approved
-title: The application protects sensitive data from being cached in server components
-  such as load
-text: Verify the application protects sensitive data from being cached in server components
-  such as load balancers and application caches.
+title: Only algorithms on an allowlist can be used to create and verify self-contained
+  tokens
+text: Verify that only algorithms on an allowlist can be used to create and verify
+  self-contained tokens, for a given context. The allowlist must include the permitted
+  algorithms, ideally only either symmetric or asymmetric algorithms, and must not
+  include the 'None' algorithm. If both symmetric and asymmetric must be supported,
+  additional controls will be needed to prevent key confusion.
 links:
-- target: UR-0008
+- target: UR-0009
   type: implements
 attrs:
-  source_ref: V8.1.1
-  level: 2
+  source_ref: V9.1.2
+  level: 1

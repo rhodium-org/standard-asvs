@@ -1,12 +1,12 @@
 uid: SR-0278
 type: system_requirement
 status: approved
-title: HTTP headers added by a trusted proxy or SSO devices
-text: Verify that HTTP headers added by a trusted proxy or SSO devices, such as a
-  bearer token, are authenticated by the application.
+title: Web servers do not expose directory listings to clients unless explicitly intended
+text: Verify that web servers do not expose directory listings to clients unless explicitly
+  intended.
 links:
-- target: UR-0014
+- target: UR-0013
   type: implements
 attrs:
-  source_ref: V14.5.4
+  source_ref: V13.4.3
   level: 2

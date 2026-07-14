@@ -1,14 +1,12 @@
 uid: SR-0033
 type: system_requirement
 status: approved
-title: A source code control system is in use
-text: Verify that a source code control system is in use, with procedures to ensure
-  that check-ins are accompanied by issues or change tickets. The source code control
-  system should have access control and identifiable users to allow traceability of
-  any changes.
+title: Expectations for business logic limits and validations are documented
+text: Verify that expectations for business logic limits and validations are documented,
+  including both per-user and globally across the application.
 links:
-- target: UR-0001
+- target: UR-0002
   type: implements
 attrs:
-  source_ref: V1.10.1
+  source_ref: V2.1.3
   level: 2

@@ -1,0 +1,10 @@
+uid: UR-0015
+type: user_requirement
+status: approved
+title: V15 Secure Coding and Architecture
+text: Verification requirements for Secure Coding and Architecture (V15).
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: V15

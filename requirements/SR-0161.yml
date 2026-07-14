@@ -1,12 +1,13 @@
 uid: SR-0161
 type: system_requirement
 status: approved
-title: Encryption initialization vector
-text: Verify that encryption initialization vector, cipher configuration, and block
-  modes are configured securely using the latest advice.
+title: The application terminates all active sessions when a user account is disabled
+  or deleted (such as
+text: Verify that the application terminates all active sessions when a user account
+  is disabled or deleted (such as an employee leaving the company).
 links:
-- target: UR-0006
+- target: UR-0007
   type: implements
 attrs:
-  source_ref: V6.2.3
-  level: 2
+  source_ref: V7.4.2
+  level: 1
